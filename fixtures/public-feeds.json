@@ -1,0 +1,62 @@
+{
+  "description": "Synthetic offline data. Not actual market news.",
+  "calendar": {
+    "india": {
+      "status": "trading_day",
+      "source": "synthetic fixture",
+      "diagnostic": "Offline test calendar"
+    },
+    "us": {
+      "status": "trading_day",
+      "source": "synthetic fixture",
+      "diagnostic": "Offline test calendar"
+    }
+  },
+  "feeds": [
+    {
+      "source": "rbi",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "SYNTHETIC: RBI policy rate unchanged",
+          "link": "https://www.rbi.org.in/",
+          "published": "2026-11-23T00:00:00Z",
+          "publication_timestamp": "2026-11-23T00:00:00+00:00",
+          "summary": "Synthetic sample detail for reproducibility testing.",
+          "access": "extractive_excerpt"
+        }
+      ]
+    },
+    {
+      "source": "fed",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "SYNTHETIC: Federal Reserve policy rate unchanged",
+          "link": "https://www.federalreserve.gov/",
+          "published": "2026-11-23T00:00:00Z",
+          "publication_timestamp": "2026-11-23T00:00:00+00:00",
+          "summary": "Synthetic sample detail for reproducibility testing.",
+          "access": "extractive_excerpt"
+        }
+      ]
+    },
+    {
+      "source": "bbc",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "SYNTHETIC: Global economy and oil markets",
+          "link": "https://www.bbc.com/news/business",
+          "published": "2026-11-23T00:00:00Z",
+          "publication_timestamp": "2026-11-23T00:00:00+00:00",
+          "summary": "Synthetic sample detail for reproducibility testing.",
+          "access": "extractive_excerpt"
+        }
+      ]
+    }
+  ]
+}

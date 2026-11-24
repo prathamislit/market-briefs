@@ -1,0 +1,37 @@
+{
+  "config_version": 1,
+  "cache": {
+    "directory": ".cache/market-briefs",
+    "parser_version": "market-briefs-feed-v1",
+    "entry_max_bytes": 2000000,
+    "entry_ttl_hours": 24,
+    "max_entries": 366,
+    "max_fallback_age_days": 14
+  },
+  "limits": {
+    "timeout_seconds": 12,
+    "retries": 2,
+    "max_redirects": 3,
+    "max_feed_bytes": 2000000,
+    "max_entries": 40,
+    "max_summary_chars": 4000,
+    "max_concurrent_fetches": 4
+  },
+  "sections": [
+    "overview","india","us","macro","rates","fx","energy","commodities","geopolitics","earnings"
+  ],
+  "sources": [
+    {"id":"rbi","name":"Reserve Bank of India","home":"https://www.rbi.org.in/","feed":"https://www.rbi.org.in/rss.xml","scope":"India","redistribution":"primary"},
+    {"id":"sebi","name":"Securities and Exchange Board of India","home":"https://www.sebi.gov.in/","feed":null,"scope":"India","redistribution":"primary"},
+    {"id":"fed","name":"Federal Reserve","home":"https://www.federalreserve.gov/","feed":"https://www.federalreserve.gov/feeds/press_all.xml","scope":"US","redistribution":"primary"},
+    {"id":"treasury","name":"U.S. Treasury","home":"https://home.treasury.gov/","feed":"https://home.treasury.gov/news/press-releases/rss.xml","scope":"US","redistribution":"primary"},
+    {"id":"bls","name":"Bureau of Labor Statistics","home":"https://www.bls.gov/","feed":"https://www.bls.gov/feed/bls_latest.rss","scope":"US","redistribution":"primary"},
+    {"id":"eia","name":"U.S. Energy Information Administration","home":"https://www.eia.gov/","feed":"https://www.eia.gov/rss/press_releases.xml","scope":"both","redistribution":"primary"},
+    {"id":"sec","name":"U.S. Securities and Exchange Commission","home":"https://www.sec.gov/","feed":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=&dateb=&owner=exclude&count=40&output=atom","scope":"US","redistribution":"primary"},
+    {"id":"bbc","name":"BBC Business","home":"https://www.bbc.com/news/business","feed":"https://feeds.bbci.co.uk/news/business/rss.xml","scope":"both","redistribution":"headline_only"},
+    {"id":"cnbc","name":"CNBC","home":"https://www.cnbc.com/","feed":"https://www.cnbc.com/id/100003114/device/rss/rss.html","scope":"US","redistribution":"headline_only"},
+    {"id":"economic_times","name":"The Economic Times","home":"https://economictimes.indiatimes.com/markets","feed":"https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms","scope":"India","redistribution":"headline_only"},
+    {"id":"bea","name":"U.S. Bureau of Economic Analysis","home":"https://www.bea.gov/","feed":"https://apps.bea.gov/rss/rss.xml","scope":"US","redistribution":"primary"},
+    {"id":"ecb","name":"European Central Bank","home":"https://www.ecb.europa.eu/","feed":"https://www.ecb.europa.eu/rss/press.html","scope":"both","redistribution":"primary"}
+  ]
+}

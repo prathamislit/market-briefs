@@ -1,0 +1,8 @@
+{
+  "name": "india",
+  "edition": "india",
+  "timezone": "Asia/Kolkata",
+  "cron": "15 8 * * 1-5",
+  "calendar": "NSE equity official holiday API",
+  "source_scopes": ["India","both"]
+}

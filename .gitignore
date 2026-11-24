@@ -3,4 +3,4 @@
 __pycache__/
 *.py[cod]
 replay-output/
-.DS_Store/
+.DS_Store

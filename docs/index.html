@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Briefs</title>
+  <style>
+    :root { --bg:#181b1f; --panel:#23272d; --ink:#f4f1ea; --muted:#aaa69d; --amber:#ffa028; --line:#3a3d41; --good:#77c893; --bad:#ff7b72; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    header { border-bottom:1px solid var(--line); padding:20px max(20px,calc((100% - 1100px)/2)); }
+    h1 { margin:0; font-size:28px; letter-spacing:.02em; }
+    h1 span { color:var(--amber); }
+    main { max-width:1100px; margin:auto; padding:24px 20px 64px; }
+    .toolbar { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+    button { border:1px solid var(--line); background:var(--panel); color:var(--ink); padding:9px 12px; cursor:pointer; }
+    button.active { border-color:var(--amber); color:var(--amber); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { min-width:0; overflow-wrap:anywhere; background:var(--panel); border:1px solid var(--line); padding:16px; }
+    .card h2 { margin:0 0 6px; font-size:18px; }
+    .meta { color:var(--muted); font-size:13px; }
+    .links { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; }
+    .report { grid-column:1/-1; }
+    .source-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:14px 0; }
+    .source { border:1px solid var(--line); padding:10px; font-size:13px; }
+    .ok { color:var(--good); } .bad { color:var(--bad); }
+    details { border-top:1px solid var(--line); padding:10px 0; }
+    summary { cursor:pointer; color:var(--amber); }
+    .story-meta { color:var(--muted); font-size:12px; margin:6px 0; }
+    .story-links { display:flex; gap:10px; flex-wrap:wrap; }
+    .empty { color:var(--muted); }
+    a { color:var(--amber); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .latest { border-left:3px solid var(--amber); }
+    .intro { margin:8px 0 0; color:var(--muted); line-height:1.5; }
+    .notice { border-left:3px solid var(--amber); padding:10px 12px; margin:12px 0; background:var(--bg); line-height:1.5; }
+    .notice.warning { border-color:var(--bad); }
+    .badge { display:inline-block; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--amber); margin-bottom:8px; }
+    .source p { margin:6px 0 0; }
+    .source strong { color:var(--ink); }
+    .report h3 { font-size:16px; margin:16px 0 6px; }
+    .report p { line-height:1.55; }
+    button { min-height:42px; }
+    button:focus-visible, a:focus-visible, summary:focus-visible { outline:2px solid var(--amber); outline-offset:3px; }
+    .source-list, .meta, .story-meta { overflow-wrap:anywhere; line-height:1.5; }
+    noscript { display:block; padding:16px; border:1px solid var(--line); }
+    @media (max-width:700px) { .grid, .source-list { grid-template-columns:1fr; } header { padding-top:16px; padding-bottom:16px; } h1 { font-size:24px; } }
+  </style>
+</head>
+<body>
+  <header><h1><span>MARKET</span> BRIEFS</h1>
+    <p class="intro">Public-source editions for India and the United States.<br>
+      Scheduled 08:15 IST and 08:15 Eastern, on trading days.</p>
+  </header>
+  <main>
+    <div class="toolbar" role="group" aria-label="Edition filter">
+      <button class="active" data-edition="all">All editions</button>
+      <button data-edition="india">India</button>
+      <button data-edition="us">United States</button>
+    </div>
+    <div class="toolbar" role="group" aria-label="Section filter">
+      <button class="active" data-section="all">All sections</button>
+      <button data-section="overview">Overview</button>
+      <button data-section="india">India</button>
+      <button data-section="us">United States</button>
+      <button data-section="macro">Macro</button>
+      <button data-section="rates">Rates</button>
+      <button data-section="fx">FX</button>
+      <button data-section="energy">Energy</button>
+      <button data-section="commodities">Commodities</button>
+      <button data-section="geopolitics">Geopolitics</button>
+      <button data-section="earnings">Earnings</button>
+    </div>
+    <noscript>Enable JavaScript to browse editions. <a href="reports/manifest.json">Download the report index</a>.</noscript>
+    <section id="briefs" class="grid" aria-live="polite"></section>
+    <div id="archive-control" class="toolbar"></div>
+  </main>
+  <script>
+    const manifest = [];
+    let edition = "all";
+    let section = "all";
+    let visibleCount = 12;
+    let renderVersion = 0;
+    const reportCache = new Map();
+    const latestDates = new Map();
+    for (const entry of manifest) {
+      if (!latestDates.has(entry.edition) || entry.date > latestDates.get(entry.edition)) latestDates.set(entry.edition, entry.date);
+    }
+    const root = document.getElementById("briefs");
+    const archiveControl = document.getElementById("archive-control");
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, character => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      })[character]);
+    }
+    function safeUrl(value) {
+      if (typeof value !== "string" || /["'\u0000-\u0020]/.test(value)) return "";
+      try {
+        const url = new URL(value);
+        return (url.protocol === "http:" || url.protocol === "https:")
+          && !url.username && !url.password ? url.href : "";
+      } catch (_) {
+        return "";
+      }
+    }
+    function reportPath(filename, extension) {
+      if (typeof filename !== "string" || !new RegExp(`^(india|us)-[0-9]{4}-[0-9]{2}-[0-9]{2}\\.${extension}$`).test(filename)) {
+        throw new Error("Invalid report filename");
+      }
+      return `reports/${filename}`;
+    }
+    function sourceCard(source) {
+      const state = source.status === "ok" ? "ok" : source.status === "no_items" ? "" : "bad";
+      const home = safeUrl(source.home);
+      const name = home ? `<a href="${escapeHtml(home)}" rel="noopener noreferrer" target="_blank">${escapeHtml(source.name)}</a>` : escapeHtml(source.name);
+      return `<div class="source ${state}">
+        <strong>${name}</strong><br>
+        Status: ${escapeHtml(source.status)} · ${Number(source.item_count) || 0} collected<br>
+        Attempt: ${escapeHtml(source.attempt_timestamp || "Unknown")}<br>
+        Last success: ${escapeHtml(source.last_success_timestamp || "None")}
+        ${source.error ? `<p>${escapeHtml(source.error)}</p>` : ""}
+        ${source.retained_last_good ? `<p>Retained earlier source content. Check publication dates.</p>` : ""}
+      </div>`;
+    }
+    async function loadReport(entry) {
+      const path = reportPath(entry.json, "json");
+      if (!reportCache.has(path)) {
+        reportCache.set(path, fetch(path).then(response => {
+          if (!response.ok) throw new Error("Report unavailable");
+          return response.json();
+        }).catch(error => {
+          reportCache.delete(path);
+          throw error;
+        }));
+      }
+      return reportCache.get(path);
+    }
+    async function renderReport(entry, selectedSection) {
+      const report = await loadReport(entry);
+      const names = selectedSection === "all" ? Object.keys(report.sections) : [selectedSection];
+      const stories = names.map(name => {
+        const cards = report.sections[name] || [];
+        if (!cards.length) return `<details><summary>${escapeHtml(name)}</summary><p class="empty">No matching public-feed items in this edition.</p></details>`;
+        return `<details open><summary>${escapeHtml(name)} · ${cards.length}</summary>` +
+          cards.map(card => {
+            const links = (card.supporting_links?.length ? card.supporting_links : [card.link]).map((link,index) => {
+              const safe = safeUrl(link);
+              return safe ? `<a href="${escapeHtml(safe)}" rel="noopener noreferrer" target="_blank">Original source ${index+1}</a>` : "";
+            }).join("");
+            return `<article>
+              <h3>${escapeHtml(card.title)}</h3>
+              <div class="story-meta">
+                Published: ${escapeHtml(card.publication_timestamp || "Unknown")} ·
+                Source: ${escapeHtml(card.source_name || card.source || "Unknown")} ·
+                Access: ${escapeHtml(card.access || "unknown")} ·
+                ${card.retained_from_last_good ? "Retained prior good content" : "Current collection"} ·
+                Freshness: ${escapeHtml(card.publication_freshness || "unknown")}
+              </div>
+              <p>${escapeHtml(card.summary || "Headline only; extracted detail unavailable.")}</p>
+              <div class="story-links">${links}</div>
+            </article>`;
+          }).join("") + `</details>`;
+      }).join("");
+      const latest = latestDates.get(entry.edition) === entry.date;
+      const noSources = report.freshness === "no_successful_sources";
+      const synthetic = report.synthetic_fixture === true;
+      const coverage = (report.limitations || []).map(value => `<li>${escapeHtml(value)}</li>`).join("");
+      return `<article class="card report ${latest ? "latest" : ""}">
+        <span class="badge">${latest ? "Latest available edition" : "Archived edition"}</span>
+        <h2>${escapeHtml(report.market)} · ${escapeHtml(report.date)}</h2>
+        <div class="meta">Published ${escapeHtml(report.publication_timestamp)} · Retrieved ${escapeHtml(report.retrieval_timestamp)} · Freshness ${escapeHtml(report.freshness)}</div>
+        <div class="meta">Calendar: ${escapeHtml(report.calendar?.source || "Unknown")} · ${escapeHtml(report.calendar?.status || "unknown")} · ${escapeHtml(report.calendar?.diagnostic || "")}</div>
+        ${synthetic ? `<div class="notice warning"><strong>Synthetic test edition.</strong> These examples are not actual market news.</div>` : ""}
+        ${noSources ? `<div class="notice warning">No sources were successfully collected. This edition contains no verified current coverage.</div>` : ""}
+        <div class="source-list">${(report.sources || []).map(sourceCard).join("")}</div>
+        <details><summary>Coverage and limitations</summary>
+          <p>Public headlines and permitted source extracts. Follow original links for full context.</p>
+          ${coverage ? `<ul>${coverage}</ul>` : ""}
+        </details>
+        ${stories}
+        <div class="links"><a href="${escapeHtml(reportPath(entry.markdown, "md"))}" download>Download Markdown</a><a href="${escapeHtml(reportPath(entry.json, "json"))}" download>Download JSON</a></div>
+      </article>`;
+    }
+    async function render() {
+      const version = ++renderVersion;
+      const selectedSection = section;
+      archiveControl.innerHTML = "";
+      root.setAttribute("aria-busy", "true");
+      const rows = manifest.filter(x => edition === "all" || x.edition === edition);
+      if (!rows.length) {
+        root.innerHTML = '<article class="card"><h2>No reports yet</h2><div class="meta">The next scheduled or manual run will add an edition.</div></article>';
+        root.setAttribute("aria-busy", "false");
+        return;
+      }
+      root.innerHTML = '<article class="card"><h2>Loading reports...</h2></article>';
+      const visibleRows = rows.slice(0, visibleCount);
+      const rendered = await Promise.all(visibleRows.map(async row => {
+        try { return await renderReport(row, selectedSection); }
+        catch (error) { return '<article class="card report"><h2>Report unavailable</h2><div class="meta">' + escapeHtml(error.message) + '</div></article>'; }
+      }));
+      if (version !== renderVersion) return;
+      root.innerHTML = rendered.join("");
+      root.setAttribute("aria-busy", "false");
+      if (rows.length > visibleRows.length) {
+        archiveControl.innerHTML = '<button id="load-older">Load older editions</button>';
+        document.getElementById("load-older").addEventListener("click", () => {
+          visibleCount += 12;
+          render();
+        });
+      } else {
+        archiveControl.innerHTML = "";
+      }
+    }
+    document.querySelectorAll("button[data-edition]").forEach(button => button.addEventListener("click", () => {
+      document.querySelectorAll("button[data-edition]").forEach(b => { b.classList.remove("active"); b.setAttribute("aria-pressed", "false"); });
+      button.classList.add("active");
+      button.setAttribute("aria-pressed", "true");
+      edition = button.dataset.edition;
+      visibleCount = 12;
+      render();
+    }));
+    document.querySelectorAll("button[data-section]").forEach(button => button.addEventListener("click", () => {
+      document.querySelectorAll("button[data-section]").forEach(b => { b.classList.remove("active"); b.setAttribute("aria-pressed", "false"); });
+      button.classList.add("active");
+      button.setAttribute("aria-pressed", "true");
+      section = button.dataset.section;
+      render();
+    }));
+    document.querySelectorAll("button[data-edition], button[data-section]").forEach(button => button.setAttribute("aria-pressed", String(button.classList.contains("active"))));
+    render();
+  </script>
+</body>
+</html>

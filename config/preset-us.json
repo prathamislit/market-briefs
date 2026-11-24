@@ -1,0 +1,8 @@
+{
+  "name": "us",
+  "edition": "us",
+  "timezone": "America/New_York",
+  "cron": "15 8 * * 1-5",
+  "calendar": "NYSE XNYS",
+  "source_scopes": ["US","both"]
+}
