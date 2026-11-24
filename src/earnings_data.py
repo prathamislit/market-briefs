@@ -19,7 +19,7 @@ TICKERS = ("AAPL", "MSFT", "NVDA", "AMZN", "JPM", "XOM", "TSLA")
 TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SEC_ROOT = "https://data.sec.gov"
 TESLA_ROOT = "https://ir.tesla.com"
-MAX_BYTES = 8_000_000
+MAX_BYTES = 24_000_000
 REVENUE_TAGS = ("RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues",
                 "SalesRevenueNet", "RevenueFromContractWithCustomerIncludingAssessedTax")
 METRICS = (("Revenue", REVENUE_TAGS, "USD", "USD millions", 1_000_000),
