@@ -2,8 +2,8 @@
   "edition": "india",
   "market": "India",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-24T18:37:01.164233+00:00",
-  "retrieval_timestamp": "2026-11-24T18:37:01.164233+00:00",
+  "publication_timestamp": "2026-11-24T22:42:12.306563+00:00",
+  "retrieval_timestamp": "2026-11-24T22:42:12.306563+00:00",
   "timezone": "Asia/Kolkata",
   "calendar": {
     "status": "trading_day",
@@ -25,63 +25,9 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "The shake-up facing renters as a new kind of landlord emerges",
-        "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 00:28:48 GMT",
-        "publication_timestamp": "2026-11-24T00:28:48+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:28:48 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
-        "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 00:11:08 GMT",
-        "publication_timestamp": "2026-11-24T00:11:08+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:11:08 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "World Cup drove profits surge, says Marston's",
-        "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 13:03:20 GMT",
-        "publication_timestamp": "2026-11-24T13:03:20+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 13:03:20 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
@@ -118,6 +64,60 @@
         "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "World Cup drove profits surge, says Marston's",
+        "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 13:03:20 GMT",
+        "publication_timestamp": "2026-11-24T13:03:20+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 13:03:20 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "The shake-up facing renters as a new kind of landlord emerges",
+        "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:28:48 GMT",
+        "publication_timestamp": "2026-11-24T00:28:48+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:28:48 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+        "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:11:08 GMT",
+        "publication_timestamp": "2026-11-24T00:11:08+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:11:08 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
@@ -376,42 +376,6 @@
         ]
       },
       {
-        "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-        "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "published": "Fri, 20 Nov 2026 22:42:47 GMT",
-        "publication_timestamp": "2026-11-20T22:42:47+00:00",
-        "publication_timestamp_raw": "Fri, 20 Nov 2026 22:42:47 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-        "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-        "published": "Fri, 20 Nov 2026 22:53:24 GMT",
-        "publication_timestamp": "2026-11-20T22:53:24+00:00",
-        "publication_timestamp_raw": "Fri, 20 Nov 2026 22:53:24 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
         "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
         "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
         "published": "Mon, 23 Nov 2026 00:08:00 GMT",
@@ -466,7 +430,25 @@
         ]
       },
       {
-        "title": "Nasdaq climbs from lows, now down 1.3%, Dow rises 400 pts: US Stock Market Live Updates",
+        "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-end-lower-as-investors-assess-jensen-huangs-return-to-nvidia/articleshow/136141893.cms",
+        "published": "Wed, 25 Nov 2026 02:39:28 +0530",
+        "publication_timestamp": "2026-11-24T21:09:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 02:39:28 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-end-lower-as-investors-assess-jensen-huangs-return-to-nvidia/articleshow/136141893.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia: US Stock Market Highlights",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
         "published": "Tue, 24 Nov 2026 18:30:48 +0530",
         "publication_timestamp": "2026-11-24T13:00:48+00:00",
@@ -475,7 +457,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms"
         ],
@@ -493,7 +475,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms"
         ],
@@ -999,7 +981,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms"
         ],
@@ -1017,7 +999,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms"
         ],
@@ -1133,33 +1115,15 @@
         "supporting_sources": [
           "The Economic Times"
         ]
-      },
-      {
-        "title": "Nestle India Share Price Highlights: Nestle India Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/nestle-india-share-price-today-live-23-nov-2026/liveblog/136089617.cms",
-        "published": "Mon, 23 Nov 2026 10:10:15 +0530",
-        "publication_timestamp": "2026-11-23T04:40:15+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:10:15 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/nestle-india-share-price-today-live-23-nov-2026/liveblog/136089617.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
       }
     ],
     "us": [
       {
-        "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+        "title": "US attorney general dodges questions about Nvidia investigation",
         "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 17:04:20 GMT",
-        "publication_timestamp": "2026-11-24T17:04:20+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 17:04:20 GMT",
+        "published": "Tue, 24 Nov 2026 21:19:42 GMT",
+        "publication_timestamp": "2026-11-24T21:19:42+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 21:19:42 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
@@ -1227,7 +1191,7 @@
         ]
       },
       {
-        "title": "Nasdaq climbs from lows, now down 1.3%, Dow rises 400 pts: US Stock Market Live Updates",
+        "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia: US Stock Market Highlights",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
         "published": "Tue, 24 Nov 2026 18:30:48 +0530",
         "publication_timestamp": "2026-11-24T13:00:48+00:00",
@@ -1236,7 +1200,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms"
         ],
@@ -1254,7 +1218,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms"
         ],
@@ -1272,7 +1236,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms"
         ],
@@ -1346,7 +1310,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms"
         ],
@@ -1364,7 +1328,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms"
         ],
@@ -1402,7 +1366,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms"
         ],
@@ -1559,6 +1523,24 @@
     ],
     "energy": [
       {
+        "title": "Will I get the £100 energy payment and when will I receive it?",
+        "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 20:16:24 GMT",
+        "publication_timestamp": "2026-11-24T20:16:24+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 20:16:24 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
         "title": "Energy bills will soar - here's how you can ease the pain",
         "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
         "published": "Mon, 23 Nov 2026 01:05:07 GMT",
@@ -1616,6 +1598,24 @@
     "commodities": [],
     "geopolitics": [
       {
+        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 22:24:23 GMT",
+        "publication_timestamp": "2026-11-24T22:24:23+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 22:24:23 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
         "title": "Asian stocks rally as Huang's Nvidia return revives AI trade",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade/articleshow/136117829.cms",
         "published": "Tue, 24 Nov 2026 08:14:53 +0530",
@@ -1663,7 +1663,7 @@
       "home": "https://www.rbi.org.in/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T18:37:01.164233+00:00",
+      "attempt_timestamp": "2026-11-24T22:42:12.306563+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1675,7 +1675,7 @@
       "home": "https://www.sebi.gov.in/",
       "status": "unconfigured",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T18:37:01.164233+00:00",
+      "attempt_timestamp": "2026-11-24T22:42:12.306563+00:00",
       "error": "No permitted public feed configured",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1687,7 +1687,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T18:37:01.164233+00:00",
+      "attempt_timestamp": "2026-11-24T22:42:12.306563+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1698,8 +1698,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T18:37:01.164233+00:00",
-      "attempt_timestamp": "2026-11-24T18:37:01.164233+00:00",
+      "last_success_timestamp": "2026-11-24T22:42:12.306563+00:00",
+      "attempt_timestamp": "2026-11-24T22:42:12.306563+00:00",
       "error": null,
       "item_count": 30,
       "fetched_item_count": 40,
@@ -1710,8 +1710,8 @@
       "name": "The Economic Times",
       "home": "https://economictimes.indiatimes.com/markets",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T18:37:01.164233+00:00",
-      "attempt_timestamp": "2026-11-24T18:37:01.164233+00:00",
+      "last_success_timestamp": "2026-11-24T22:42:12.306563+00:00",
+      "attempt_timestamp": "2026-11-24T22:42:12.306563+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -1722,8 +1722,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T18:37:01.164233+00:00",
-      "attempt_timestamp": "2026-11-24T18:37:01.164233+00:00",
+      "last_success_timestamp": "2026-11-24T22:42:12.306563+00:00",
+      "attempt_timestamp": "2026-11-24T22:42:12.306563+00:00",
       "error": null,
       "item_count": 6,
       "fetched_item_count": 15,
