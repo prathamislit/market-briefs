@@ -2,8 +2,8 @@
   "edition": "us",
   "market": "United States",
   "date": "2026-11-23",
-  "publication_timestamp": "2026-11-24T04:08:34.513983+00:00",
-  "retrieval_timestamp": "2026-11-24T04:08:34.513983+00:00",
+  "publication_timestamp": "2026-11-24T04:11:10.590014+00:00",
+  "retrieval_timestamp": "2026-11-24T04:11:10.590014+00:00",
   "timezone": "America/New_York",
   "calendar": {
     "status": "trading_day",
@@ -49,512 +49,6 @@
         ],
         "supporting_sources": [
           "Bureau of Labor Statistics"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - First Finance Ltd. (0002057383) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2057383/000149315226052955/0001493152-26-052955-index.htm",
-        "published": "2026-11-17T21:49:12-05:00",
-        "publication_timestamp": "2026-11-18T02:49:12+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:49:12-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001493152-26-052955 Size: 15 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2057383/000149315226052955/0001493152-26-052955-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - CLEARONE INC (0000840715) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/840715/000149315226052955/0001493152-26-052955-index.htm",
-        "published": "2026-11-17T21:49:12-05:00",
-        "publication_timestamp": "2026-11-18T02:49:12+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:49:12-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001493152-26-052955 Size: 15 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/840715/000149315226052955/0001493152-26-052955-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - SenesTech, Inc. (0001680378) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1680378/000173112226001459/0001731122-26-001459-index.htm",
-        "published": "2026-11-17T21:38:49-05:00",
-        "publication_timestamp": "2026-11-18T02:38:49+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:38:49-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001731122-26-001459 Size: 11 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1680378/000173112226001459/0001731122-26-001459-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1680378/000216182226000004/0002161822-26-000004-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - GLENBROOK CAPITAL MANAGEMENT (0001273782) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1273782/000173112226001459/0001731122-26-001459-index.htm",
-        "published": "2026-11-17T21:38:49-05:00",
-        "publication_timestamp": "2026-11-18T02:38:49+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:38:49-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001731122-26-001459 Size: 11 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1273782/000173112226001459/0001731122-26-001459-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - LeBeau Justin Michael (0002161822) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2161822/000216182226000004/0002161822-26-000004-index.htm",
-        "published": "2026-11-17T21:06:53-05:00",
-        "publication_timestamp": "2026-11-18T02:06:53+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:06:53-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0002161822-26-000004 Size: 16 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2161822/000216182226000004/0002161822-26-000004-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G/A - Arias Resource Capital GP Ltd. (0001732325) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1732325/000090266426004603/0000902664-26-004603-index.htm",
-        "published": "2026-11-17T21:05:34-05:00",
-        "publication_timestamp": "2026-11-18T02:05:34+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:05:34-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0000902664-26-004603 Size: 26 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1732325/000090266426004603/0000902664-26-004603-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G/A - Largo Inc. (0001400438) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1400438/000090266426004603/0000902664-26-004603-index.htm",
-        "published": "2026-11-17T21:05:34-05:00",
-        "publication_timestamp": "2026-11-18T02:05:34+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:05:34-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0000902664-26-004603 Size: 26 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1400438/000090266426004603/0000902664-26-004603-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G/A - Wagner Thomas (0001512348) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1512348/000199937126025672/0001999371-26-025672-index.htm",
-        "published": "2026-11-17T21:00:54-05:00",
-        "publication_timestamp": "2026-11-18T02:00:54+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:00:54-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001999371-26-025672 Size: 10 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1512348/000199937126025672/0001999371-26-025672-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G/A - AZUL SA (0001432364) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1432364/000199937126025672/0001999371-26-025672-index.htm",
-        "published": "2026-11-17T21:00:54-05:00",
-        "publication_timestamp": "2026-11-18T02:00:54+00:00",
-        "publication_timestamp_raw": "2026-11-17T21:00:54-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001999371-26-025672 Size: 10 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1432364/000199937126025672/0001999371-26-025672-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - SHEPARD GREGORY M (0001065833) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1065833/000110465926129242/0001104659-26-129242-index.htm",
-        "published": "2026-11-17T20:25:40-05:00",
-        "publication_timestamp": "2026-11-18T01:25:40+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:25:40-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129242 Size: 10 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1065833/000110465926129242/0001104659-26-129242-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - Saba Capital Management, L.P. (0001510281) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006168/0001062993-26-006168-index.htm",
-        "published": "2026-11-17T20:24:44-05:00",
-        "publication_timestamp": "2026-11-18T01:24:44+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:24:44-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001062993-26-006168 Size: 29 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006168/0001062993-26-006168-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006164/0001062993-26-006164-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - BNY MELLON STRATEGIC MUNICIPALS, INC. (0000818972) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/818972/000106299326006168/0001062993-26-006168-index.htm",
-        "published": "2026-11-17T20:24:44-05:00",
-        "publication_timestamp": "2026-11-18T01:24:44+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:24:44-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001062993-26-006168 Size: 29 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/818972/000106299326006168/0001062993-26-006168-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - Monarch Alternative Capital LP (0001281084) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1281084/000121390026121537/0001213900-26-121537-index.htm",
-        "published": "2026-11-17T20:22:02-05:00",
-        "publication_timestamp": "2026-11-18T01:22:02+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:22:02-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121537 Size: 14 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1281084/000121390026121537/0001213900-26-121537-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - American Ventures LLC, Series XIX SKBL (0002083789) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2083789/000121390026121533/0001213900-26-121533-index.htm",
-        "published": "2026-11-17T20:09:16-05:00",
-        "publication_timestamp": "2026-11-18T01:09:16+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:09:16-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121533 Size: 29 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2083789/000121390026121533/0001213900-26-121533-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - Skyline Builders Group Holding Ltd (0002031009) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2031009/000121390026121533/0001213900-26-121533-index.htm",
-        "published": "2026-11-17T20:09:16-05:00",
-        "publication_timestamp": "2026-11-18T01:09:16+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:09:16-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121533 Size: 29 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2031009/000121390026121533/0001213900-26-121533-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - BlackRock TCP Capital Corp. (0001370755) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1370755/000106299326006164/0001062993-26-006164-index.htm",
-        "published": "2026-11-17T19:55:40-05:00",
-        "publication_timestamp": "2026-11-18T00:55:40+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:55:40-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001062993-26-006164 Size: 24 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1370755/000106299326006164/0001062993-26-006164-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D - Perfect Moment Ltd. (0001849221) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1849221/000110465926129222/0001104659-26-129222-index.htm",
-        "published": "2026-11-17T19:52:47-05:00",
-        "publication_timestamp": "2026-11-18T00:52:47+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:52:47-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129222 Size: 14 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1849221/000110465926129222/0001104659-26-129222-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D - X 3 Higher Moment Fund LLC (0001844136) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1844136/000110465926129222/0001104659-26-129222-index.htm",
-        "published": "2026-11-17T19:52:47-05:00",
-        "publication_timestamp": "2026-11-18T00:52:47+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:52:47-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129222 Size: 14 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1844136/000110465926129222/0001104659-26-129222-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - Felte Todd M (0001841926) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1841926/000184192626000002/0001841926-26-000002-index.htm",
-        "published": "2026-11-17T19:44:06-05:00",
-        "publication_timestamp": "2026-11-18T00:44:06+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:44:06-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001841926-26-000002 Size: 5 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1841926/000184192626000002/0001841926-26-000002-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - TOMI Environmental Solutions, Inc. (0000314227) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/314227/000184192626000002/0001841926-26-000002-index.htm",
-        "published": "2026-11-17T19:44:06-05:00",
-        "publication_timestamp": "2026-11-18T00:44:06+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:44:06-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001841926-26-000002 Size: 5 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/314227/000184192626000002/0001841926-26-000002-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - BRADLEY NATHANIEL T (0001755804) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1755804/000110465926129216/0001104659-26-129216-index.htm",
-        "published": "2026-11-17T19:28:33-05:00",
-        "publication_timestamp": "2026-11-18T00:28:33+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:28:33-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129216 Size: 2 MB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1755804/000110465926129216/0001104659-26-129216-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - Datavault AI Inc. (0001682149) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1682149/000110465926129216/0001104659-26-129216-index.htm",
-        "published": "2026-11-17T19:28:33-05:00",
-        "publication_timestamp": "2026-11-18T00:28:33+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:28:33-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129216 Size: 2 MB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1682149/000110465926129216/0001104659-26-129216-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - BERKSHIRE HATHAWAY INC (0001067983) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465884/0001193125-26-465884-index.htm",
-        "published": "2026-11-17T19:23:48-05:00",
-        "publication_timestamp": "2026-11-18T00:23:48+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:23:48-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001193125-26-465884 Size: 8 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465884/0001193125-26-465884-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - BUFFETT WARREN E (0000315090) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/315090/000119312526465884/0001193125-26-465884-index.htm",
-        "published": "2026-11-17T19:23:48-05:00",
-        "publication_timestamp": "2026-11-18T00:23:48+00:00",
-        "publication_timestamp_raw": "2026-11-17T19:23:48-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001193125-26-465884 Size: 8 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/315090/000119312526465884/0001193125-26-465884-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - Anderson Zachary Arlen (0002165627) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2165627/000216562726000001/0002165627-26-000001-index.htm",
-        "published": "2026-11-17T18:52:25-05:00",
-        "publication_timestamp": "2026-11-17T23:52:25+00:00",
-        "publication_timestamp_raw": "2026-11-17T18:52:25-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0002165627-26-000001 Size: 6 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2165627/000216562726000001/0002165627-26-000001-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - Erayak Power Solution Group Inc. (0001825875) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1825875/000216562726000001/0002165627-26-000001-index.htm",
-        "published": "2026-11-17T18:52:25-05:00",
-        "publication_timestamp": "2026-11-17T23:52:25+00:00",
-        "publication_timestamp_raw": "2026-11-17T18:52:25-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0002165627-26-000001 Size: 6 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1825875/000216562726000001/0002165627-26-000001-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - Digimarc Corp (0002119322) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2119322/000119312526465817/0001193125-26-465817-index.htm",
-        "published": "2026-11-17T18:19:36-05:00",
-        "publication_timestamp": "2026-11-17T23:19:36+00:00",
-        "publication_timestamp_raw": "2026-11-17T18:19:36-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001193125-26-465817 Size: 541 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2119322/000119312526465817/0001193125-26-465817-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - Ocho Investments LLC (0001665159) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1665159/000119312526465817/0001193125-26-465817-index.htm",
-        "published": "2026-11-17T18:19:36-05:00",
-        "publication_timestamp": "2026-11-17T23:19:36+00:00",
-        "publication_timestamp_raw": "2026-11-17T18:19:36-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001193125-26-465817 Size: 541 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1665159/000119312526465817/0001193125-26-465817-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
         ]
       },
       {
@@ -605,7 +99,8 @@
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1000275/000095010326017689/0000950103-26-017689-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1000275/000095010326017689/0000950103-26-017689-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1000275/000095010326017688/0000950103-26-017688-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -678,6 +173,511 @@
         "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/200245/000191870426036018/0001918704-26-036018-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - Inhibrx Biosciences, Inc. (0002007919) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000063/0002007919-26-000063-index.htm",
+        "published": "2026-11-17T17:29:41-05:00",
+        "publication_timestamp": "2026-11-17T22:29:41+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:29:41-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0002007919-26-000063 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000063/0002007919-26-000063-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "ABS-15G - Atlas A&D Opportunity Fund III LP (0002034290) (Securitizer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2034290/000199937126025658/0001999371-26-025658-index.htm",
+        "published": "2026-11-17T17:29:32-05:00",
+        "publication_timestamp": "2026-11-17T22:29:32+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:29:32-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001999371-26-025658 Size: 16 MB Item 2.01: Findings and Conclusions of the Third Party Due Diligence Provider Obtained by the Issuer",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2034290/000199937126025658/0001999371-26-025658-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "ABS-15G - Atlas A&D Opportunity Fund III LP (0002034290) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2034290/000199937126025658/0001999371-26-025658-index.htm",
+        "published": "2026-11-17T17:29:32-05:00",
+        "publication_timestamp": "2026-11-17T22:29:32+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:29:32-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001999371-26-025658 Size: 16 MB Item 2.01: Findings and Conclusions of the Third Party Due Diligence Provider Obtained by the Issuer",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2034290/000199937126025658/0001999371-26-025658-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "ABS-15G - Atlas A&D Opportunity Fund III LP (0002034290) (Depositor)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2034290/000199937126025658/0001999371-26-025658-index.htm",
+        "published": "2026-11-17T17:29:32-05:00",
+        "publication_timestamp": "2026-11-17T22:29:32+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:29:32-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001999371-26-025658 Size: 16 MB Item 2.01: Findings and Conclusions of the Third Party Due Diligence Provider Obtained by the Issuer",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2034290/000199937126025658/0001999371-26-025658-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "DEFA14A - Transocean Ltd. (0001451505) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1451505/000110465926129166/0001104659-26-129166-index.htm",
+        "published": "2026-11-17T17:28:57-05:00",
+        "publication_timestamp": "2026-11-17T22:28:57+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:57-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129166 Size: 82 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1451505/000110465926129166/0001104659-26-129166-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - Transocean Ltd. (0001451505) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1451505/000110465926129165/0001104659-26-129165-index.htm",
+        "published": "2026-11-17T17:28:46-05:00",
+        "publication_timestamp": "2026-11-17T22:28:46+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:46-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129165 Size: 264 KB Item 8.01: Other Events",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1451505/000110465926129165/0001104659-26-129165-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - Nuveen Farmland REIT (0002085428) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2085428/000162828026074587/0001628280-26-074587-index.htm",
+        "published": "2026-11-17T17:28:38-05:00",
+        "publication_timestamp": "2026-11-17T22:28:38+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:38-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001628280-26-074587 Size: 138 KB Item 8.01: Other Events",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2085428/000162828026074587/0001628280-26-074587-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "6-K - Golden Sun Technology Group Ltd. (0001826376) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1826376/000121390026121491/0001213900-26-121491-index.htm",
+        "published": "2026-11-17T17:28:37-05:00",
+        "publication_timestamp": "2026-11-17T22:28:37+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:37-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121491 Size: 1 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1826376/000121390026121491/0001213900-26-121491-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "6-K - AUNA S.A. (0001799207) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1799207/000095010326017687/0000950103-26-017687-index.htm",
+        "published": "2026-11-17T17:28:36-05:00",
+        "publication_timestamp": "2026-11-17T22:28:36+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:36-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0000950103-26-017687 Size: 1 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1799207/000095010326017687/0000950103-26-017687-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Global Self Storage, Inc. (0001031235) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1031235/000143774926037427/0001437749-26-037427-index.htm",
+        "published": "2026-11-17T17:28:30-05:00",
+        "publication_timestamp": "2026-11-17T22:28:30+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:30-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001437749-26-037427 Size: 69 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1031235/000143774926037427/0001437749-26-037427-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - WINMILL MARK CAMPBELL (0001019264) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1019264/000143774926037427/0001437749-26-037427-index.htm",
+        "published": "2026-11-17T17:28:30-05:00",
+        "publication_timestamp": "2026-11-17T22:28:30+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:28:30-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001437749-26-037427 Size: 69 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1019264/000143774926037427/0001437749-26-037427-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "DEF 14A - XAI CLO & Income Opportunities Fund (0002000645) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2000645/000121390026121490/0001213900-26-121490-index.htm",
+        "published": "2026-11-17T17:27:56-05:00",
+        "publication_timestamp": "2026-11-17T22:27:56+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:27:56-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121490 Size: 4 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2000645/000121390026121490/0001213900-26-121490-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "15-12G - VersaBank (0001690639) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1690639/000110465926129164/0001104659-26-129164-index.htm",
+        "published": "2026-11-17T17:27:23-05:00",
+        "publication_timestamp": "2026-11-17T22:27:23+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:27:23-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129164 Size: 12 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1690639/000110465926129164/0001104659-26-129164-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1665650/000191870426036017/0001918704-26-036017-index.htm",
+        "published": "2026-11-17T17:27:20-05:00",
+        "publication_timestamp": "2026-11-17T22:27:20+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:27:20-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001918704-26-036017 Size: 431 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1665650/000191870426036017/0001918704-26-036017-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/19617/000191870426036017/0001918704-26-036017-index.htm",
+        "published": "2026-11-17T17:27:20-05:00",
+        "publication_timestamp": "2026-11-17T22:27:20+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:27:20-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001918704-26-036017 Size: 431 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/19617/000191870426036017/0001918704-26-036017-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SC TO-I/A - Priority Income Fund, Inc. (0001554625) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1554625/000155462526000036/0001554625-26-000036-index.htm",
+        "published": "2026-11-17T17:27:04-05:00",
+        "publication_timestamp": "2026-11-17T22:27:04+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:27:04-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001554625-26-000036 Size: 151 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1554625/000155462526000036/0001554625-26-000036-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "D - Butterfly Summit Co-Invest, L.P. (0002162734) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2162734/000216273426000001/0002162734-26-000001-index.htm",
+        "published": "2026-11-17T17:26:44-05:00",
+        "publication_timestamp": "2026-11-17T22:26:44+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:26:44-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0002162734-26-000001 Size: 6 KB Item 3C: Investment Company Act Section 3(c) Item 3C.7: Section 3(c)(7)",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2162734/000216273426000001/0002162734-26-000001-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "DEFA14A - AIR INDUSTRIES GROUP (0001009891) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121487/0001213900-26-121487-index.htm",
+        "published": "2026-11-17T17:26:08-05:00",
+        "publication_timestamp": "2026-11-17T22:26:08+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:26:08-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121487 Size: 46 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121487/0001213900-26-121487-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121484/0001213900-26-121484-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "DFAN14A - Goldenwise Capital Group Ltd (0001989386) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1989386/000106299326006157/0001062993-26-006157-index.htm",
+        "published": "2026-11-17T17:25:59-05:00",
+        "publication_timestamp": "2026-11-17T22:25:59+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:59-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001062993-26-006157 Size: 825 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1989386/000106299326006157/0001062993-26-006157-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "DFAN14A - Phunware, Inc. (0001665300) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1665300/000106299326006157/0001062993-26-006157-index.htm",
+        "published": "2026-11-17T17:25:59-05:00",
+        "publication_timestamp": "2026-11-17T22:25:59+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:59-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001062993-26-006157 Size: 825 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1665300/000106299326006157/0001062993-26-006157-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "POSASR - FuboTV Inc. (0001484769) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1484769/000149315226052902/0001493152-26-052902-index.htm",
+        "published": "2026-11-17T17:25:49-05:00",
+        "publication_timestamp": "2026-11-17T22:25:49+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:49-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001493152-26-052902 Size: 622 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1484769/000149315226052902/0001493152-26-052902-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "424H - BANK5 2026-5YR25 (0002159643) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2159643/000153949726003033/0001539497-26-003033-index.htm",
+        "published": "2026-11-17T17:25:32-05:00",
+        "publication_timestamp": "2026-11-17T22:25:32+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:32-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001539497-26-003033 Size: 17 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2159643/000153949726003033/0001539497-26-003033-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "424H - JP MORGAN CHASE COMMERCIAL MORTGAGE SECURITIES CORP (0001013611) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1013611/000153949726003033/0001539497-26-003033-index.htm",
+        "published": "2026-11-17T17:25:32-05:00",
+        "publication_timestamp": "2026-11-17T22:25:32+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:32-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001539497-26-003033 Size: 17 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1013611/000153949726003033/0001539497-26-003033-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - Antares Private Credit Fund (0001976336) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1976336/000110465926129163/0001104659-26-129163-index.htm",
+        "published": "2026-11-17T17:25:25-05:00",
+        "publication_timestamp": "2026-11-17T22:25:25+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:25-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129163 Size: 487 KB Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1976336/000110465926129163/0001104659-26-129163-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "DEF 14A - MANGOCEUTICALS, INC. (0001938046) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1938046/000149315226052901/0001493152-26-052901-index.htm",
+        "published": "2026-11-17T17:25:12-05:00",
+        "publication_timestamp": "2026-11-17T22:25:12+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:12-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001493152-26-052901 Size: 3 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1938046/000149315226052901/0001493152-26-052901-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "425 - AIR INDUSTRIES GROUP (0001009891) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121483/0001213900-26-121483-index.htm",
+        "published": "2026-11-17T17:24:51-05:00",
+        "publication_timestamp": "2026-11-17T22:24:51+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:24:51-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121483 Size: 47 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121483/0001213900-26-121483-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "424B5 - Ardent Health, Inc. (0001756655) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1756655/000110465926129160/0001104659-26-129160-index.htm",
+        "published": "2026-11-17T17:24:40-05:00",
+        "publication_timestamp": "2026-11-17T22:24:40+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:24:40-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129160 Size: 816 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1756655/000110465926129160/0001104659-26-129160-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - AES CORP (0000874761) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/874761/000114036126044548/0001140361-26-044548-index.htm",
+        "published": "2026-11-17T17:24:22-05:00",
+        "publication_timestamp": "2026-11-17T22:24:22+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:24:22-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001140361-26-044548 Size: 251 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/874761/000114036126044548/0001140361-26-044548-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -2063,36 +2063,18 @@
     ],
     "energy": [
       {
-        "title": "SCHEDULE 13D/A - Atlas Energy Solutions Inc. (0001984060) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1984060/000110465926129242/0001104659-26-129242-index.htm",
-        "published": "2026-11-17T20:25:40-05:00",
-        "publication_timestamp": "2026-11-18T01:25:40+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:25:40-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129242 Size: 10 KB",
+        "title": "425 - NEXTERA ENERGY INC (0000753308) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/753308/000110465926129158/0001104659-26-129158-index.htm",
+        "published": "2026-11-17T17:24:16-05:00",
+        "publication_timestamp": "2026-11-17T22:24:16+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:24:16-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129158 Size: 755 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1984060/000110465926129242/0001104659-26-129242-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13D/A - Capstone Energy Plus, Inc. (0001009759) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1009759/000121390026121537/0001213900-26-121537-index.htm",
-        "published": "2026-11-17T20:22:02-05:00",
-        "publication_timestamp": "2026-11-18T01:22:02+00:00",
-        "publication_timestamp_raw": "2026-11-17T20:22:02-05:00",
-        "summary": "Filed: 2026-11-17 AccNo: 0001213900-26-121537 Size: 14 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1009759/000121390026121537/0001213900-26-121537-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/753308/000110465926129158/0001104659-26-129158-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -2150,6 +2132,24 @@
         "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1604191/000110465926129167/0001104659-26-129167-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - RPC INC (0000742278) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/742278/000110465926129162/0001104659-26-129162-index.htm",
+        "published": "2026-11-17T17:25:09-05:00",
+        "publication_timestamp": "2026-11-17T22:25:09+00:00",
+        "publication_timestamp_raw": "2026-11-17T17:25:09-05:00",
+        "summary": "Filed: 2026-11-17 AccNo: 0001104659-26-129162 Size: 140 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/742278/000110465926129162/0001104659-26-129162-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -2219,8 +2219,8 @@
       "name": "Federal Reserve",
       "home": "https://www.federalreserve.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 4,
       "fetched_item_count": 20,
@@ -2232,7 +2232,7 @@
       "home": "https://home.treasury.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -2243,8 +2243,8 @@
       "name": "Bureau of Labor Statistics",
       "home": "https://www.bls.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 1,
       "fetched_item_count": 1,
@@ -2256,7 +2256,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -2267,8 +2267,8 @@
       "name": "U.S. Securities and Exchange Commission",
       "home": "https://www.sec.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -2279,8 +2279,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 27,
       "fetched_item_count": 40,
@@ -2291,8 +2291,8 @@
       "name": "CNBC",
       "home": "https://www.cnbc.com/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 30,
       "fetched_item_count": 30,
@@ -2303,8 +2303,8 @@
       "name": "U.S. Bureau of Economic Analysis",
       "home": "https://www.bea.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 2,
       "fetched_item_count": 39,
@@ -2315,8 +2315,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T04:08:34.513983+00:00",
-      "attempt_timestamp": "2026-11-24T04:08:34.513983+00:00",
+      "last_success_timestamp": "2026-11-24T04:11:10.590014+00:00",
+      "attempt_timestamp": "2026-11-24T04:11:10.590014+00:00",
       "error": null,
       "item_count": 6,
       "fetched_item_count": 15,
