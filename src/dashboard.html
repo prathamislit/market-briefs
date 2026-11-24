@@ -35,6 +35,9 @@
     .intro { margin:8px 0 0; color:var(--muted); line-height:1.5; }
     .notice { border-left:3px solid var(--amber); padding:10px 12px; margin:12px 0; background:var(--bg); line-height:1.5; }
     .notice.warning { border-color:var(--bad); }
+    .disclaimer { margin:0 0 24px; background:var(--panel); }
+    .disclaimer strong { color:var(--amber); }
+    .disclaimer p { margin:6px 0 0; }
     .badge { display:inline-block; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--amber); margin-bottom:8px; }
     .source p { margin:6px 0 0; }
     .source strong { color:var(--ink); }
@@ -53,6 +56,10 @@
       Scheduled 08:15 IST and 08:15 Eastern, on trading days.</p>
   </header>
   <main>
+    <aside class="notice disclaimer" aria-label="Research disclaimer">
+      <strong>Not financial advice.</strong>
+      <p>Personal academic research portfolio. Not investment advice. Not a solicitation. No services offered. Frameworks are informational research outputs.</p>
+    </aside>
     <div class="toolbar" role="group" aria-label="Edition filter">
       <button class="active" data-edition="all">All editions</button>
       <button data-edition="india">India</button>
