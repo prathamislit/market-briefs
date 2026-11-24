@@ -95,6 +95,22 @@ class DailyReportTests(unittest.TestCase):
         self.assertEqual(desk["entries"][0]["status"], "stale")
         self.assertEqual(desk["entries"][0]["as_of"], "2026-11-14")
 
+    def test_restricted_source_notices_are_links_only_without_numbers(self):
+        result = compose_daily_report(self.briefs, generated_at="2026-11-24T12:00:00+00:00")
+        for key, notice_title in (
+            ("etf_flows", "ICI ETF statistics availability"),
+            ("earnings", "SEC EDGAR filings availability"),
+            ("india_markets", "NSE market-data reuse restriction"),
+        ):
+            notices = result["sections"][key]["notices"]
+            self.assertEqual(len(notices), 1)
+            self.assertEqual(notices[0]["title"], notice_title)
+            self.assertTrue(notices[0]["source_url"])
+        markdown = render_markdown(result)
+        self.assertIn("https://www.ici.org/research/statistics", markdown)
+        self.assertIn("No numerical ETF flow table is reproduced.", markdown)
+        self.assertIn("NSE market-data reuse restriction", markdown)
+
     def test_watchlist_has_dated_primary_event_without_forecasting(self):
         report = compose_daily_report(self.briefs, watchlist={"events": [
             {"title": "GDP release", "starts_at": "2026-11-25T13:30:00+00:00",

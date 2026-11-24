@@ -223,6 +223,7 @@
       const leads = entries.filter(entry => entry.kind === "headline_lead");
       const events = entries.filter(entry => entry.kind === "scheduled_event");
       const gaps = Array.isArray(desk.missing) ? desk.missing : [];
+      const notices = Array.isArray(desk.notices) ? desk.notices : [];
       return `<details class="daily-desk" open>
         <summary>${escapeHtml(label)} · ${escapeHtml(desk.status || "unavailable")}</summary>
         ${observationTable(observations)}
@@ -230,6 +231,9 @@
         ${events.map(scheduledEvent).join("")}
         ${!observations.length && !leads.length && !events.length ? '<p class="empty">No verified entries are available.</p>' : ""}
         ${gaps.length ? `<ul class="daily-gap">${gaps.map(gap => `<li><strong>Coverage gap:</strong> ${escapeHtml(gap)}</li>`).join("")}</ul>` : ""}
+        ${notices.length ? `<ul class="daily-gap">${notices.map(notice =>
+          `<li><strong>Source availability:</strong> ${evidenceLink(notice.source_url, notice.title)} — ${escapeHtml(notice.detail)}</li>`
+        ).join("")}</ul>` : ""}
       </details>`;
     }
     async function showDailyReport(entry) {
