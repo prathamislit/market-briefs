@@ -94,7 +94,13 @@ def _ics_time(key, value):
     match = re.search(r"(?:^|;)TZID=([^;:]+)", key)
     if match:
         try:
-            return parsed.replace(tzinfo=ZoneInfo(match.group(1))), False
+            zone = match.group(1)
+            # BLS labels its Eastern calendar with the legacy US-Eastern TZID.
+            # Resolve that documented regional alias to an IANA zone available
+            # on the GitHub runner, preserving daylight-saving transitions.
+            if zone == "US-Eastern":
+                zone = "America/New_York"
+            return parsed.replace(tzinfo=ZoneInfo(zone)), False
         except ZoneInfoNotFoundError as exc:
             raise ValueError("Unknown BLS event timezone") from exc
     raise ValueError("BLS event timestamp lacks timezone")

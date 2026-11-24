@@ -20,7 +20,7 @@ class WatchlistTests(unittest.TestCase):
                "Personal Income and Outlays": {"release_dates": ["2026-11-25T13:30:00+00:00"]},
                "Corporate Profits": {"release_dates": ["2026-11-25T13:30:00+00:00"]}}
         bls = ("BEGIN:VCALENDAR\r\nBEGIN:VEVENT\r\nSUMMARY:Employment\\, Situation\r\n"
-               "DTSTART;TZID=America/New_York:20261125T083000\r\nEND:VEVENT\r\n"
+               "DTSTART;TZID=US-Eastern:20261125T083000\r\nEND:VEVENT\r\n"
                "BEGIN:VEVENT\r\nSUMMARY:Older event\r\nDTSTART:20261123T133000Z\r\n"
                "END:VEVENT\r\nEND:VCALENDAR\r\n").encode()
         responses = {watchlist.BEA_URL: json.dumps(bea).encode(), watchlist.BLS_URL: bls}
