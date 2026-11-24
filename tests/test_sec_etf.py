@@ -94,6 +94,12 @@ class SECETFTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             sec_etf._xml(b'<!DOCTYPE a [<!ENTITY x "x">]><a>&x;</a>')
 
+    def test_reported_net_currency_uses_cents(self):
+        raw = filing().replace(b'sales="100" redemption="20" reinvestment="5"',
+                               b'sales="100.10" redemption="20.05" reinvestment="5.00"')
+        entry = sec_etf._parse_filing(raw, NEW_URL, NOW.date(), NOW)
+        self.assertEqual(entry["net_flows"][0]["reported_net_share_flow_usd"], 85.05)
+
 
 if __name__ == "__main__":
     unittest.main()

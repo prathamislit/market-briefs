@@ -29,7 +29,7 @@ MISSING = {
     "macro_policy": ["Policy mechanism and market causality require primary-source review."],
     "geopolitics": ["Affected assets, transmission mechanism, and uncertainty require verified analysis."],
     "earnings": ["Consensus comparisons, guidance, and price reactions remain unavailable."],
-    "us_policy_currency": ["Comprehensive federal-policy tracking, yields, and currency changes remain unavailable."],
+    "us_policy_currency": ["Comprehensive federal-policy coverage and verified market transmission remain unavailable."],
     "india_markets": ["Sensex, Nifty, breadth, movers, and dated FII/DII flows require verified observations."],
     "watchlist": ["Verified event schedules and upcoming releases remain unavailable."],
     "source_register": [],
@@ -125,7 +125,7 @@ def _add_leads(sections, briefs, generated_at):
             kinds.add("macro_policy")
         if "geopolitics" in categories:
             kinds.add("geopolitics")
-        if "earnings" in categories:
+        if "earnings" in categories and not re.search(r"\b(average hourly earnings|profit booking|employment earnings|wage earnings)\b", title):
             kinds.add("earnings")
         if "fx" in categories or (categories.intersection(("us", "rates")) and edition == "us"):
             kinds.add("us_policy_currency")
@@ -157,7 +157,7 @@ def compose_daily_report(briefs, *, market_data=None, watchlist=None, etf_data=N
     for asset in assets:
         if not isinstance(asset, dict):
             continue
-        entry = {k: asset.get(k) for k in ("name", "region", "level", "change", "change_percent", "unit", "as_of", "status", "note", "source", "original_source", "retrieved_at")}
+        entry = {k: asset.get(k) for k in ("name", "region", "level", "change", "change_percent", "unit", "as_of", "previous_as_of", "status", "note", "source", "original_source", "retrieved_at")}
         entry.update(kind="market_observation", source_url=_url(asset.get("source_url")))
         if not entry["name"]:
             continue
@@ -326,6 +326,9 @@ def render_markdown(report):
                 detail = (f"{entry.get('basis')} actual {entry.get('actual')} {entry.get('unit')}; "
                           f"period {entry.get('period_start')}–{entry.get('period_end')}; "
                           f"10-Q filed {entry.get('filed')}")
+                if entry.get("historical"):
+                    detail += (f"; historical filing, {entry.get('filing_age_days')} days old; "
+                               "newer 10-K or 8-K results may exist")
                 if entry.get("kind") == "earnings_comparison":
                     detail += (f"; issuer expectation {entry.get('expectation')} {entry.get('unit')}; "
                                f"actual minus expectation {entry.get('difference')} {entry.get('unit')}; "

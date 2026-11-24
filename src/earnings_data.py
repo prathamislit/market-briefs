@@ -75,7 +75,7 @@ def _tickers(raw):
     return found
 
 
-def _recent_filing(raw, now, days=7):
+def _recent_filing(raw, now, days=120):
     data = json.loads(raw)
     recent = data.get("filings", {}).get("recent", {})
     forms = recent.get("form", [])
@@ -223,7 +223,7 @@ def collect_earnings(now, fetcher=None):
     now = now.astimezone(timezone.utc)
     fetcher = fetcher or fetch_public
     output = {"retrieved_at": now.isoformat(), "entries": [], "failures": [],
-              "limitations": ["Coverage is limited to configured U.S. issuers and recent 10-Q filings.",
+              "limitations": ["Coverage is limited to seven U.S. issuers' latest 10-Q within 120 days; older filings are historical context.",
                               "Company guidance requires verified issuer text; reaction needs licensed prices.",
                               "Analyst consensus is unavailable unless published by the issuer before results."]}
     try:
@@ -283,6 +283,8 @@ def collect_earnings(now, fetcher=None):
                 output["entries"].append({
                     "kind": "earnings_comparison" if expected is not None else "earnings_actual",
                     "company": ticker, "metric": metric, **actual, "filed": filing["filed"],
+                    "filing_age_days": (now.date() - date.fromisoformat(filing["filed"])).days,
+                    "historical": filing["filed"] != now.date().isoformat(),
                     "source_url": source_url, "expectation": expected, "difference": delta,
                     "expectation_source_url": consensus_url if expected is not None else None,
                     "expectation_published": consensus["published"] if expected is not None else None,

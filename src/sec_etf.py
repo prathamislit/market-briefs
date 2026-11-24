@@ -123,7 +123,7 @@ def _parse_filing(raw, source_url, filing_date, now):
         flows.append({"reported_month": month, "sales_usd": float(sales),
                       "reinvestment_usd": float(reinvestment),
                       "redemption_usd": float(redemption),
-                      "reported_net_share_flow_usd": float(sales + reinvestment - redemption)})
+                      "reported_net_share_flow_usd": float(round(sales + reinvestment - redemption, 2))})
     if not flows:
         raise ValueError("SEC filing has no monthly share flow fields")
     positions = root.findall("n:formData/n:invstOrSecs/n:invstOrSec", n)

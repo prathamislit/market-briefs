@@ -34,6 +34,14 @@ class DailyReportTests(unittest.TestCase):
         self.assertNotIn("price_reaction", lead)
         self.assertIn("Consensus comparisons", result["sections"]["earnings"]["missing"][0])
 
+    def test_labor_earnings_and_profit_booking_are_not_company_results(self):
+        cards = [{"title": title, "source": "bls", "link": "https://www.bls.gov/news.release/",
+                  "publication_timestamp": "2026-11-23T12:00:00+00:00"}
+                 for title in ("Average Hourly Earnings rise", "India bonds see profit booking")]
+        self.briefs["us"]["sections"] = {"earnings": cards}
+        result = compose_daily_report(self.briefs, generated_at="2026-11-24T04:00:00+00:00")
+        self.assertEqual(result["sections"]["earnings"]["entries"], [])
+
     def test_retained_edition_headline_ages_against_this_run(self):
         self.briefs["us"]["sections"]["earnings"][0]["publication_freshness"] = "recent_window"
         result = compose_daily_report(self.briefs, generated_at="2026-12-10T04:00:00+00:00")

@@ -89,11 +89,20 @@ class EarningsTests(unittest.TestCase):
         self.assertEqual(result["entries"][0]["metric"], "Revenue")
 
     def test_stale_filing_not_reported_as_current(self):
-        result = earnings.collect_earnings(datetime(2026, 11, 24, tzinfo=timezone.utc), fixture().__getitem__)
+        result = earnings.collect_earnings(datetime(2027, 2, 22, tzinfo=timezone.utc), fixture().__getitem__)
         self.assertEqual(result["entries"], [])
+
+    def test_older_filing_is_explicitly_historical(self):
+        result = earnings.collect_earnings(datetime(2026, 11, 24, tzinfo=timezone.utc), fixture().__getitem__)
+        self.assertEqual(len(result["entries"]), 2)
+        self.assertTrue(all(row["historical"] and row["filing_age_days"] == 33 for row in result["entries"]))
 
     def test_post_results_consensus_rejected(self):
         result = earnings.collect_earnings(NOW, fixture(consensus_date="Oct 22, 2026").__getitem__)
+        self.assertTrue(all(entry["status"] == "actual_only" for entry in result["entries"]))
+
+    def test_same_day_consensus_rejected(self):
+        result = earnings.collect_earnings(NOW, fixture(consensus_date="Oct 21, 2026").__getitem__)
         self.assertTrue(all(entry["status"] == "actual_only" for entry in result["entries"]))
 
     def test_missing_results_release_rejects_consensus(self):

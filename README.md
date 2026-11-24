@@ -205,7 +205,8 @@ The contact identifies research requests; it grants no market-data rights.
 `src/earnings_data.py` reads SEC submissions and company facts.
 Tracked issuers are AAPL, MSFT, NVDA, AMZN, JPM, XOM, TSLA.
 Coverage uses recent 10-Q or amended 10-Q filings.
-The filing window is seven calendar days.
+The latest 10-Q filing window spans at most 120 calendar days.
+Historical filings show their filing age and may predate newer results.
 Quarterly GAAP revenue and diluted EPS require matching filing evidence.
 Facts must match the filing's accession and reporting period.
 Revenue displays USD millions; diluted EPS displays USD/share.
