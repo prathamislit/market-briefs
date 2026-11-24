@@ -35,6 +35,27 @@ MISSING = {
     "source_register": [],
 }
 
+AVAILABILITY_NOTICES = {
+    "etf_flows": {
+        "title": "ICI ETF statistics availability",
+        "detail": "ICI asks for permission to reproduce underlying ETF statistics and states that data is available to members/subscribers and not for republication. No numerical ETF flow table is reproduced.",
+        "source": "Investment Company Institute",
+        "source_url": "https://www.ici.org/research/statistics",
+    },
+    "earnings": {
+        "title": "SEC EDGAR filings availability",
+        "detail": "SEC EDGAR provides actual public filings, but this project has no verified consensus-estimate or post-result reaction dataset. Guidance, consensus comparisons, and reactions remain unavailable.",
+        "source": "U.S. Securities and Exchange Commission",
+        "source_url": "https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data",
+    },
+    "india_markets": {
+        "title": "NSE market-data reuse restriction",
+        "detail": "NSE's data policy prohibits redistribution of market data absent a separate agreement. Sensex, Nifty, breadth, movers, and FII/DII figures remain unavailable.",
+        "source": "National Stock Exchange of India",
+        "source_url": "https://www.nseindia.com/static/market-data/nse-data-policy",
+    },
+}
+
 
 def _url(value):
     try:
@@ -182,6 +203,9 @@ def compose_daily_report(briefs, *, market_data=None, watchlist=None, generated_
             detail = str(failure)
         sections["watchlist"]["missing"].append("Schedule source unavailable: " + detail)
 
+    for key, notice in AVAILABILITY_NOTICES.items():
+        sections[key]["notices"] = [dict(notice)]
+
     for key, desk in sections.items():
         if key == "source_register":
             healthy = [e for e in desk["entries"] if e.get("status") == "ok"]
@@ -242,6 +266,14 @@ def render_markdown(report):
             lines.extend((f"- **{name}** — {detail}",))
         for gap in desk["missing"]:
             lines.append("- **Unavailable:** " + html.escape(str(gap)))
+        for notice in desk.get("notices", []):
+            title = html.escape(str(notice["title"]))
+            detail = html.escape(str(notice["detail"]))
+            url = _url(notice.get("source_url"))
+            if url:
+                url = url.replace("(", "%28").replace(")", "%29").replace("<", "%3C").replace(">", "%3E")
+                title = f"[{title}]({url})"
+            lines.append("- **Source availability:** " + title + " — " + detail)
         lines.append("")
     lines.extend(("## Limitations", ""))
     lines.extend("- " + html.escape(item) for item in report["limitations"])
