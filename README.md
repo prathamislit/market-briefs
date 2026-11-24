@@ -12,6 +12,7 @@ Workflow results establish current deployment and collection status.
 ## What it produces
 
 Each edition creates timestamped JSON and Markdown reports.
+Daily Markets combines the latest available editions and public observations.
 A static dashboard displays reports, source health, and archives.
 Sections cover macro, rates, FX, energy, commodities, and earnings.
 India, US, overview, and geopolitics filters are also available.
@@ -25,15 +26,21 @@ The collector does not download full articles or bypass paywalls.
 
 ## Editions and schedules
 
-| Edition | Weekday target | Trading calendar |
+| Output | Target | Calendar behavior |
 | --- | --- | --- |
-| India | 08:15 Asia/Kolkata | Official NSE equity holiday API |
-| United States | 08:15 America/New_York | NYSE calendar through pandas-market-calendars |
+| Daily Markets | Daily, 08:00 America/New_York | Uses latest available observations and editions |
+| India edition | Weekdays, 08:15 Asia/Kolkata | Official NSE equity holiday API |
+| United States edition | Weekdays, 08:15 America/New_York | NYSE calendar through pandas-market-calendars |
 
-US scheduling follows New York daylight-saving transitions.
+New York schedules follow daylight-saving transitions.
+These are execution targets, not guaranteed publication times.
 GitHub can delay scheduled workflow execution.
-The collector accepts starts between 08:15 and 09:45 locally.
-It never publishes scheduled editions before the target time.
+Daily Markets runs on weekends and exchange holidays too.
+It preserves underlying edition dates and observation dates.
+The 08:00 report can precede the new US edition.
+
+Edition collectors accept starts between 08:15 and 09:45 locally.
+They never publish scheduled editions before the target time.
 Weekends and confirmed holidays are skipped.
 An unavailable calendar cannot establish an eligible trading session.
 In-window calendar failure exits unsuccessfully without creating an edition.
@@ -79,6 +86,15 @@ Both commands write into `docs/` by default.
 Successful collection requires reachable configured public feed endpoints.
 The calendar dependency is required for live US calendar verification.
 
+Compose and archive Daily Markets separately:
+
+```sh
+python src/orchestrate_daily.py
+```
+
+This uses the latest saved editions and current public inputs.
+Missing inputs remain explicit; the composer does not invent evidence.
+
 Serve the dashboard over HTTP; opening files directly prevents fetching:
 
 ```sh
@@ -118,6 +134,89 @@ Synthetic output must use a separate directory.
 The collector rejects fixture writes into the published `docs/` directory.
 `--at` requires fixture mode and a timezone offset.
 
+## Daily Markets evidence
+
+Daily Markets separates observations, headline leads, and unavailable evidence.
+Every observation includes its source and observation date.
+Retrieval time never substitutes for the underlying data date.
+
+| Desk | Included evidence |
+| --- | --- |
+| Cross-asset dashboard | Configured dated public market observations |
+| ETF flows and positioning | Relevant leads; unavailable flows identified explicitly |
+| Macro and policy | Relevant public-source headline leads |
+| Geopolitics | Relevant leads and missing causal evidence |
+| Companies and earnings | Relevant leads; unverified comparisons remain unavailable |
+| United States policy and currency | Available observations and policy leads |
+| India markets | Available observations, relevant leads, and explicit gaps |
+| What matters next | Dated official events when collection succeeds |
+| Source register | Public source status, provenance, and diagnostics |
+
+`config/markets.json` configures ten public FRED CSV series.
+Original agencies remain identified alongside FRED distribution links.
+These are dated observations, not real-time market quotes.
+
+| Observation group | Configured series |
+| --- | --- |
+| US Treasury yields | 2-year, 10-year, and 30-year |
+| Exchange rates | USD/INR, USD/CNY, USD/JPY, and USD/EUR |
+| Energy spot prices | WTI, Brent, and Henry Hub natural gas |
+
+Rates and FX become stale after five calendar days.
+Energy observations become stale after ten calendar days.
+Age is measured against the UTC report date.
+Changes compare the latest two numeric observations.
+Those observations can span holidays and missing-data intervals.
+Yield changes use percentage points, not percentage returns.
+
+Unavailable groups remain visible in the report.
+These include equity closes, credit, VIX, crypto, and metals.
+ETF flows and positioning need another verified data source.
+India indices, breadth, movers, and FII/DII remain explicitly unavailable.
+Headlines cannot establish actual levels, consensus, or market reactions.
+A relevant lead does not establish a verified causal mechanism.
+No private email content or metadata enters these public reports.
+
+The watchlist reads official BEA and BLS release calendars.
+It selects upcoming events within the next 72 hours.
+Timed events retain their exact UTC timestamps.
+Date-only events retain dates without fabricated release times.
+Each calendar failure remains explicit; other calendars can still contribute.
+Earnings calendars and other agencies are not comprehensively covered.
+No calendar configuration or authentication is required.
+
+Run the added components' offline regression tests:
+
+```sh
+python3 -m unittest discover -s tests -p 'test_market_data.py' -v
+python3 -m unittest discover -s tests -p 'test_daily_report.py' -v
+python3 -m unittest discover -s tests -p 'test_watchlist.py' -v
+python3 -m unittest discover -s tests -p 'test_orchestrate_daily.py' -v
+```
+
+Tests inject public-data fixtures instead of calling live providers.
+The existing reproducibility command still checks fixed-input edition output.
+
+## Archives
+
+| Path | Contents |
+| --- | --- |
+| `docs/reports/` | Latest edition files for each market date |
+| `docs/reports/manifest.json` | Bounded edition-date dashboard index |
+| `docs/runs/` | Separate live-edition JSON snapshots for generated reports |
+| `docs/runs/manifest.json` | Edition-run archive index |
+| `docs/daily/` | Timestamped Daily Markets JSON and Markdown reports |
+| `docs/daily/manifest.json` | Daily Markets archive index |
+
+Repeated same-day reports keep separate archived versions.
+Archive filenames include timestamps, run identifiers, and attempt numbers.
+Skipped invocations remain visible in GitHub Actions logs.
+Fixture replay does not enter the live-edition archive.
+Published JSON preserves the report and its source register.
+It does not preserve every upstream response verbatim.
+Exact historical live recomposition is therefore not promised.
+Fixture replay verifies deterministic behavior for its fixed inputs.
+
 ## GitHub automation setup
 
 The repository includes ordinary GitHub Actions workflows.
@@ -135,6 +234,8 @@ GitHub's account limits and policies still apply.
 7. Open the dashboard after successful deployment.
 
 The publishing workflow installs dependencies and runs regression checks.
+Its daily target is 08:00 Eastern, including weekends.
+The two local-market edition targets remain scheduled separately.
 It verifies fixture reproducibility before collecting live reports.
 Action references use verified, immutable upstream commit SHAs.
 A shared concurrency group serializes publishing runs.
@@ -150,7 +251,8 @@ Forks require their own Actions and Pages configuration.
 
 ## Configuration and data boundaries
 
-`config/default.json` controls sources, retrieval limits, and caching.
+`config/default.json` controls news sources, retrieval limits, and caching.
+`config/markets.json` controls public market-observation series.
 Use `--config PATH` to supply another complete configuration.
 Edition timezone presets document the intended schedules.
 Workflow cron entries remain in `.github/workflows/build.yml`.
@@ -169,9 +271,10 @@ Changing a preset alone does not change GitHub's schedule.
 | Last-good cache fallback lifetime | 14 days |
 | Publication retention window | 7 days |
 | Cache entries | 366 |
-| Dashboard manifest entries | 366 |
+| Edition-date dashboard manifest entries | 366 |
 
-The manifest bound limits the displayed archive.
+The edition-date manifest bound limits that dashboard index.
+Per-run and daily archive manifests remain separate.
 Previously committed report files remain in repository history.
 The local cache is excluded from Git commits.
 Fresh GitHub runners do not inherit earlier local cache files.
@@ -214,6 +317,7 @@ This is a feed-based briefing and archive tool.
 It cannot establish every catalyst or explain every market move.
 It does not promise complete policy, earnings, or paywalled coverage.
 It includes no guaranteed real-time prices or consensus estimates.
+Public market series can lag their underlying observation dates.
 Headline deduplication does not identify every overlapping story.
 Calendar data can fail or omit exceptional exchange sessions.
 Manual forced runs can occur outside eligible trading sessions.

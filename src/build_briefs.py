@@ -712,6 +712,27 @@ def write_report(report):
     })
     manifest = sorted(manifest, key=lambda x: (x["date"], x["edition"]), reverse=True)[:366]
     atomic_write(manifest_path, json.dumps(manifest, indent=2) + "\n")
+    if not report.get("synthetic_fixture"):
+        archive_run(report)
+
+def archive_run(report):
+    """Record each live invocation separately, including repeated daily builds."""
+    directory = DOCS / "runs"
+    directory.mkdir(parents=True, exist_ok=True)
+    stamp = report["publication_timestamp"].replace("-", "").replace(":", "").replace("+0000", "Z").replace("+00:00", "Z")
+    run_id = os.environ.get("GITHUB_RUN_ID", "local")
+    attempt = os.environ.get("GITHUB_RUN_ATTEMPT", "1")
+    filename = f"{report['edition']}-{stamp}-{run_id}-{attempt}.json"
+    path = directory / filename
+    if path.exists():
+        raise FileExistsError(f"Archived run already exists: {path}")
+    atomic_write(path, json.dumps(report, indent=2, ensure_ascii=False) + "\n")
+    ledger = directory / "manifest.json"
+    history = json.loads(ledger.read_text()) if ledger.exists() else []
+    history.insert(0, {"edition": report["edition"], "date": report["date"],
+                       "published": report["publication_timestamp"], "freshness": report["freshness"],
+                       "run_id": run_id, "attempt": attempt, "json": filename})
+    atomic_write(ledger, json.dumps(history, indent=2) + "\n")
 
 def build_dashboard():
     manifest_path = REPORTS / "manifest.json"

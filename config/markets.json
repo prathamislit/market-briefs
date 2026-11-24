@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "provider": "Federal Reserve Bank of St. Louis (FRED public CSV; original agencies shown per series)",
+  "series": [
+    {"id":"DGS2","name":"US Treasury 2-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15","max_age_days":5},
+    {"id":"DGS10","name":"US Treasury 10-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15","max_age_days":5},
+    {"id":"DGS30","name":"US Treasury 30-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15","max_age_days":5},
+    {"id":"DEXINUS","name":"USD/INR (New York noon buying rate)","region":"india","unit":"INR per USD","source":"Federal Reserve Board, H.10","max_age_days":5},
+    {"id":"DEXCHUS","name":"USD/CNY (New York noon buying rate)","region":"china","unit":"CNY per USD","source":"Federal Reserve Board, H.10","max_age_days":5},
+    {"id":"DEXJPUS","name":"USD/JPY (New York noon buying rate)","region":"japan","unit":"JPY per USD","source":"Federal Reserve Board, H.10","max_age_days":5},
+    {"id":"DEXUSEU","name":"EUR/USD (New York noon buying rate)","region":"global","unit":"USD per EUR","source":"Federal Reserve Board, H.10","max_age_days":5},
+    {"id":"DCOILWTICO","name":"WTI crude oil spot","region":"global","unit":"USD per barrel","source":"US Energy Information Administration","max_age_days":10},
+    {"id":"DCOILBRENTEU","name":"Brent crude oil spot","region":"global","unit":"USD per barrel","source":"US Energy Information Administration","max_age_days":10},
+    {"id":"DHHNGSP","name":"Henry Hub natural gas spot","region":"global","unit":"USD per MMBtu","source":"US Energy Information Administration","max_age_days":10}
+  ],
+  "unavailable": [
+    {"name":"S&P 500, Nasdaq, Dow and global equity closes","region":"us","note":"Index prices require a verified source with permitted redistribution."},
+    {"name":"Credit spread, VIX and Bitcoin","region":"global","note":"A suitable timely public source is not configured."},
+    {"name":"Gold, silver and copper","region":"global","note":"A suitable timely public source is not configured."},
+    {"name":"ETF flows and positioning","region":"us","note":"No current verified fund-flow provider is configured."},
+    {"name":"Sensex and Nifty 50 closing levels","region":"india","note":"Official index market-data licensing has not been established."},
+    {"name":"Nifty Bank, India VIX, mid-cap and small-cap indices","region":"india","note":"Official index market-data licensing has not been established."},
+    {"name":"India breadth, turnover, gainers, losers and sector performance","region":"india","note":"Official market-data licensing has not been established."},
+    {"name":"India FII and DII cash-market flows","region":"india","note":"No verified permitted daily flow feed is configured."}
+  ]
+}

@@ -46,6 +46,19 @@
     button { min-height:42px; }
     button:focus-visible, a:focus-visible, summary:focus-visible { outline:2px solid var(--amber); outline-offset:3px; }
     .source-list, .meta, .story-meta { overflow-wrap:anywhere; line-height:1.5; }
+    .daily-section { margin-bottom:32px; }
+    .daily-section > h2 { margin:0 0 8px; }
+    .daily-controls { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin:16px 0; }
+    select { max-width:100%; min-height:42px; border:1px solid var(--line); background:var(--panel); color:var(--ink); padding:8px; }
+    .daily-desk { padding:14px 0; }
+    .daily-desk > summary { font-weight:600; }
+    .daily-gap { color:var(--muted); line-height:1.5; }
+    .table-scroll { overflow-x:auto; margin:14px 0; }
+    table { width:100%; border-collapse:collapse; font-size:13px; }
+    th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { color:var(--muted); font-weight:500; }
+    td.numeric { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    caption { text-align:left; color:var(--muted); margin-bottom:10px; }
     noscript { display:block; padding:16px; border:1px solid var(--line); }
     @media (max-width:700px) { .grid, .source-list { grid-template-columns:1fr; } header { padding-top:16px; padding-bottom:16px; } h1 { font-size:24px; } }
   </style>
@@ -60,6 +73,15 @@
       <strong>Not financial advice.</strong>
       <p>Personal academic research portfolio. Not investment advice. Not a solicitation. No services offered. Frameworks are informational research outputs.</p>
     </aside>
+    <section class="daily-section" aria-labelledby="daily-title">
+      <h2 id="daily-title">Daily Markets</h2>
+      <p class="meta">Evidence, observations, and explicit gaps across eight research sections.</p>
+      <div id="daily-controls" class="daily-controls"></div>
+      <div id="daily-report" class="grid" aria-live="polite" aria-busy="true">
+        <article class="card report"><p>Loading Daily Markets editions…</p></article>
+      </div>
+    </section>
+    <h2>Market editions</h2>
     <div class="toolbar" role="group" aria-label="Edition filter">
       <button class="active" data-edition="all">All editions</button>
       <button data-edition="india">India</button>
@@ -95,6 +117,19 @@
     }
     const root = document.getElementById("briefs");
     const archiveControl = document.getElementById("archive-control");
+    const dailyRoot = document.getElementById("daily-report");
+    const dailyControls = document.getElementById("daily-controls");
+    let dailyRenderVersion = 0;
+    const dailyDesks = [
+      ["cross_asset", "Cross-asset dashboard"],
+      ["etf_flows", "ETF flows and positioning"],
+      ["macro_policy", "Macro and policy"],
+      ["geopolitics", "Geopolitics and market transmission"],
+      ["earnings", "Companies and earnings"],
+      ["us_policy_currency", "US policy and currency"],
+      ["india_markets", "India market intelligence"],
+      ["watchlist", "Next 24–72 hours"]
+    ];
     function escapeHtml(value) {
       return String(value ?? "").replace(/[&<>"']/g, character => ({
         "&": "&amp;",
@@ -119,6 +154,142 @@
         throw new Error("Invalid report filename");
       }
       return `reports/${filename}`;
+    }
+    function dailyPath(filename, extension) {
+      if (typeof filename !== "string" || !new RegExp(`^[0-9]{8}T[0-9]{12}Z-(?:[0-9]+|local)-[0-9]+\\.${extension}$`).test(filename)) {
+        throw new Error("Invalid Daily Markets filename");
+      }
+      return `daily/${filename}`;
+    }
+    function evidenceLink(url, label) {
+      const safe = safeUrl(url);
+      return safe ? `<a href="${escapeHtml(safe)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>` : escapeHtml(label);
+    }
+    function displayNumber(value) {
+      return typeof value === "number" && Number.isFinite(value) ? escapeHtml(value) : "Unavailable";
+    }
+    function observationTable(entries) {
+      if (!entries.length) return "";
+      const rows = entries.map(entry => {
+        const measured = (entry.status === "ok" || entry.status === "stale") && typeof entry.level === "number" && Number.isFinite(entry.level);
+        const note = entry.note ? `<div class="meta">${escapeHtml(entry.note)}</div>` : "";
+        return `<tr>
+          <td>${evidenceLink(entry.source_url, entry.name || "Unnamed asset")}<div class="meta">${escapeHtml(entry.region || "Unknown region")}${entry.original_source ? `<br>${escapeHtml(entry.original_source)}` : ""}</div></td>
+          <td class="numeric">${measured ? displayNumber(entry.level) : "Unavailable"}<div class="meta">${escapeHtml(entry.unit || "")}</div></td>
+          <td class="numeric">${measured ? displayNumber(entry.change) : "Unavailable"}</td>
+          <td class="numeric">${measured && typeof entry.change_percent === "number" && Number.isFinite(entry.change_percent) ? `${displayNumber(entry.change_percent)}%` : "Unavailable"}</td>
+          <td>${escapeHtml(entry.as_of || "Unavailable")}</td>
+          <td>${escapeHtml(entry.status || "unavailable")}${note}</td>
+        </tr>`;
+      }).join("");
+      return `<div class="table-scroll" role="region" aria-label="Market observations" tabindex="0"><table>
+        <caption>Latest source observations. Changes compare available observations, not necessarily consecutive sessions.</caption>
+        <thead><tr><th scope="col">Asset</th><th scope="col">Level</th><th scope="col">Change, series units</th><th scope="col">Change %</th><th scope="col">Observation date</th><th scope="col">Coverage</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+    }
+    function dailyLead(entry) {
+      return `<article>
+        <h3>${evidenceLink(entry.source_url, entry.title || "Source lead")}</h3>
+        <div class="story-meta">Source headline lead · ${escapeHtml(entry.source || "Unknown source")} · Published ${escapeHtml(entry.as_of || "Unknown")} · ${escapeHtml(entry.freshness || "unknown")}${entry.retained ? " · Retained earlier content" : ""}</div>
+        <p>${escapeHtml(entry.detail || "Inspect the original source.")}</p>
+      </article>`;
+    }
+    function scheduledEvent(entry) {
+      return `<article>
+        <h3>${evidenceLink(entry.source_url, entry.title || "Scheduled event")}</h3>
+        <div class="story-meta">Primary-source schedule · ${escapeHtml(entry.source || "Unknown source")}<br>
+          ${entry.all_day ? "Scheduled date; time unspecified" : "Scheduled"}: ${escapeHtml(entry.as_of || "Unavailable")}</div>
+        <p>${escapeHtml(entry.detail || "Scheduled release; outcome unknown.")}</p>
+      </article>`;
+    }
+    function sourceDiagnostics(report) {
+      const register = report.sections?.source_register;
+      const sources = Array.isArray(register?.entries) ? register.entries.filter(entry => entry && typeof entry === "object") : [];
+      if (!sources.length) return '<details><summary>Source diagnostics</summary><p class="empty">No source-register entries are available.</p></details>';
+      return `<details><summary>Source diagnostics · ${sources.length} feed checks</summary>
+        <div class="source-list">${sources.map(entry => `<div class="source ${entry.status === "ok" ? "ok" : "bad"}">
+          <strong>${evidenceLink(entry.source_url, entry.source || "Unknown source")}</strong><br>
+          Edition: ${escapeHtml(entry.edition || "Unknown")} · Status: ${escapeHtml(entry.status || "unknown")}<br>
+          Checked: ${escapeHtml(entry.as_of || "Unknown")}<br>
+          Last success: ${escapeHtml(entry.last_success || "None")}
+          ${entry.error ? `<p>${escapeHtml(entry.error)}</p>` : ""}
+        </div>`).join("")}</div>
+      </details>`;
+    }
+    function dailyDesk(report, key, label) {
+      const desk = report.sections?.[key] || {};
+      const entries = Array.isArray(desk.entries) ? desk.entries.filter(entry => entry && typeof entry === "object") : [];
+      const observations = entries.filter(entry => entry.kind === "market_observation");
+      const leads = entries.filter(entry => entry.kind === "headline_lead");
+      const events = entries.filter(entry => entry.kind === "scheduled_event");
+      const gaps = Array.isArray(desk.missing) ? desk.missing : [];
+      return `<details class="daily-desk" open>
+        <summary>${escapeHtml(label)} · ${escapeHtml(desk.status || "unavailable")}</summary>
+        ${observationTable(observations)}
+        ${leads.map(dailyLead).join("")}
+        ${events.map(scheduledEvent).join("")}
+        ${!observations.length && !leads.length && !events.length ? '<p class="empty">No verified entries are available.</p>' : ""}
+        ${gaps.length ? `<ul class="daily-gap">${gaps.map(gap => `<li><strong>Coverage gap:</strong> ${escapeHtml(gap)}</li>`).join("")}</ul>` : ""}
+      </details>`;
+    }
+    async function showDailyReport(entry) {
+      const version = ++dailyRenderVersion;
+      dailyRoot.setAttribute("aria-busy", "true");
+      dailyRoot.innerHTML = '<article class="card report"><p>Loading Daily Markets report…</p></article>';
+      try {
+        const response = await fetch(dailyPath(entry.json, "json"));
+        if (!response.ok) throw new Error("Daily Markets report unavailable");
+        const report = await response.json();
+        const markdown = dailyPath(entry.markdown, "md");
+        const json = dailyPath(entry.json, "json");
+        const gaps = Array.isArray(report.limitations) ? report.limitations : [];
+        const markup = `<article class="card report latest">
+          <h2>${escapeHtml(report.title || "Daily Markets")} · ${escapeHtml(entry.date || "")}</h2>
+          <p class="meta">Published ${escapeHtml(report.generated_at || entry.generated_at || "Unknown")}<br>
+            India source edition: ${escapeHtml(report.edition_dates?.india || "Unavailable")} · US source edition: ${escapeHtml(report.edition_dates?.us || "Unavailable")}</p>
+          <div class="notice">Headlines are investigation leads. Observation dates determine data freshness. Missing values remain unavailable.</div>
+          ${dailyDesks.map(([key, label]) => dailyDesk(report, key, label)).join("")}
+          ${sourceDiagnostics(report)}
+          ${gaps.length ? `<details><summary>Coverage and limitations</summary><ul>${gaps.map(gap => `<li>${escapeHtml(gap)}</li>`).join("")}</ul></details>` : ""}
+          <div class="links"><a href="${escapeHtml(markdown)}" download>Download Daily Markets Markdown</a><a href="${escapeHtml(json)}" download>Download Daily Markets JSON</a></div>
+        </article>`;
+        if (version === dailyRenderVersion) dailyRoot.innerHTML = markup;
+      } catch (error) {
+        if (version === dailyRenderVersion) dailyRoot.innerHTML = `<article class="card report"><h2>Daily Markets unavailable</h2><p class="meta">${escapeHtml(error.message)}</p></article>`;
+      } finally {
+        if (version === dailyRenderVersion) dailyRoot.setAttribute("aria-busy", "false");
+      }
+    }
+    async function loadDailyManifest() {
+      try {
+        const response = await fetch("daily/manifest.json", {cache: "no-store"});
+        if (response.status === 404) {
+          dailyRoot.innerHTML = '<article class="card report"><p>No Daily Markets reports yet.</p><p class="meta">A successful scheduled run will publish the first report.</p></article>';
+          dailyRoot.setAttribute("aria-busy", "false");
+          return;
+        }
+        if (!response.ok) throw new Error("Daily Markets index unavailable");
+        const data = await response.json();
+        if (!Array.isArray(data)) throw new Error("Daily Markets index is invalid");
+        const entries = data.filter(entry => {
+          try { dailyPath(entry.json, "json"); dailyPath(entry.markdown, "md"); return true; }
+          catch (_) { return false; }
+        }).sort((a, b) => String(b.generated_at || b.date).localeCompare(String(a.generated_at || a.date)));
+        if (!entries.length) {
+          dailyRoot.innerHTML = '<article class="card report"><p>No Daily Markets reports yet.</p></article>';
+          dailyRoot.setAttribute("aria-busy", "false");
+          return;
+        }
+        dailyControls.innerHTML = `<label for="daily-edition">Daily Markets archive</label><select id="daily-edition">${entries.map((entry, index) => `<option value="${index}">${escapeHtml(entry.generated_at || entry.date || "Unknown date")}${index === 0 ? " · Latest" : ""}</option>`).join("")}</select>`;
+        document.getElementById("daily-edition").addEventListener("change", event => {
+          const entry = entries[Number(event.target.value)];
+          if (entry) showDailyReport(entry);
+        });
+        await showDailyReport(entries[0]);
+      } catch (error) {
+        dailyRoot.innerHTML = `<article class="card report"><h2>Daily Markets unavailable</h2><p class="meta">${escapeHtml(error.message)}. Market editions remain accessible below.</p></article>`;
+        dailyRoot.setAttribute("aria-busy", "false");
+      }
     }
     function sourceCard(source) {
       const state = source.status === "ok" ? "ok" : source.status === "no_items" ? "" : "bad";
@@ -239,6 +410,7 @@
     }));
     document.querySelectorAll("button[data-edition], button[data-section]").forEach(button => button.setAttribute("aria-pressed", String(button.classList.contains("active"))));
     render();
+    loadDailyManifest();
   </script>
 </body>
 </html>

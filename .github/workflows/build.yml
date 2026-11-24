@@ -17,6 +17,8 @@ on:
         default: both
         options: [both, india, us]
   schedule:
+    - cron: "0 8 * * *"
+      timezone: America/New_York
     - cron: "15 8 * * 1-5"
       timezone: Asia/Kolkata
     - cron: "15 8 * * 1-5"
@@ -54,8 +56,10 @@ jobs:
           python -m pip install --disable-pip-version-check -r requirements.txt
           python -c "import pandas_market_calendars"
       - name: Test collector and trading calendars
+        id: tests
         run: python -m unittest discover -s tests -v
       - name: Verify deterministic offline replay
+        id: replay
         run: python scripts/reproduce.py
       - name: Generate editions
         id: generate
@@ -79,8 +83,28 @@ jobs:
           if [[ "$result" == 1 ]]; then
             echo "::warning::An edition failed collection. Available editions and explicit source diagnostics will publish; the collection-health job will fail."
           fi
+      - name: Compose Daily Markets report
+        id: daily
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [[ "$EVENT_NAME" == "push" || "$EVENT_NAME" == "workflow_dispatch" || "$EVENT_SCHEDULE" == "0 8 * * *" ]]; then
+            python src/orchestrate_daily.py
+          fi
+      - name: Archive workflow attempt
+        if: always()
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          STEP_TESTS: ${{ steps.tests.outcome }}
+          STEP_REPLAY: ${{ steps.replay.outcome }}
+          STEP_GENERATE: ${{ steps.generate.outcome }}
+          STEP_DAILY: ${{ steps.daily.outcome }}
+          COLLECTION_FAILED: ${{ steps.generate.outputs.collection_failed }}
+        run: python src/record_workflow.py
       - name: Commit available reports and source diagnostics
         id: reports
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
