@@ -1,9 +1,17 @@
 [
   {
+    "edition": "india",
+    "date": "2026-11-25",
+    "publication_timestamp": "2026-11-24T18:37:01.164233+00:00",
+    "retrieval_timestamp": "2026-11-24T18:37:01.164233+00:00",
+    "json": "india-2026-11-25.json",
+    "markdown": "india-2026-11-25.md"
+  },
+  {
     "edition": "us",
     "date": "2026-11-24",
-    "publication_timestamp": "2026-11-24T11:17:07.216819+00:00",
-    "retrieval_timestamp": "2026-11-24T11:17:07.216819+00:00",
+    "publication_timestamp": "2026-11-24T18:37:04.087918+00:00",
+    "retrieval_timestamp": "2026-11-24T18:37:04.087918+00:00",
     "json": "us-2026-11-24.json",
     "markdown": "us-2026-11-24.md"
   },

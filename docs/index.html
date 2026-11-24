@@ -105,7 +105,7 @@
     <div id="archive-control" class="toolbar"></div>
   </main>
   <script>
-    const manifest = [{"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:07.216819+00:00", "retrieval_timestamp": "2026-11-24T11:17:07.216819+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
+    const manifest = [{"edition": "india", "date": "2026-11-25", "publication_timestamp": "2026-11-24T18:37:01.164233+00:00", "retrieval_timestamp": "2026-11-24T18:37:01.164233+00:00", "json": "india-2026-11-25.json", "markdown": "india-2026-11-25.md"}, {"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T18:37:04.087918+00:00", "retrieval_timestamp": "2026-11-24T18:37:04.087918+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
     let edition = "all";
     let section = "all";
     let visibleCount = 12;
@@ -223,6 +223,7 @@
       const leads = entries.filter(entry => entry.kind === "headline_lead");
       const events = entries.filter(entry => entry.kind === "scheduled_event");
       const gaps = Array.isArray(desk.missing) ? desk.missing : [];
+      const notices = Array.isArray(desk.notices) ? desk.notices : [];
       return `<details class="daily-desk" open>
         <summary>${escapeHtml(label)} · ${escapeHtml(desk.status || "unavailable")}</summary>
         ${observationTable(observations)}
@@ -230,6 +231,9 @@
         ${events.map(scheduledEvent).join("")}
         ${!observations.length && !leads.length && !events.length ? '<p class="empty">No verified entries are available.</p>' : ""}
         ${gaps.length ? `<ul class="daily-gap">${gaps.map(gap => `<li><strong>Coverage gap:</strong> ${escapeHtml(gap)}</li>`).join("")}</ul>` : ""}
+        ${notices.length ? `<ul class="daily-gap">${notices.map(notice =>
+          `<li><strong>Source availability:</strong> ${evidenceLink(notice.source_url, notice.title)} — ${escapeHtml(notice.detail)}</li>`
+        ).join("")}</ul>` : ""}
       </details>`;
     }
     async function showDailyReport(entry) {
