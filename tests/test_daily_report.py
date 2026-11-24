@@ -37,7 +37,8 @@ class DailyReportTests(unittest.TestCase):
     def test_labor_earnings_and_profit_booking_are_not_company_results(self):
         cards = [{"title": title, "source": "bls", "link": "https://www.bls.gov/news.release/",
                   "publication_timestamp": "2026-11-23T12:00:00+00:00"}
-                 for title in ("Average Hourly Earnings rise", "India bonds see profit booking")]
+                 for title in ("Average Hourly Earnings rise", "India bonds see profit booking",
+                               "Major Economic Indicators Latest Numbers")]
         self.briefs["us"]["sections"] = {"earnings": cards}
         result = compose_daily_report(self.briefs, generated_at="2026-11-24T04:00:00+00:00")
         self.assertEqual(result["sections"]["earnings"]["entries"], [])

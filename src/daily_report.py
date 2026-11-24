@@ -125,7 +125,8 @@ def _add_leads(sections, briefs, generated_at):
             kinds.add("macro_policy")
         if "geopolitics" in categories:
             kinds.add("geopolitics")
-        if "earnings" in categories and not re.search(r"\b(average hourly earnings|profit booking|employment earnings|wage earnings)\b", title):
+        if ("earnings" in categories and item.get("source") not in ("bls", "bea", "fed", "eia")
+                and not re.search(r"\b(average hourly earnings|profit booking|employment earnings|wage earnings)\b", title)):
             kinds.add("earnings")
         if "fx" in categories or (categories.intersection(("us", "rates")) and edition == "us"):
             kinds.add("us_policy_currency")
