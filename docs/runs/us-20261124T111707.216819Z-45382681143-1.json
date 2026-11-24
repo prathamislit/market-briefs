@@ -1,0 +1,2422 @@
+{
+  "edition": "us",
+  "market": "United States",
+  "date": "2026-11-24",
+  "publication_timestamp": "2026-11-24T11:17:07.216819+00:00",
+  "retrieval_timestamp": "2026-11-24T11:17:07.216819+00:00",
+  "timezone": "America/New_York",
+  "calendar": {
+    "status": "trading_day",
+    "source": "NYSE (pandas-market-calendars XNYS)",
+    "diagnostic": "Verified against XNYS session calendar"
+  },
+  "synthetic_fixture": false,
+  "unique_item_count": 111,
+  "freshness": "retrieved",
+  "sections": {
+    "overview": [
+      {
+        "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+        "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+        "published": "Wed, 18 Nov 2026 19:00:00 GMT",
+        "publication_timestamp": "2026-11-18T19:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 19:00:00 GMT",
+        "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+        "access": "extractive_excerpt",
+        "source": "fed",
+        "source_name": "Federal Reserve",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        ],
+        "supporting_sources": [
+          "Federal Reserve"
+        ]
+      },
+      {
+        "title": "Major Economic Indicators Latest Numbers",
+        "link": "https://www.bls.gov/bls/",
+        "published": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "publication_timestamp": "2026-11-20T15:03:24+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "summary": "Consumer Price Index (CPI): +0.4% in Oct 2026 News Release Historical Data Unemployment Rate: 4.1% in Oct 2026 News Release Historical Data Payroll Employment: +165,000(p) in Oct 2026 News Release Historical Data Average Hourly Earnings: +$0.14(p) in Oct 2026 News Release Historical Data Producer Price Index - Final Demand: +0.3%(p) in Oct 2026 News Release Historical Data Employment Cost Index (ECI): +0.8% in 3rd Qtr of 2026 News Release Historical Data Productivity: +3.6% in 3rd Qtr of 2026 News Release Historical Data U.S. Import Price Index: +1.1% in Oct 2026 News Release Historical Data U.S. Export Price Index: +1.1% in Oct 2026 News Release Historical Data p - preliminary",
+        "access": "extractive_excerpt",
+        "source": "bls",
+        "source_name": "Bureau of Labor Statistics",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bls.gov/bls/"
+        ],
+        "supporting_sources": [
+          "Bureau of Labor Statistics"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - George Matthew Spencer (0002117604) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2117604/000211760426000002/0002117604-26-000002-index.htm",
+        "published": "2026-11-23T21:56:19-05:00",
+        "publication_timestamp": "2026-11-24T02:56:19+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:56:19-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0002117604-26-000002 Size: 6 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2117604/000211760426000002/0002117604-26-000002-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Merlin, Inc. (0002028707) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2028707/000211760426000002/0002117604-26-000002-index.htm",
+        "published": "2026-11-23T21:56:19-05:00",
+        "publication_timestamp": "2026-11-24T02:56:19+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:56:19-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0002117604-26-000002 Size: 6 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2028707/000211760426000002/0002117604-26-000002-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - Kernwood Ltd (0001719611) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1719611/000091228226001541/0000912282-26-001541-index.htm",
+        "published": "2026-11-23T21:54:50-05:00",
+        "publication_timestamp": "2026-11-24T02:54:50+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:54:50-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000912282-26-001541 Size: 13 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1719611/000091228226001541/0000912282-26-001541-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - North American Construction Group Ltd. (0001368519) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1368519/000091228226001541/0000912282-26-001541-index.htm",
+        "published": "2026-11-23T21:54:50-05:00",
+        "publication_timestamp": "2026-11-24T02:54:50+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:54:50-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000912282-26-001541 Size: 13 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1368519/000091228226001541/0000912282-26-001541-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - BILL Holdings, Inc. (0001786352) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1786352/000119380526001521/0001193805-26-001521-index.htm",
+        "published": "2026-11-23T21:45:14-05:00",
+        "publication_timestamp": "2026-11-24T02:45:14+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:45:14-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001193805-26-001521 Size: 132 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1786352/000119380526001521/0001193805-26-001521-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Starboard Value LP (0001517137) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1517137/000119380526001521/0001193805-26-001521-index.htm",
+        "published": "2026-11-23T21:45:14-05:00",
+        "publication_timestamp": "2026-11-24T02:45:14+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:45:14-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001193805-26-001521 Size: 132 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1517137/000119380526001521/0001193805-26-001521-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - PT Tunas Harapan Perkasa (0002164580) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2164580/000143774926038125/0001437749-26-038125-index.htm",
+        "published": "2026-11-23T21:34:34-05:00",
+        "publication_timestamp": "2026-11-24T02:34:34+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:34:34-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001437749-26-038125 Size: 2 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2164580/000143774926038125/0001437749-26-038125-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - vVARDIS Holding AG (0001907709) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1907709/000110465926131280/0001104659-26-131280-index.htm",
+        "published": "2026-11-23T21:30:27-05:00",
+        "publication_timestamp": "2026-11-24T02:30:27+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:30:27-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001104659-26-131280 Size: 58 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1907709/000110465926131280/0001104659-26-131280-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1907709/000114036126045329/0001140361-26-045329-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - Apollo Management Holdings GP, LLC (0001449433) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1449433/000110465926131280/0001104659-26-131280-index.htm",
+        "published": "2026-11-23T21:30:27-05:00",
+        "publication_timestamp": "2026-11-24T02:30:27+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:30:27-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001104659-26-131280 Size: 58 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1449433/000110465926131280/0001104659-26-131280-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Williams Gregg (0001624919) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1624919/000175392626002236/0001753926-26-002236-index.htm",
+        "published": "2026-11-23T21:27:41-05:00",
+        "publication_timestamp": "2026-11-24T02:27:41+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:27:41-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001753926-26-002236 Size: 16 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1624919/000175392626002236/0001753926-26-002236-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Vivani Medical, Inc. (0001266806) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1266806/000175392626002236/0001753926-26-002236-index.htm",
+        "published": "2026-11-23T21:27:41-05:00",
+        "publication_timestamp": "2026-11-24T02:27:41+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:27:41-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001753926-26-002236 Size: 16 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1266806/000175392626002236/0001753926-26-002236-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - Momentus Inc. (0001781162) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1781162/000090514826005136/0000905148-26-005136-index.htm",
+        "published": "2026-11-23T20:33:42-05:00",
+        "publication_timestamp": "2026-11-24T01:33:42+00:00",
+        "publication_timestamp_raw": "2026-11-23T20:33:42-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000905148-26-005136 Size: 53 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1781162/000090514826005136/0000905148-26-005136-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - OA3, LLC (0001309734) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1309734/000090514826005136/0000905148-26-005136-index.htm",
+        "published": "2026-11-23T20:33:42-05:00",
+        "publication_timestamp": "2026-11-24T01:33:42+00:00",
+        "publication_timestamp_raw": "2026-11-23T20:33:42-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000905148-26-005136 Size: 53 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1309734/000090514826005136/0000905148-26-005136-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - WINDWARD BIO GROUP AG (0002145089) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2145089/000094787126001045/0000947871-26-001045-index.htm",
+        "published": "2026-11-23T20:33:35-05:00",
+        "publication_timestamp": "2026-11-24T01:33:35+00:00",
+        "publication_timestamp_raw": "2026-11-23T20:33:35-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000947871-26-001045 Size: 26 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2145089/000094787126001045/0000947871-26-001045-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - ORBIMED ADVISORS LLC (0001055951) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1055951/000094787126001045/0000947871-26-001045-index.htm",
+        "published": "2026-11-23T20:33:35-05:00",
+        "publication_timestamp": "2026-11-24T01:33:35+00:00",
+        "publication_timestamp_raw": "2026-11-23T20:33:35-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000947871-26-001045 Size: 26 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1055951/000094787126001045/0000947871-26-001045-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Series R of UM Partners, LLC (0001821472) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1821472/000110465926131254/0001104659-26-131254-index.htm",
+        "published": "2026-11-23T20:12:42-05:00",
+        "publication_timestamp": "2026-11-24T01:12:42+00:00",
+        "publication_timestamp_raw": "2026-11-23T20:12:42-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001104659-26-131254 Size: 31 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1821472/000110465926131254/0001104659-26-131254-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Utz Brands, Inc. (0001739566) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1739566/000110465926131254/0001104659-26-131254-index.htm",
+        "published": "2026-11-23T20:12:42-05:00",
+        "publication_timestamp": "2026-11-24T01:12:42+00:00",
+        "publication_timestamp_raw": "2026-11-23T20:12:42-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001104659-26-131254 Size: 31 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1739566/000110465926131254/0001104659-26-131254-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G/A - LENZ Therapeutics, Inc. (0001815776) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1815776/000137360426000082/0001373604-26-000082-index.htm",
+        "published": "2026-11-23T19:58:54-05:00",
+        "publication_timestamp": "2026-11-24T00:58:54+00:00",
+        "publication_timestamp_raw": "2026-11-23T19:58:54-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001373604-26-000082 Size: 8 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1815776/000137360426000082/0001373604-26-000082-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G/A - BML Investment Partners, L.P. (0001373604) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1373604/000137360426000082/0001373604-26-000082-index.htm",
+        "published": "2026-11-23T19:58:54-05:00",
+        "publication_timestamp": "2026-11-24T00:58:54+00:00",
+        "publication_timestamp_raw": "2026-11-23T19:58:54-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001373604-26-000082 Size: 8 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1373604/000137360426000082/0001373604-26-000082-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - MAK Capital Fund LP (0001426156) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1426156/000092189526003249/0000921895-26-003249-index.htm",
+        "published": "2026-11-23T19:15:02-05:00",
+        "publication_timestamp": "2026-11-24T00:15:02+00:00",
+        "publication_timestamp_raw": "2026-11-23T19:15:02-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000921895-26-003249 Size: 15 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1426156/000092189526003249/0000921895-26-003249-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Comstock Inc. (0001120970) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1120970/000092189526003249/0000921895-26-003249-index.htm",
+        "published": "2026-11-23T19:15:02-05:00",
+        "publication_timestamp": "2026-11-24T00:15:02+00:00",
+        "publication_timestamp_raw": "2026-11-23T19:15:02-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000921895-26-003249 Size: 15 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1120970/000092189526003249/0000921895-26-003249-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - Wix.com Ltd. (0001576789) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1576789/000141881226000003/0001418812-26-000003-index.htm",
+        "published": "2026-11-23T18:35:18-05:00",
+        "publication_timestamp": "2026-11-23T23:35:18+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:35:18-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001418812-26-000003 Size: 46 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1576789/000141881226000003/0001418812-26-000003-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - VA Partners I, LLC (0001418812) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1418812/000141881226000003/0001418812-26-000003-index.htm",
+        "published": "2026-11-23T18:35:18-05:00",
+        "publication_timestamp": "2026-11-23T23:35:18+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:35:18-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001418812-26-000003 Size: 46 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1418812/000141881226000003/0001418812-26-000003-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - BC Eagle Holdings, L.P. (0001829332) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1829332/000119312526472770/0001193125-26-472770-index.htm",
+        "published": "2026-11-23T18:21:03-05:00",
+        "publication_timestamp": "2026-11-23T23:21:03+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:21:03-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001193125-26-472770 Size: 8 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1829332/000119312526472770/0001193125-26-472770-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - Advantage Solutions Inc. (0001776661) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1776661/000119312526472770/0001193125-26-472770-index.htm",
+        "published": "2026-11-23T18:21:03-05:00",
+        "publication_timestamp": "2026-11-23T23:21:03+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:21:03-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001193125-26-472770 Size: 8 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1776661/000119312526472770/0001193125-26-472770-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - INVESTMENTS AKA, LLC (0001501681) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1501681/000147237526000231/0001472375-26-000231-index.htm",
+        "published": "2026-11-23T18:10:46-05:00",
+        "publication_timestamp": "2026-11-23T23:10:46+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:10:46-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001472375-26-000231 Size: 36 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1501681/000147237526000231/0001472375-26-000231-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Agassi Sports Entertainment Corp. (0000930245) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/930245/000147237526000231/0001472375-26-000231-index.htm",
+        "published": "2026-11-23T18:10:46-05:00",
+        "publication_timestamp": "2026-11-23T23:10:46+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:10:46-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001472375-26-000231 Size: 36 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/930245/000147237526000231/0001472375-26-000231-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - TCG Crossover GP III, LLC (0002062816) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2062816/000119312526472748/0001193125-26-472748-index.htm",
+        "published": "2026-11-23T18:09:27-05:00",
+        "publication_timestamp": "2026-11-23T23:09:27+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:09:27-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001193125-26-472748 Size: 125 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2062816/000119312526472748/0001193125-26-472748-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - Aclaris Therapeutics, Inc. (0001557746) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1557746/000119312526472748/0001193125-26-472748-index.htm",
+        "published": "2026-11-23T18:09:27-05:00",
+        "publication_timestamp": "2026-11-23T23:09:27+00:00",
+        "publication_timestamp_raw": "2026-11-23T18:09:27-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001193125-26-472748 Size: 125 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1557746/000119312526472748/0001193125-26-472748-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13G - KKR Group Partnership L.P. (0001472698) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1472698/000114036126045329/0001140361-26-045329-index.htm",
+        "published": "2026-11-23T17:43:51-05:00",
+        "publication_timestamp": "2026-11-23T22:43:51+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:43:51-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001140361-26-045329 Size: 62 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1472698/000114036126045329/0001140361-26-045329-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "MA-I - Kaufman, Hall & Associates, LLC (0001623387) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1623387/000162338726000021/0001623387-26-000021-index.htm",
+        "published": "2026-11-23T17:42:30-05:00",
+        "publication_timestamp": "2026-11-23T22:42:30+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:42:30-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001623387-26-000021 Size: 15 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1623387/000162338726000021/0001623387-26-000021-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Herzfeld Erik Mervin (0001413260) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1413260/000139834426020527/0001398344-26-020527-index.htm",
+        "published": "2026-11-23T17:38:18-05:00",
+        "publication_timestamp": "2026-11-23T22:38:18+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:38:18-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001398344-26-020527 Size: 7 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1413260/000139834426020527/0001398344-26-020527-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D/A - Herzfeld Credit Income Fund, Inc (0000880406) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/880406/000139834426020527/0001398344-26-020527-index.htm",
+        "published": "2026-11-23T17:38:18-05:00",
+        "publication_timestamp": "2026-11-23T22:38:18+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:38:18-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001398344-26-020527 Size: 7 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/880406/000139834426020527/0001398344-26-020527-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "ATS-N/CA - CITIGROUP GLOBAL MARKETS INC. (0000091154) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/91154/000009115426000029/0000091154-26-000029-index.htm",
+        "published": "2026-11-23T17:34:02-05:00",
+        "publication_timestamp": "2026-11-23T22:34:02+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:34:02-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0000091154-26-000029 Size: 573 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/91154/000009115426000029/0000091154-26-000029-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "10-Q - Mitesco, Inc. (0000802257) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/802257/000118518526005594/0001185185-26-005594-index.htm",
+        "published": "2026-11-23T17:30:35-05:00",
+        "publication_timestamp": "2026-11-23T22:30:35+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:30:35-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001185185-26-005594 Size: 6 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/802257/000118518526005594/0001185185-26-005594-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "N-14 - HC CAPITAL TRUST (0000934563) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/934563/000110465926131203/0001104659-26-131203-index.htm",
+        "published": "2026-11-23T17:30:33-05:00",
+        "publication_timestamp": "2026-11-23T22:30:33+00:00",
+        "publication_timestamp_raw": "2026-11-23T17:30:33-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001104659-26-131203 Size: 8 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/934563/000110465926131203/0001104659-26-131203-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "The shake-up facing renters as a new kind of landlord emerges",
+        "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:28:48 GMT",
+        "publication_timestamp": "2026-11-24T00:28:48+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:28:48 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+        "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:11:08 GMT",
+        "publication_timestamp": "2026-11-24T00:11:08+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:11:08 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 10:53:37 GMT",
+        "publication_timestamp": "2026-11-24T10:53:37+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 10:53:37 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+        "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 17:11:58 GMT",
+        "publication_timestamp": "2026-11-23T17:11:58+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 17:11:58 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+        "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:01:04 GMT",
+        "publication_timestamp": "2026-11-24T00:01:04+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:01:04 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+        "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 21:23:42 GMT",
+        "publication_timestamp": "2026-11-23T21:23:42+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:23:42 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "How important are Nvidia and Jensen Huang to the US economy?",
+        "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "publication_timestamp": "2026-11-23T16:12:35+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "The rise and fall and rise again of Jensen Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 15:49:52 GMT",
+        "publication_timestamp": "2026-11-23T15:49:52+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:49:52 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
+        "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 11:24:37 GMT",
+        "publication_timestamp": "2026-11-23T11:24:37+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 11:24:37 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Next data accessed in cyber breach",
+        "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 12:34:07 GMT",
+        "publication_timestamp": "2026-11-23T12:34:07+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:34:07 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Poundland is facing collapse - what's gone wrong?",
+        "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 10:09:25 GMT",
+        "publication_timestamp": "2026-11-23T10:09:25+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:09:25 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Pip assessments need 'fundamental overhaul', report to say",
+        "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 17:59:55 GMT",
+        "publication_timestamp": "2026-11-23T17:59:55+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 17:59:55 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "South East Water reports loss after supply issues",
+        "link": "https://www.bbc.co.uk/news/articles/c6n90j1qxel8o?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 10:19:46 GMT",
+        "publication_timestamp": "2026-11-23T10:19:46+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:19:46 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6n90j1qxel8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Hundreds of applications, no replies: Inside the job ghosting problem‌",
+        "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
+        "published": "Sun, 22 Nov 2026 00:04:07 GMT",
+        "publication_timestamp": "2026-11-22T00:04:07+00:00",
+        "publication_timestamp_raw": "Sun, 22 Nov 2026 00:04:07 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Can AI really help spot Black Friday deals? We put it to the test",
+        "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+        "published": "Sat, 21 Nov 2026 00:06:11 GMT",
+        "publication_timestamp": "2026-11-21T00:06:11+00:00",
+        "publication_timestamp_raw": "Sat, 21 Nov 2026 00:06:11 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+        "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 00:33:36 GMT",
+        "publication_timestamp": "2026-11-23T00:33:36+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 00:33:36 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
+        "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 16:41:52 GMT",
+        "publication_timestamp": "2026-11-20T16:41:52+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 16:41:52 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "MP criticises Guernsey and Jersey company ownership register plans",
+        "link": "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss",
+        "published": "Sun, 22 Nov 2026 07:22:05 GMT",
+        "publication_timestamp": "2026-11-22T07:22:05+00:00",
+        "publication_timestamp_raw": "Sun, 22 Nov 2026 07:22:05 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+        "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 17:49:48 GMT",
+        "publication_timestamp": "2026-11-20T17:49:48+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 17:49:48 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+        "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 22:42:47 GMT",
+        "publication_timestamp": "2026-11-20T22:42:47+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 22:42:47 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+        "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 22:53:24 GMT",
+        "publication_timestamp": "2026-11-20T22:53:24+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 22:53:24 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+        "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 00:08:00 GMT",
+        "publication_timestamp": "2026-11-23T00:08:00+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 00:08:00 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Should AI be judging our credit worthiness?",
+        "link": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 07:32:19 GMT",
+        "publication_timestamp": "2026-11-20T07:32:19+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 07:32:19 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Europe plans to catch the next computer chip wave",
+        "link": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 18 Nov 2026 00:00:24 GMT",
+        "publication_timestamp": "2026-11-18T00:00:24+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 00:00:24 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+        "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+        "published": "Tue, 24 Nov 2026 07:12:33 GMT",
+        "publication_timestamp": "2026-11-24T07:12:33+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 07:12:33 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+        "link": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+        "published": "Tue, 24 Nov 2026 10:50:26 GMT",
+        "publication_timestamp": "2026-11-24T10:50:26+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 10:50:26 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html",
+        "published": "Mon, 23 Nov 2026 21:00:59 GMT",
+        "publication_timestamp": "2026-11-23T21:00:59+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:00:59 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Trump administration proposes rule that could curb ESG investing in 401(k)s",
+        "link": "https://www.cnbc.com/2026/11/23/labor-department-esg-401k-rule.html",
+        "published": "Mon, 23 Nov 2026 19:46:28 GMT",
+        "publication_timestamp": "2026-11-23T19:46:28+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 19:46:28 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/labor-department-esg-401k-rule.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+        "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html",
+        "published": "Tue, 24 Nov 2026 10:56:56 GMT",
+        "publication_timestamp": "2026-11-24T10:56:56+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 10:56:56 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+        "published": "Mon, 23 Nov 2026 20:22:49 GMT",
+        "publication_timestamp": "2026-11-23T20:22:49+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 20:22:49 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Jensen Huang cheered by Nvidia employees after return, pledges to be a better CEO",
+        "link": "https://www.cnbc.com/2026/11/23/jensen-huang-nvidia-ceo-return.html",
+        "published": "Tue, 24 Nov 2026 02:20:44 GMT",
+        "publication_timestamp": "2026-11-24T02:20:44+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 02:20:44 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/jensen-huang-nvidia-ceo-return.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Nvidia sets options-trading record after CEO comeback. Here are the big trades",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-sets-options-trading-record-after-ceo-comeback-here-are-the-big-trades.html",
+        "published": "Mon, 23 Nov 2026 23:24:02 GMT",
+        "publication_timestamp": "2026-11-23T23:24:02+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 23:24:02 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/nvidia-sets-options-trading-record-after-ceo-comeback-here-are-the-big-trades.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Signal joins United Airlines, banks in limiting AI agents over customer risks",
+        "link": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
+        "published": "Tue, 24 Nov 2026 07:25:41 GMT",
+        "publication_timestamp": "2026-11-24T07:25:41+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 07:25:41 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Amazon to acquire AI startup Decart's chip software, hire founders",
+        "link": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html",
+        "published": "Mon, 23 Nov 2026 19:34:38 GMT",
+        "publication_timestamp": "2026-11-23T19:34:38+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 19:34:38 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Why France is at risk of recession — and what could keep it out of one",
+        "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html",
+        "published": "Tue, 24 Nov 2026 11:15:30 GMT",
+        "publication_timestamp": "2026-11-24T11:15:30+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 11:15:30 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+        "link": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
+        "published": "Mon, 23 Nov 2026 21:55:27 GMT",
+        "publication_timestamp": "2026-11-23T21:55:27+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:55:27 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage",
+        "link": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
+        "published": "Tue, 24 Nov 2026 00:56:10 GMT",
+        "publication_timestamp": "2026-11-24T00:56:10+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:56:10 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+        "link": "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html",
+        "published": "Mon, 23 Nov 2026 20:26:39 GMT",
+        "publication_timestamp": "2026-11-23T20:26:39+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 20:26:39 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "DNI Jay Clayton tapped as acting national cyber director",
+        "link": "https://www.cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html",
+        "published": "Mon, 23 Nov 2026 23:02:18 GMT",
+        "publication_timestamp": "2026-11-23T23:02:18+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 23:02:18 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO",
+        "link": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
+        "published": "Mon, 23 Nov 2026 23:42:17 GMT",
+        "publication_timestamp": "2026-11-23T23:42:17+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 23:42:17 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+        "link": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+        "published": "Tue, 24 Nov 2026 05:07:16 GMT",
+        "publication_timestamp": "2026-11-24T05:07:16+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 05:07:16 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Asian tech stocks recover from ‘collateral damage’ of Jensen Huang’s departure",
+        "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+        "published": "Tue, 24 Nov 2026 09:46:01 GMT",
+        "publication_timestamp": "2026-11-24T09:46:01+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 09:46:01 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO",
+        "link": "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html",
+        "published": "Mon, 23 Nov 2026 23:14:34 GMT",
+        "publication_timestamp": "2026-11-23T23:14:34+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 23:14:34 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
+        "link": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
+        "published": "Mon, 23 Nov 2026 23:53:20 GMT",
+        "publication_timestamp": "2026-11-23T23:53:20+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 23:53:20 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "An options strategy for making even more of your money back in Nvidia",
+        "link": "https://www.cnbc.com/2026/11/23/an-options-strategy-for-making-even-more-of-your-money-back-in-nvidia-.html",
+        "published": "Mon, 23 Nov 2026 18:52:46 GMT",
+        "publication_timestamp": "2026-11-23T18:52:46+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:52:46 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/an-options-strategy-for-making-even-more-of-your-money-back-in-nvidia-.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+        "published": "Mon, 23 Nov 2026 21:08:05 GMT",
+        "publication_timestamp": "2026-11-23T21:08:05+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:08:05 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+        "published": "Mon, 23 Nov 2026 18:00:47 GMT",
+        "publication_timestamp": "2026-11-23T18:00:47+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:00:47 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "More Americans pay this Obama-era investment tax every year — how to avoid it",
+        "link": "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html",
+        "published": "Mon, 23 Nov 2026 13:15:01 GMT",
+        "publication_timestamp": "2026-11-23T13:15:01+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 13:15:01 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
+        "link": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+        "published": "Mon, 23 Nov 2026 21:22:13 GMT",
+        "publication_timestamp": "2026-11-23T21:22:13+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:22:13 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Activities of U.S. Multinational Enterprises, 2024",
+        "link": "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024",
+        "published": "Fri, 20 Nov 2026 08:30:00 EST",
+        "publication_timestamp": "2026-11-20T13:30:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 08:30:00 EST",
+        "summary": "Worldwide employment by U.S. multinational enterprises increased 0.9 percent to 44.2 million workers in 2024 (preliminary) from 43.8 million workers in 2023 (revised), according to statistics released today by the U.S. Bureau of Economic Analysis on the operations and finances of U.S. parent companies and their majority-owned foreign affiliates.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      },
+      {
+        "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+        "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
+        "published": "Wed, 18 Nov 2026 10:00:00 EST",
+        "publication_timestamp": "2026-11-18T15:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 EST",
+        "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      },
+      {
+        "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+        "published": "Tue, 24 Nov 2026 12:00:00 +0100",
+        "publication_timestamp": "2026-11-24T11:00:00+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 12:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Philip R. Lane: Climate change and monetary policy",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+        "published": "Mon, 23 Nov 2026 15:30:00 +0100",
+        "publication_timestamp": "2026-11-23T14:30:00+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:30:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+        "published": "Mon, 23 Nov 2026 11:00:00 +0100",
+        "publication_timestamp": "2026-11-23T10:00:00+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 11:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Christine Lagarde: Acting in time",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+        "published": "Fri, 20 Nov 2026 09:30:00 +0100",
+        "publication_timestamp": "2026-11-20T08:30:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 09:30:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Boris Vujčić: Financial Stability Review - November 2026",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+        "published": "Wed, 18 Nov 2026 10:00:00 +0100",
+        "publication_timestamp": "2026-11-18T09:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+        "published": "Wed, 18 Nov 2026 10:00:00 +0100",
+        "publication_timestamp": "2026-11-18T09:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+        "published": "Tue, 17 Nov 2026 19:30:00 +0100",
+        "publication_timestamp": "2026-11-17T18:30:00+00:00",
+        "publication_timestamp_raw": "Tue, 17 Nov 2026 19:30:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      }
+    ],
+    "india": [
+      {
+        "title": "China has changed tactics but is still thwarting India's rise, a U.S. panel says",
+        "link": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
+        "published": "Tue, 24 Nov 2026 04:27:38 GMT",
+        "publication_timestamp": "2026-11-24T04:27:38+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 04:27:38 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      }
+    ],
+    "us": [
+      {
+        "title": "Federal Reserve announces College Fed Challenge winners",
+        "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+        "published": "Fri, 20 Nov 2026 21:15:00 GMT",
+        "publication_timestamp": "2026-11-20T21:15:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 21:15:00 GMT",
+        "summary": "Federal Reserve announces College Fed Challenge winners",
+        "access": "extractive_excerpt",
+        "source": "fed",
+        "source_name": "Federal Reserve",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm"
+        ],
+        "supporting_sources": [
+          "Federal Reserve"
+        ]
+      },
+      {
+        "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+        "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+        "published": "Fri, 20 Nov 2026 15:00:00 GMT",
+        "publication_timestamp": "2026-11-20T15:00:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 15:00:00 GMT",
+        "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+        "access": "extractive_excerpt",
+        "source": "fed",
+        "source_name": "Federal Reserve",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
+        ],
+        "supporting_sources": [
+          "Federal Reserve"
+        ]
+      },
+      {
+        "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+        "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+        "published": "Thu, 19 Nov 2026 16:00:00 GMT",
+        "publication_timestamp": "2026-11-19T16:00:00+00:00",
+        "publication_timestamp_raw": "Thu, 19 Nov 2026 16:00:00 GMT",
+        "summary": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+        "access": "extractive_excerpt",
+        "source": "fed",
+        "source_name": "Federal Reserve",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+        ],
+        "supporting_sources": [
+          "Federal Reserve"
+        ]
+      },
+      {
+        "title": "Major Economic Indicators Latest Numbers",
+        "link": "https://www.bls.gov/bls/",
+        "published": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "publication_timestamp": "2026-11-20T15:03:24+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "summary": "Consumer Price Index (CPI): +0.4% in Oct 2026 News Release Historical Data Unemployment Rate: 4.1% in Oct 2026 News Release Historical Data Payroll Employment: +165,000(p) in Oct 2026 News Release Historical Data Average Hourly Earnings: +$0.14(p) in Oct 2026 News Release Historical Data Producer Price Index - Final Demand: +0.3%(p) in Oct 2026 News Release Historical Data Employment Cost Index (ECI): +0.8% in 3rd Qtr of 2026 News Release Historical Data Productivity: +3.6% in 3rd Qtr of 2026 News Release Historical Data U.S. Import Price Index: +1.1% in Oct 2026 News Release Historical Data U.S. Export Price Index: +1.1% in Oct 2026 News Release Historical Data p - preliminary",
+        "access": "extractive_excerpt",
+        "source": "bls",
+        "source_name": "Bureau of Labor Statistics",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bls.gov/bls/"
+        ],
+        "supporting_sources": [
+          "Bureau of Labor Statistics"
+        ]
+      },
+      {
+        "title": "How important are Nvidia and Jensen Huang to the US economy?",
+        "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "publication_timestamp": "2026-11-23T16:12:35+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Catering giant to switch main share listing to US in further blow to UK",
+        "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 09:54:04 GMT",
+        "publication_timestamp": "2026-11-23T09:54:04+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 09:54:04 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Trump threatens ban on US firms building AI data centres overseas",
+        "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 20:54:12 GMT",
+        "publication_timestamp": "2026-11-20T20:54:12+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 20:54:12 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+        "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+        "published": "Mon, 23 Nov 2026 21:02:17 GMT",
+        "publication_timestamp": "2026-11-23T21:02:17+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:02:17 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+        "link": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+        "published": "Tue, 24 Nov 2026 05:05:08 GMT",
+        "publication_timestamp": "2026-11-24T05:05:08+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 05:05:08 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "U.S. court orders to proceed with planned ammunition detonation in Iowa",
+        "link": "https://www.cnbc.com/2026/11/24/iowa-detonation-bomb-court-.html",
+        "published": "Tue, 24 Nov 2026 03:32:26 GMT",
+        "publication_timestamp": "2026-11-24T03:32:26+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 03:32:26 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/iowa-detonation-bomb-court-.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+        "link": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+        "published": "Tue, 24 Nov 2026 02:37:39 GMT",
+        "publication_timestamp": "2026-11-24T02:37:39+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 02:37:39 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "China has changed tactics but is still thwarting India's rise, a U.S. panel says",
+        "link": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
+        "published": "Tue, 24 Nov 2026 04:27:38 GMT",
+        "publication_timestamp": "2026-11-24T04:27:38+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 04:27:38 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Activities of U.S. Multinational Enterprises, 2024",
+        "link": "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024",
+        "published": "Fri, 20 Nov 2026 08:30:00 EST",
+        "publication_timestamp": "2026-11-20T13:30:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 08:30:00 EST",
+        "summary": "Worldwide employment by U.S. multinational enterprises increased 0.9 percent to 44.2 million workers in 2024 (preliminary) from 43.8 million workers in 2023 (revised), according to statistics released today by the U.S. Bureau of Economic Analysis on the operations and finances of U.S. parent companies and their majority-owned foreign affiliates.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      },
+      {
+        "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+        "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
+        "published": "Wed, 18 Nov 2026 10:00:00 EST",
+        "publication_timestamp": "2026-11-18T15:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 EST",
+        "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      }
+    ],
+    "macro": [
+      {
+        "title": "Major Economic Indicators Latest Numbers",
+        "link": "https://www.bls.gov/bls/",
+        "published": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "publication_timestamp": "2026-11-20T15:03:24+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "summary": "Consumer Price Index (CPI): +0.4% in Oct 2026 News Release Historical Data Unemployment Rate: 4.1% in Oct 2026 News Release Historical Data Payroll Employment: +165,000(p) in Oct 2026 News Release Historical Data Average Hourly Earnings: +$0.14(p) in Oct 2026 News Release Historical Data Producer Price Index - Final Demand: +0.3%(p) in Oct 2026 News Release Historical Data Employment Cost Index (ECI): +0.8% in 3rd Qtr of 2026 News Release Historical Data Productivity: +3.6% in 3rd Qtr of 2026 News Release Historical Data U.S. Import Price Index: +1.1% in Oct 2026 News Release Historical Data U.S. Export Price Index: +1.1% in Oct 2026 News Release Historical Data p - preliminary",
+        "access": "extractive_excerpt",
+        "source": "bls",
+        "source_name": "Bureau of Labor Statistics",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bls.gov/bls/"
+        ],
+        "supporting_sources": [
+          "Bureau of Labor Statistics"
+        ]
+      },
+      {
+        "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
+        "link": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 09:44:56 GMT",
+        "publication_timestamp": "2026-11-20T09:44:56+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 09:44:56 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+        "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+        "published": "Mon, 23 Nov 2026 21:02:17 GMT",
+        "publication_timestamp": "2026-11-23T21:02:17+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:02:17 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Activities of U.S. Multinational Enterprises, 2024",
+        "link": "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024",
+        "published": "Fri, 20 Nov 2026 08:30:00 EST",
+        "publication_timestamp": "2026-11-20T13:30:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 08:30:00 EST",
+        "summary": "Worldwide employment by U.S. multinational enterprises increased 0.9 percent to 44.2 million workers in 2024 (preliminary) from 43.8 million workers in 2023 (revised), according to statistics released today by the U.S. Bureau of Economic Analysis on the operations and finances of U.S. parent companies and their majority-owned foreign affiliates.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      },
+      {
+        "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+        "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
+        "published": "Wed, 18 Nov 2026 10:00:00 EST",
+        "publication_timestamp": "2026-11-18T15:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 EST",
+        "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      }
+    ],
+    "rates": [
+      {
+        "title": "Major Economic Indicators Latest Numbers",
+        "link": "https://www.bls.gov/bls/",
+        "published": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "publication_timestamp": "2026-11-20T15:03:24+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "summary": "Consumer Price Index (CPI): +0.4% in Oct 2026 News Release Historical Data Unemployment Rate: 4.1% in Oct 2026 News Release Historical Data Payroll Employment: +165,000(p) in Oct 2026 News Release Historical Data Average Hourly Earnings: +$0.14(p) in Oct 2026 News Release Historical Data Producer Price Index - Final Demand: +0.3%(p) in Oct 2026 News Release Historical Data Employment Cost Index (ECI): +0.8% in 3rd Qtr of 2026 News Release Historical Data Productivity: +3.6% in 3rd Qtr of 2026 News Release Historical Data U.S. Import Price Index: +1.1% in Oct 2026 News Release Historical Data U.S. Export Price Index: +1.1% in Oct 2026 News Release Historical Data p - preliminary",
+        "access": "extractive_excerpt",
+        "source": "bls",
+        "source_name": "Bureau of Labor Statistics",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bls.gov/bls/"
+        ],
+        "supporting_sources": [
+          "Bureau of Labor Statistics"
+        ]
+      },
+      {
+        "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+        "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+        "published": "Mon, 23 Nov 2026 21:02:17 GMT",
+        "publication_timestamp": "2026-11-23T21:02:17+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:02:17 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+        "link": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+        "published": "Tue, 24 Nov 2026 05:05:08 GMT",
+        "publication_timestamp": "2026-11-24T05:05:08+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 05:05:08 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      }
+    ],
+    "fx": [
+      {
+        "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+        "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
+        "published": "Wed, 18 Nov 2026 10:00:00 EST",
+        "publication_timestamp": "2026-11-18T15:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 EST",
+        "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
+        "access": "extractive_excerpt",
+        "source": "bea",
+        "source_name": "U.S. Bureau of Economic Analysis",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025"
+        ],
+        "supporting_sources": [
+          "U.S. Bureau of Economic Analysis"
+        ]
+      }
+    ],
+    "energy": [
+      {
+        "title": "SCHEDULE 13D - HighPeak Energy, Inc. (0001792849) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1792849/000143774926038125/0001437749-26-038125-index.htm",
+        "published": "2026-11-23T21:34:34-05:00",
+        "publication_timestamp": "2026-11-24T02:34:34+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:34:34-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001437749-26-038125 Size: 2 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1792849/000143774926038125/0001437749-26-038125-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1792849/000143774926038124/0001437749-26-038124-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "SCHEDULE 13D - PT Danantara Energy International (0002164536) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2164536/000143774926038124/0001437749-26-038124-index.htm",
+        "published": "2026-11-23T21:33:19-05:00",
+        "publication_timestamp": "2026-11-24T02:33:19+00:00",
+        "publication_timestamp_raw": "2026-11-23T21:33:19-05:00",
+        "summary": "Filed: 2026-11-23 AccNo: 0001437749-26-038124 Size: 115 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2164536/000143774926038124/0001437749-26-038124-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "Energy bills will soar - here's how you can ease the pain",
+        "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 01:05:07 GMT",
+        "publication_timestamp": "2026-11-23T01:05:07+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 01:05:07 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+        "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+        "published": "Sun, 22 Nov 2026 13:50:21 GMT",
+        "publication_timestamp": "2026-11-22T13:50:21+00:00",
+        "publication_timestamp_raw": "Sun, 22 Nov 2026 13:50:21 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      }
+    ],
+    "commodities": [],
+    "geopolitics": [
+      {
+        "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+        "link": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+        "published": "Tue, 24 Nov 2026 02:37:39 GMT",
+        "publication_timestamp": "2026-11-24T02:37:39+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 02:37:39 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "title": "Major Economic Indicators Latest Numbers",
+        "link": "https://www.bls.gov/bls/",
+        "published": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "publication_timestamp": "2026-11-20T15:03:24+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 10:03:24 -0500",
+        "summary": "Consumer Price Index (CPI): +0.4% in Oct 2026 News Release Historical Data Unemployment Rate: 4.1% in Oct 2026 News Release Historical Data Payroll Employment: +165,000(p) in Oct 2026 News Release Historical Data Average Hourly Earnings: +$0.14(p) in Oct 2026 News Release Historical Data Producer Price Index - Final Demand: +0.3%(p) in Oct 2026 News Release Historical Data Employment Cost Index (ECI): +0.8% in 3rd Qtr of 2026 News Release Historical Data Productivity: +3.6% in 3rd Qtr of 2026 News Release Historical Data U.S. Import Price Index: +1.1% in Oct 2026 News Release Historical Data U.S. Export Price Index: +1.1% in Oct 2026 News Release Historical Data p - preliminary",
+        "access": "extractive_excerpt",
+        "source": "bls",
+        "source_name": "Bureau of Labor Statistics",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bls.gov/bls/"
+        ],
+        "supporting_sources": [
+          "Bureau of Labor Statistics"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "fed",
+      "name": "Federal Reserve",
+      "home": "https://www.federalreserve.gov/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 4,
+      "fetched_item_count": 20,
+      "retained_last_good": false
+    },
+    {
+      "id": "treasury",
+      "name": "U.S. Treasury",
+      "home": "https://home.treasury.gov/",
+      "status": "failed",
+      "last_success_timestamp": null,
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": "HTTP 404: feed request rejected",
+      "item_count": 0,
+      "fetched_item_count": 0,
+      "retained_last_good": false
+    },
+    {
+      "id": "bls",
+      "name": "Bureau of Labor Statistics",
+      "home": "https://www.bls.gov/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 1,
+      "fetched_item_count": 1,
+      "retained_last_good": false
+    },
+    {
+      "id": "eia",
+      "name": "U.S. Energy Information Administration",
+      "home": "https://www.eia.gov/",
+      "status": "failed",
+      "last_success_timestamp": null,
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": "HTTP 404: feed request rejected",
+      "item_count": 0,
+      "fetched_item_count": 0,
+      "retained_last_good": false
+    },
+    {
+      "id": "sec",
+      "name": "U.S. Securities and Exchange Commission",
+      "home": "https://www.sec.gov/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 40,
+      "fetched_item_count": 40,
+      "retained_last_good": false
+    },
+    {
+      "id": "bbc",
+      "name": "BBC Business",
+      "home": "https://www.bbc.com/news/business",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 29,
+      "fetched_item_count": 40,
+      "retained_last_good": false
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "home": "https://www.cnbc.com/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 30,
+      "fetched_item_count": 30,
+      "retained_last_good": false
+    },
+    {
+      "id": "bea",
+      "name": "U.S. Bureau of Economic Analysis",
+      "home": "https://www.bea.gov/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 2,
+      "fetched_item_count": 39,
+      "retained_last_good": false
+    },
+    {
+      "id": "ecb",
+      "name": "European Central Bank",
+      "home": "https://www.ecb.europa.eu/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "attempt_timestamp": "2026-11-24T11:17:07.216819+00:00",
+      "error": null,
+      "item_count": 7,
+      "fetched_item_count": 15,
+      "retained_last_good": false
+    }
+  ],
+  "limitations": [
+    "Only permitted public feeds configured for this run are included.",
+    "Headlines and concise summaries are not evidence of full article coverage.",
+    "This report does not claim comprehensive access to paywalled financial journalism."
+  ]
+}
