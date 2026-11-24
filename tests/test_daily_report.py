@@ -83,6 +83,18 @@ class DailyReportTests(unittest.TestCase):
         result = compose_daily_report(self.briefs)
         self.assertEqual(result["sections"]["source_register"]["status"], "unavailable")
 
+    def test_stale_observation_remains_visible_as_stale_and_partial(self):
+        market_data = {"assets": [
+            {"name": "WTI crude oil spot", "region": "global", "level": 58.2,
+             "change": -0.4, "change_percent": -0.68, "unit": "USD per barrel",
+             "as_of": "2026-11-14", "status": "stale", "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO"}
+        ]}
+        result = compose_daily_report(self.briefs, market_data=market_data)
+        desk = result["sections"]["cross_asset"]
+        self.assertEqual(desk["status"], "partial")
+        self.assertEqual(desk["entries"][0]["status"], "stale")
+        self.assertEqual(desk["entries"][0]["as_of"], "2026-11-14")
+
     def test_watchlist_has_dated_primary_event_without_forecasting(self):
         report = compose_daily_report(self.briefs, watchlist={"events": [
             {"title": "GDP release", "starts_at": "2026-11-25T13:30:00+00:00",
