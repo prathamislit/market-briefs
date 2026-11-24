@@ -88,6 +88,7 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
           if [[ "$EVENT_NAME" == "push" || "$EVENT_NAME" == "workflow_dispatch" || "$EVENT_SCHEDULE" == "0 8 * * *" ]]; then
             python src/orchestrate_daily.py

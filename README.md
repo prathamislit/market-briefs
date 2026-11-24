@@ -143,10 +143,10 @@ Retrieval time never substitutes for the underlying data date.
 | Desk | Included evidence |
 | --- | --- |
 | Cross-asset dashboard | Configured dated public market observations |
-| ETF flows and positioning | Relevant leads; unavailable flows identified explicitly |
+| ETF flows and positioning | Delayed SEC fund disclosures; daily gaps remain explicit |
 | Macro and policy | Relevant public-source headline leads |
-| Geopolitics | Relevant leads and missing causal evidence |
-| Companies and earnings | Relevant leads; unverified comparisons remain unavailable |
+| Geopolitics | Conditional mechanisms, attributed events, and unresolved causality |
+| Companies and earnings | Selected SEC actuals and narrowly matched issuer expectations |
 | United States policy and currency | Available observations and policy leads |
 | India markets | Available observations, relevant leads, and explicit gaps |
 | What matters next | Dated official events when collection succeeds |
@@ -171,11 +171,83 @@ Yield changes use percentage points, not percentage returns.
 
 Unavailable groups remain visible in the report.
 These include equity closes, credit, VIX, crypto, and metals.
-ETF flows and positioning need another verified data source.
+Daily ETF flows and positioning need another verified source.
 India indices, breadth, movers, and FII/DII remain explicitly unavailable.
 Headlines cannot establish actual levels, consensus, or market reactions.
 A relevant lead does not establish a verified causal mechanism.
 No private email content or metadata enters these public reports.
+
+### Delayed SEC fund flows and holdings
+
+`src/sec_etf.py` collects public N-PORT disclosures for IVV.
+The configured fund series is `S000004310`.
+It checks at most four series-matched filing candidates.
+A matching disclosure can report three monthly fund-activity periods.
+Net activity equals share sales plus reinvestments minus redemptions.
+These values describe reported fund activity, not daily exchange flows.
+Five largest disclosed equity holdings show USD and NAV percentages.
+Report dates, filing dates, and reporting lag remain visible.
+
+Coverage is deliberately limited to the configured fund.
+It does not measure the whole ETF universe or positioning.
+Delayed filings cannot establish today's fund demand.
+Missing disclosures and SEC access failures remain explicit.
+Last-good archived evidence can remain visibly dated when retrieval fails.
+No ICI statistical table is republished.
+
+`SEC_USER_AGENT` supplies an identifying SEC request header.
+Set the repository secret to a real project contact for GitHub Actions.
+The default repository URL may be rejected by SEC access controls.
+The contact identifies research requests; it grants no market-data rights.
+
+### Earnings actuals and expectations
+
+`src/earnings_data.py` reads SEC submissions and company facts.
+Tracked issuers are AAPL, MSFT, NVDA, AMZN, JPM, XOM, TSLA.
+Coverage uses recent 10-Q or amended 10-Q filings.
+The filing window is seven calendar days.
+Quarterly GAAP revenue and diluted EPS require matching filing evidence.
+Facts must match the filing's accession and reporting period.
+Revenue displays USD millions; diluted EPS displays USD/share.
+Annual reports and comprehensive earnings-release coverage are not included.
+
+Tesla GAAP EPS comparisons require matched issuer-published consensus.
+Its publication must precede the verified issuer results release.
+The reporting quarter and GAAP basis must match.
+Unverified comparisons remain actual-only, with expectations unavailable.
+Revenue expectations are currently omitted because units remain unverified.
+Broad analyst consensus, company guidance, and price reactions remain unavailable.
+Each actual and accepted expectation retains its primary-source link.
+
+### Conditional market-transmission hypotheses
+
+`src/transmission.py` applies narrow rules to primary-source evidence.
+Supported channels cover FOMC policy and Hormuz oil-transit disruption.
+The event must have a recent, dated primary-source excerpt.
+The source host and relevant action evidence must match.
+Commercial or generic headlines cannot activate these rules.
+
+Each hypothesis links the event and documented transmission mechanism.
+Potential affected assets retain their observation dates and sources.
+Daily observations can show temporal overlap with an event.
+They cannot isolate the event's price effect.
+The report identifies rival explanations and unresolved event attribution.
+No directional forecast or verified causal effect is implied.
+Unmatched events leave the mechanism section explicitly incomplete.
+
+### India data reuse blockers
+
+India index levels, breadth, movers, and FII/DII remain unavailable.
+A permitted source and its redistribution terms must be established.
+[NSE's data policy](https://www.nseindia.com/static/market-data/nse-data-policy) governs relevant usage and redistribution.
+Subscriber redistribution depends on the relevant agreement.
+Public website access alone does not establish redistribution permission.
+This project has not established the required reuse rights.
+BSE/Sensex coverage also needs a separately verified reusable source.
+RBI news and public FX use separate configured sources.
+No unofficial scraped index values fill these missing fields.
+
+### Official release watchlist
 
 The watchlist reads official BEA and BLS release calendars.
 It selects upcoming events within the next 72 hours.
@@ -185,10 +257,15 @@ Each calendar failure remains explicit; other calendars can still contribute.
 Earnings calendars and other agencies are not comprehensively covered.
 No calendar configuration or authentication is required.
 
+### Offline component checks
+
 Run the added components' offline regression tests:
 
 ```sh
 python3 -m unittest discover -s tests -p 'test_market_data.py' -v
+python3 -m unittest discover -s tests -p 'test_earnings_data.py' -v
+python3 -m unittest discover -s tests -p 'test_sec_etf.py' -v
+python3 -m unittest discover -s tests -p 'test_transmission.py' -v
 python3 -m unittest discover -s tests -p 'test_daily_report.py' -v
 python3 -m unittest discover -s tests -p 'test_watchlist.py' -v
 python3 -m unittest discover -s tests -p 'test_orchestrate_daily.py' -v

@@ -51,6 +51,9 @@
     .daily-controls { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin:16px 0; }
     select { max-width:100%; min-height:42px; border:1px solid var(--line); background:var(--panel); color:var(--ink); padding:8px; }
     .daily-desk { padding:14px 0; }
+    .evidence-card { margin:16px 0; padding:14px; border:1px solid var(--line); }
+    .evidence-card h3 { margin-top:0; }
+    blockquote { margin:12px 0; padding:8px 14px; border-left:2px solid var(--line); color:var(--muted); line-height:1.5; }
     .daily-desk > summary { font-weight:600; }
     .daily-gap { color:var(--muted); line-height:1.5; }
     .table-scroll { overflow-x:auto; margin:14px 0; }
@@ -216,12 +219,72 @@
         </div>`).join("")}</div>
       </details>`;
     }
+    function etfFiling(entry) {
+      const flows = Array.isArray(entry.net_flows) ? entry.net_flows.filter(row => row && typeof row === "object") : [];
+      const holdings = Array.isArray(entry.top_holdings) ? entry.top_holdings.filter(row => row && typeof row === "object") : [];
+      const labels = {latest_available_lagged: "Latest available filing; delayed", older_filing_lagged: "Older verified filing; newer filing unavailable", archived: "Archived filing; current retrieval failed"};
+      const status = labels[entry.status] || entry.status || "unavailable";
+      return `<article class="evidence-card">
+        <h3>${evidenceLink(entry.source_url, `${entry.ticker || "ETF"} · ${entry.name || "SEC fund filing"}`)}</h3>
+        <div class="notice ${entry.status === "archived" ? "warning" : ""}">${escapeHtml(status)}. Historical monthly fund data; current daily ETF flows remain unavailable.</div>
+        <p class="story-meta">Report date: ${escapeHtml(entry.report_date || "Unknown")} · Filing date: ${escapeHtml(entry.filing_date || "Unknown")}<br>
+          Retrieved: ${escapeHtml(entry.retrieved_at || "Unknown")} · Report lag: ${displayNumber(entry.report_lag_days)} calendar days<br>
+          Source: ${escapeHtml(entry.source || "SEC EDGAR")} · Series: ${escapeHtml(entry.series_id || "Unknown")}</p>
+        <p>${escapeHtml(entry.flow_basis || "Reported fund share sales plus reinvestments minus redemptions.")}</p>
+        <p class="meta">Reinvestments are included. These figures do not measure fresh external cash.</p>
+        ${flows.length ? `<div class="table-scroll" role="region" aria-label="Reported monthly fund flows" tabindex="0"><table><caption>Reported month positions, not inferred calendar months. Amounts in USD.</caption><thead><tr><th scope="col">Reported month</th><th scope="col">Share sales</th><th scope="col">Reinvestments</th><th scope="col">Redemptions</th><th scope="col">Net share flow</th></tr></thead><tbody>${flows.map(row => `<tr><td>${escapeHtml(row.reported_month ?? "Unknown")}</td><td class="numeric">${displayNumber(row.sales_usd)}</td><td class="numeric">${displayNumber(row.reinvestment_usd)}</td><td class="numeric">${displayNumber(row.redemption_usd)}</td><td class="numeric">${displayNumber(row.reported_net_share_flow_usd)}</td></tr>`).join("")}</tbody></table></div>` : '<p class="empty">Monthly flow fields are unavailable.</p>'}
+        ${holdings.length ? `<div class="table-scroll" role="region" aria-label="Reported equity holdings" tabindex="0"><table><caption>Largest reported equity holdings, as of the report date.</caption><thead><tr><th scope="col">Holding</th><th scope="col">Reported value, USD</th><th scope="col">Percent of net assets</th></tr></thead><tbody>${holdings.map(row => `<tr><td>${escapeHtml(row.name || "Unknown")}</td><td class="numeric">${displayNumber(row.value_usd)}</td><td class="numeric">${typeof row.percent_of_net_assets === "number" && Number.isFinite(row.percent_of_net_assets) ? `${displayNumber(row.percent_of_net_assets)}%` : "Unavailable"}</td></tr>`).join("")}</tbody></table></div>` : '<p class="empty">Verified holdings are unavailable.</p>'}
+        ${entry.note ? `<p class="meta">${escapeHtml(entry.note)}</p>` : ""}
+      </article>`;
+    }
+    function earningsEvidence(entry) {
+      const actualVerified = ["actual_only", "matched_issuer_consensus"].includes(entry.status)
+        && entry.basis === "GAAP" && typeof entry.actual === "number" && Number.isFinite(entry.actual)
+        && Boolean(safeUrl(entry.source_url)) && /^\d{4}-\d{2}-\d{2}$/.test(entry.period_start || "") && /^\d{4}-\d{2}-\d{2}$/.test(entry.period_end || "");
+      const matched = actualVerified && entry.kind === "earnings_comparison" && entry.status === "matched_issuer_consensus"
+        && typeof entry.expectation === "number" && Number.isFinite(entry.expectation)
+        && Boolean(safeUrl(entry.expectation_source_url)) && Boolean(safeUrl(entry.results_source_url))
+        && /^\d{4}-\d{2}-\d{2}$/.test(entry.expectation_published || "");
+      return `<article class="evidence-card">
+        <h3>${evidenceLink(entry.source_url, `${entry.company || "Issuer"} · ${entry.metric || "Quarterly actual"}`)}</h3>
+        <p class="story-meta">Period: ${escapeHtml(entry.period_start || "Unknown")} to ${escapeHtml(entry.period_end || "Unknown")} · Filed: ${escapeHtml(entry.filed || "Unknown")}<br>
+          Basis: ${escapeHtml(entry.basis || "Unknown")} · Units: ${escapeHtml(entry.unit || "Unknown")}</p>
+        <div class="table-scroll" role="region" aria-label="Issuer earnings evidence" tabindex="0"><table><thead><tr><th scope="col">Reported actual</th><th scope="col">Matched issuer consensus</th><th scope="col">Actual minus expectation</th></tr></thead><tbody><tr><td class="numeric">${actualVerified ? displayNumber(entry.actual) : "Unavailable"}</td><td class="numeric">${matched ? displayNumber(entry.expectation) : "Unavailable"}</td><td class="numeric">${matched ? displayNumber(entry.difference) : "Unavailable"}</td></tr></tbody></table></div>
+        ${matched ? `<p class="meta">Issuer-published consensus snapshot: ${escapeHtml(entry.expectation_published)}. Matched reporting period and accounting basis.</p><div class="story-links">${evidenceLink(entry.expectation_source_url, "Issuer consensus source")}${evidenceLink(entry.results_source_url, "Issuer results source")}</div>` : '<p class="meta">Matched, pre-results issuer consensus is unavailable. No comparison is inferred.</p>'}
+        <p class="meta">Verified guidance and post-results price reaction remain unavailable.</p>
+      </article>`;
+    }
+    function transmissionEvidence(entry) {
+      const event = entry.event && typeof entry.event === "object" ? entry.event : {};
+      const assets = Array.isArray(entry.affected_assets) ? entry.affected_assets.filter(row => row && typeof row === "object") : [];
+      const rivals = Array.isArray(entry.rival_factors) ? entry.rival_factors : [];
+      const relations = {brackets_event_at_daily_resolution: "Daily observations bracket event; causality remains unverified", not_comparable: "Event chronology cannot be established", unavailable: "Comparable observations unavailable"};
+      return `<article class="evidence-card">
+        <h3>${escapeHtml(entry.channel || "Potential transmission channel")}</h3>
+        <div class="notice warning">Potential channel; event-specific market causality remains unverified.</div>
+        <p><strong>Event:</strong> ${evidenceLink(event.source_url, event.title || "Primary-source event")}</p>
+        <p class="story-meta">Source: ${escapeHtml(event.source || "Unknown")} · Published: ${escapeHtml(event.published_at || "Unknown")}<br>Evidence type: ${escapeHtml(event.evidence_type || "Unknown")}</p>
+        ${event.evidence_excerpt ? `<blockquote>${escapeHtml(event.evidence_excerpt)}</blockquote>` : '<p class="empty">Primary event excerpt unavailable.</p>'}
+        <p><strong>Potential mechanism:</strong> ${escapeHtml(entry.mechanism || "Unavailable")}</p>
+        <p>${evidenceLink(entry.mechanism_url, "Documented mechanism source")}</p>
+        ${assets.length ? `<div class="table-scroll" role="region" aria-label="Potential asset exposure and chronology" tabindex="0"><table><caption>Potential exposure only. Daily chronology cannot isolate an event’s effect.</caption><thead><tr><th scope="col">Potentially affected asset</th><th scope="col">Previous observation</th><th scope="col">Latest observation</th><th scope="col">Observed change</th><th scope="col">Chronology and coverage</th></tr></thead><tbody>${assets.map(asset => {
+          const comparable = asset.status === "ok" && asset.temporal_relation === "brackets_event_at_daily_resolution";
+          return `<tr><td>${evidenceLink(asset.source_url, asset.name || "Unknown asset")}</td><td>${escapeHtml(asset.previous_as_of || "Unavailable")}</td><td>${escapeHtml(asset.as_of || "Unavailable")}</td><td class="numeric">${comparable ? displayNumber(asset.observed_change) : "Unavailable"}${comparable && asset.change_unit ? `<div class="meta">${escapeHtml(asset.change_unit)}</div>` : ""}</td><td>${escapeHtml(relations[asset.temporal_relation] || asset.temporal_relation || "Unavailable")}<br><span class="meta">Observation status: ${escapeHtml(asset.status || "unavailable")}</span></td></tr>`;
+        }).join("")}</tbody></table></div>` : '<p class="empty">Comparable asset observations are unavailable.</p>'}
+        <p><strong>Rival factors and unresolved attribution</strong></p>
+        ${rivals.length ? `<ul>${rivals.map(factor => `<li>${escapeHtml(factor)}</li>`).join("")}</ul>` : '<p class="empty">Rival explanations were not isolated.</p>'}
+        <p class="meta">Attribution: unverified. ${escapeHtml(entry.conclusion || "This event’s market effect has not been established.")}</p>
+      </article>`;
+    }
     function dailyDesk(report, key, label) {
       const desk = report.sections?.[key] || {};
       const entries = Array.isArray(desk.entries) ? desk.entries.filter(entry => entry && typeof entry === "object") : [];
       const observations = entries.filter(entry => entry.kind === "market_observation");
       const leads = entries.filter(entry => entry.kind === "headline_lead");
       const events = entries.filter(entry => entry.kind === "scheduled_event");
+      const filings = entries.filter(entry => entry.kind === "sec_etf");
+      const earnings = entries.filter(entry => ["earnings_actual", "earnings_comparison"].includes(entry.kind));
+      const hypotheses = entries.filter(entry => entry.kind === "transmission_hypothesis");
       const gaps = Array.isArray(desk.missing) ? desk.missing : [];
       const notices = Array.isArray(desk.notices) ? desk.notices : [];
       return `<details class="daily-desk" open>
@@ -229,7 +292,10 @@
         ${observationTable(observations)}
         ${leads.map(dailyLead).join("")}
         ${events.map(scheduledEvent).join("")}
-        ${!observations.length && !leads.length && !events.length ? '<p class="empty">No verified entries are available.</p>' : ""}
+        ${filings.map(etfFiling).join("")}
+        ${earnings.map(earningsEvidence).join("")}
+        ${hypotheses.map(transmissionEvidence).join("")}
+        ${!observations.length && !leads.length && !events.length && !filings.length && !earnings.length && !hypotheses.length ? '<p class="empty">No verified entries are available.</p>' : ""}
         ${gaps.length ? `<ul class="daily-gap">${gaps.map(gap => `<li><strong>Coverage gap:</strong> ${escapeHtml(gap)}</li>`).join("")}</ul>` : ""}
         ${notices.length ? `<ul class="daily-gap">${notices.map(notice =>
           `<li><strong>Source availability:</strong> ${evidenceLink(notice.source_url, notice.title)} — ${escapeHtml(notice.detail)}</li>`

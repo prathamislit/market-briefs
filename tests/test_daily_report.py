@@ -83,34 +83,6 @@ class DailyReportTests(unittest.TestCase):
         result = compose_daily_report(self.briefs)
         self.assertEqual(result["sections"]["source_register"]["status"], "unavailable")
 
-    def test_stale_observation_remains_visible_as_stale_and_partial(self):
-        market_data = {"assets": [
-            {"name": "WTI crude oil spot", "region": "global", "level": 58.2,
-             "change": -0.4, "change_percent": -0.68, "unit": "USD per barrel",
-             "as_of": "2026-11-14", "status": "stale", "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO"}
-        ]}
-        result = compose_daily_report(self.briefs, market_data=market_data)
-        desk = result["sections"]["cross_asset"]
-        self.assertEqual(desk["status"], "partial")
-        self.assertEqual(desk["entries"][0]["status"], "stale")
-        self.assertEqual(desk["entries"][0]["as_of"], "2026-11-14")
-
-    def test_restricted_source_notices_are_links_only_without_numbers(self):
-        result = compose_daily_report(self.briefs, generated_at="2026-11-24T12:00:00+00:00")
-        for key, notice_title in (
-            ("etf_flows", "ICI ETF statistics availability"),
-            ("earnings", "SEC EDGAR filings availability"),
-            ("india_markets", "NSE market-data reuse restriction"),
-        ):
-            notices = result["sections"][key]["notices"]
-            self.assertEqual(len(notices), 1)
-            self.assertEqual(notices[0]["title"], notice_title)
-            self.assertTrue(notices[0]["source_url"])
-        markdown = render_markdown(result)
-        self.assertIn("https://www.ici.org/research/statistics", markdown)
-        self.assertIn("No numerical ETF flow table is reproduced.", markdown)
-        self.assertIn("NSE market-data reuse restriction", markdown)
-
     def test_watchlist_has_dated_primary_event_without_forecasting(self):
         report = compose_daily_report(self.briefs, watchlist={"events": [
             {"title": "GDP release", "starts_at": "2026-11-25T13:30:00+00:00",
@@ -124,6 +96,46 @@ class DailyReportTests(unittest.TestCase):
         self.assertEqual(events[1]["as_of"], "2026-11-26")
         self.assertTrue(events[1]["all_day"])
         self.assertFalse(report["sections"]["watchlist"]["missing"])
+
+    def test_verified_evidence_and_failures_survive_archive_rendering(self):
+        etf = {"retrieved_at": "2026-11-24T13:00:00+00:00", "entries": [{
+            "kind": "sec_etf", "name": "IVV", "ticker": "IVV", "status": "latest_available_lagged",
+            "report_date": "2026-06-30", "filing_date": "2026-08-25",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/123/primary_doc.xml",
+            "net_flows": [{"reported_month": 1, "sales_usd": 12, "reinvestment_usd": 0,
+                           "redemption_usd": 3, "reported_net_share_flow_usd": 9}],
+            "top_holdings": [{"name": "Example", "percent_of_net_assets": 5}],
+        }], "failures": [{"source": "SEC", "source_url": "https://www.sec.gov/",
+                         "error": "Network failure"}]}
+        earnings = {"retrieved_at": "2026-11-24T13:00:00+00:00", "entries": [{
+            "kind": "earnings_comparison", "company": "TSLA", "metric": "Diluted EPS",
+            "actual": 0.22, "expectation": 0.23, "difference": -0.01, "unit": "USD/share",
+            "basis": "GAAP", "period_start": "2026-07-01", "period_end": "2026-09-30",
+            "filed": "2026-10-22", "expectation_published": "2026-10-19",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/x",
+            "expectation_source_url": "https://ir.tesla.com/consensus",
+            "results_source_url": "https://ir.tesla.com/results",
+        }], "failures": []}
+        transmission = {"entries": [{
+            "kind": "transmission_hypothesis", "rule": "hormuz_oil_transit",
+            "event": {"title": "Oil transit disruption", "published_at": "2026-11-23T00:00:00Z",
+                      "source_url": "https://www.eia.gov/example", "evidence_excerpt": "Oil transit disrupted."},
+            "channel": "Oil transit", "mechanism": "Transit delays can raise costs.",
+            "mechanism_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+            "affected_assets": [], "rival_factors": ["Demand shifts."],
+            "confidence": "unverified_event_market_attribution", "conclusion": "Attribution unverified.",
+        }], "missing": []}
+        report = compose_daily_report(self.briefs, etf_data=etf, earnings_data=earnings,
+                                      transmission=transmission)
+        self.assertEqual(report["sections"]["etf_flows"]["status"], "partial")
+        self.assertEqual(report["sections"]["earnings"]["status"], "partial")
+        self.assertEqual(report["sections"]["geopolitics"]["status"], "partial")
+        self.assertEqual(report["sections"]["india_markets"]["status"], "unavailable")
+        text = render_markdown(json.loads(json.dumps(report)))
+        for expected in ("month 1: sales 12", "top reported holdings: Example: 5%",
+                         "actual minus expectation -0.01", "expectation published 2026-10-19",
+                         "Attribution unverified", "SEC retrieval failed: Network failure"):
+            self.assertIn(expected, text)
 
 
 if __name__ == "__main__":

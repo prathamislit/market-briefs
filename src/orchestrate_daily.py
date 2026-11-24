@@ -4,6 +4,7 @@
 import argparse
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -12,6 +13,9 @@ from build_briefs import ROOT, atomic_write, build_dashboard
 from daily_report import compose_daily_report, render_markdown
 from market_data import collect_market_data
 from watchlist import collect_watchlist
+from earnings_data import collect_earnings
+from sec_etf import collect_etf_data
+from transmission import build_transmission
 
 
 def latest_briefs(docs):
@@ -35,8 +39,41 @@ def latest_briefs(docs):
     return briefs
 
 
+def archived_etf(docs, now):
+    """Retain dated SEC evidence if the current retrieval fails."""
+    daily = docs / "daily"
+    try:
+        manifest = json.loads((daily / "manifest.json").read_text())
+    except (OSError, ValueError):
+        return []
+    for row in manifest[:30]:
+        name = row.get("json") if isinstance(row, dict) else None
+        if not isinstance(name, str) or not re.fullmatch(r"[0-9]{8}T[0-9]{12}Z-(?:[0-9]+|local)-[0-9]+\.json", name):
+            continue
+        try:
+            report = json.loads((daily / name).read_text())
+            entries = report["sections"]["etf_flows"]["entries"]
+        except (OSError, ValueError, KeyError, TypeError):
+            continue
+        retained = []
+        for entry in entries:
+            if isinstance(entry, dict) and entry.get("kind") == "sec_etf" and entry.get("source_url", "").startswith("https://www.sec.gov/"):
+                copy = dict(entry)
+                copy["status"] = "archived"
+                copy["note"] = "Earlier archived SEC filing; current retrieval failed. Dates are unchanged."
+                try:
+                    copy["report_lag_days"] = (now.date() - datetime.fromisoformat(copy["report_date"]).date()).days
+                except (TypeError, ValueError, KeyError):
+                    copy.pop("report_lag_days", None)
+                retained.append(copy)
+        if retained:
+            return retained
+    return []
+
+
 def publish(now=None, *, docs=None, market_collector=collect_market_data,
-            watchlist_collector=collect_watchlist):
+            watchlist_collector=collect_watchlist, etf_collector=collect_etf_data,
+            earnings_collector=collect_earnings):
     now = now or datetime.now(timezone.utc)
     if now.tzinfo is None:
         raise ValueError("Report time must include a timezone")
@@ -44,8 +81,16 @@ def publish(now=None, *, docs=None, market_collector=collect_market_data,
     docs = Path(docs) if docs is not None else ROOT / "docs"
     market_data = market_collector(now)
     watchlist = watchlist_collector(now)
-    report = compose_daily_report(latest_briefs(docs), market_data=market_data,
-                                  watchlist=watchlist, generated_at=now.isoformat())
+    briefs = latest_briefs(docs)
+    etf_data = etf_collector(now)
+    if not etf_data.get("entries") and etf_data.get("failures"):
+        etf_data = dict(etf_data, entries=archived_etf(docs, now))
+    earnings_data = earnings_collector(now)
+    transmission = build_transmission(briefs, market_data, now)
+    report = compose_daily_report(briefs, market_data=market_data,
+                                  watchlist=watchlist, etf_data=etf_data,
+                                  earnings_data=earnings_data,
+                                  transmission=transmission, generated_at=now.isoformat())
     daily = docs / "daily"
     daily.mkdir(parents=True, exist_ok=True)
     run_id = os.environ.get("GITHUB_RUN_ID", "local")
