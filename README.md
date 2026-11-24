@@ -159,7 +159,7 @@ These are dated observations, not real-time market quotes.
 | Observation group | Configured series |
 | --- | --- |
 | US Treasury yields | 2-year, 10-year, and 30-year |
-| Exchange rates | USD/INR, USD/CNY, USD/JPY, and USD/EUR |
+| Exchange rates | USD/INR, USD/CNY, USD/JPY, and EUR/USD |
 | Energy spot prices | WTI, Brent, and Henry Hub natural gas |
 
 Rates and FX become stale after five calendar days.
@@ -205,12 +205,15 @@ The existing reproducibility command still checks fixed-input edition output.
 | `docs/reports/manifest.json` | Bounded edition-date dashboard index |
 | `docs/runs/` | Separate live-edition JSON snapshots for generated reports |
 | `docs/runs/manifest.json` | Edition-run archive index |
+| `docs/runs/workflow-*.json` | Scheduled, manual, and push-attempt step outcomes |
+| `docs/runs/workflow-manifest.json` | Workflow-attempt archive index |
 | `docs/daily/` | Timestamped Daily Markets JSON and Markdown reports |
 | `docs/daily/manifest.json` | Daily Markets archive index |
 
 Repeated same-day reports keep separate archived versions.
 Archive filenames include timestamps, run identifiers, and attempt numbers.
-Skipped invocations remain visible in GitHub Actions logs.
+Skipped edition steps appear in archived workflow-attempt records.
+Early runner failures can only appear in GitHub Actions logs.
 Fixture replay does not enter the live-edition archive.
 Published JSON preserves the report and its source register.
 It does not preserve every upstream response verbatim.
