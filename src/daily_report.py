@@ -196,6 +196,8 @@ def compose_daily_report(briefs, *, market_data=None, watchlist=None, etf_data=N
             if isinstance(failure, dict):
                 source = str(failure.get("source") or key)
                 error = str(failure.get("error") or "Unavailable")
+                if failure.get("detail"):
+                    error += ": " + str(failure["detail"])
                 source_url = _url(failure.get("url") or failure.get("source_url"))
             else:
                 source, error, source_url = key, str(failure), ""
@@ -332,7 +334,8 @@ def render_markdown(report):
                 if entry.get("kind") == "earnings_comparison":
                     detail += (f"; issuer expectation {entry.get('expectation')} {entry.get('unit')}; "
                                f"actual minus expectation {entry.get('difference')} {entry.get('unit')}; "
-                               f"expectation published {entry.get('expectation_published')}")
+                               f"expectation published {entry.get('expectation_published')}; "
+                               f"expectation evidence {entry.get('expectation_evidence_basis') or 'issuer source'}")
                 else:
                     detail += "; expectation unavailable"
                 detail += "; guidance unavailable; price reaction unavailable"

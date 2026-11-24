@@ -215,6 +215,10 @@ Annual reports and comprehensive earnings-release coverage are not included.
 Tesla GAAP EPS comparisons require matched issuer-published consensus.
 Its publication must precede the verified issuer results release.
 The reporting quarter and GAAP basis must match.
+One audited Q3 2026 Tesla EPS snapshot supports reproducible fallback.
+It links the October 19 consensus and October 21 SEC 8-K.
+The fallback requires matching SEC 8-K and 10-Q identifiers.
+Unreachable live issuer pages remain visible retrieval failures.
 Unverified comparisons remain actual-only, with expectations unavailable.
 Revenue expectations are currently omitted because units remain unverified.
 Broad analyst consensus, company guidance, and price reactions remain unavailable.

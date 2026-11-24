@@ -12,17 +12,23 @@ NOW = datetime(2026, 10, 23, 13, tzinfo=timezone.utc)
 ACCESSION = "0001628280-26-066775"
 
 
-def fixture(*, consensus=True, same_period=True, consensus_date="Oct 19, 2026", results=True):
-    ticker_index = {str(i): {"cik_str": i + 1, "ticker": ticker, "title": ticker}
+def fixture(*, consensus=True, same_period=True, consensus_date="Oct 19, 2026", results=True, curated=False):
+    ticker_index = {str(i): {"cik_str": 1318605 if curated and ticker == "TSLA" else i + 1,
+                             "ticker": ticker, "title": ticker}
                     for i, ticker in enumerate(earnings.TICKERS)}
     responses = {earnings.TICKERS_URL: json.dumps(ticker_index).encode()}
     for i, ticker in enumerate(earnings.TICKERS):
-        cik = i + 1
+        cik = 1318605 if curated and ticker == "TSLA" else i + 1
         recent = {"form": [], "filingDate": [], "reportDate": [], "accessionNumber": [], "primaryDocument": []}
         if ticker == "TSLA":
             recent = {"form": ["10-Q"], "filingDate": ["2026-10-22"],
                       "reportDate": ["2026-09-30"],
                       "accessionNumber": [ACCESSION], "primaryDocument": ["tsla-20260930.htm"]}
+            if curated:
+                for key, value in {"form": "8-K", "filingDate": "2026-10-21",
+                                   "reportDate": "2026-10-21", "accessionNumber": "0001628280-26-066738",
+                                   "primaryDocument": "tsla-20261021.htm"}.items():
+                    recent[key].append(value)
         responses[f"https://data.sec.gov/submissions/CIK{cik:010d}.json"] = json.dumps(
             {"filings": {"recent": recent}}).encode()
     gaap = {
@@ -35,7 +41,8 @@ def fixture(*, consensus=True, same_period=True, consensus_date="Oct 19, 2026", 
             {"accn": ACCESSION, "form": "10-Q", "start": "2026-07-01" if same_period else "2026-04-01",
              "end": "2026-09-30", "val": 0.22}]}}
     }
-    responses["https://data.sec.gov/api/xbrl/companyfacts/CIK0000000007.json"] = json.dumps({"facts": {"us-gaap": gaap}}).encode()
+    facts_url = f"https://data.sec.gov/api/xbrl/companyfacts/CIK{1318605 if curated else 7:010d}.json"
+    responses[facts_url] = json.dumps({"facts": {"us-gaap": gaap}}).encode()
     if results:
         responses[earnings.TESLA_ROOT + "/press-release/tesla-releases-third-quarter-2026-financial-results"] = (
             '<h1>Tesla Releases Third Quarter 2026 Financial Results</h1>'
@@ -108,6 +115,46 @@ class EarningsTests(unittest.TestCase):
     def test_missing_results_release_rejects_consensus(self):
         result = earnings.collect_earnings(NOW, fixture(results=False).__getitem__)
         self.assertTrue(all(entry["status"] == "actual_only" for entry in result["entries"]))
+
+    def test_curated_snapshot_survives_issuer_http_failure(self):
+        result = earnings.collect_earnings(NOW, fixture(consensus=False, results=False, curated=True).__getitem__)
+        eps = next(e for e in result["entries"] if e["metric"] == "Diluted EPS")
+        self.assertEqual(eps["expectation"], 0.23)
+        self.assertAlmostEqual(eps["difference"], -0.01)
+        self.assertEqual(eps["expectation_evidence_basis"], "curated_primary_snapshot")
+        self.assertEqual(eps["results_published"], "2026-10-21")
+        self.assertIn("000162828026066738", eps["results_source_url"])
+        revenue = next(e for e in result["entries"] if e["metric"] == "Revenue")
+        self.assertIsNone(revenue["expectation"])
+
+    def test_curated_snapshot_requires_matching_sec_8k(self):
+        responses = fixture(consensus=False, results=False, curated=True)
+        url = "https://data.sec.gov/submissions/CIK0001318605.json"
+        data = json.loads(responses[url])
+        data["filings"]["recent"]["accessionNumber"][1] = "0001628280-26-000000"
+        responses[url] = json.dumps(data).encode()
+        result = earnings.collect_earnings(NOW, responses.__getitem__)
+        self.assertTrue(all(e["status"] == "actual_only" for e in result["entries"]))
+
+    def test_curated_snapshot_requires_exact_quarter_and_company(self):
+        responses = fixture(consensus=False, results=False, curated=True)
+        submissions = responses["https://data.sec.gov/submissions/CIK0001318605.json"]
+        filing = earnings._recent_filing(submissions, NOW)
+        actual = {"period_start": "2026-07-01", "period_end": "2026-09-30",
+                  "unit": "USD/share", "basis": "GAAP"}
+        self.assertIsNotNone(earnings._tesla_curated_snapshot(submissions, 1318605, filing, actual))
+        for mismatch in ({"period_start": "2026-07-02"}, {"period_end": "2026-06-30"},
+                         {"unit": "USD millions"}, {"basis": "non-GAAP"}):
+            self.assertIsNone(earnings._tesla_curated_snapshot(submissions, 1318605, filing,
+                                                               {**actual, **mismatch}))
+        self.assertIsNone(earnings._tesla_curated_snapshot(submissions, 7, filing, actual))
+        self.assertIsNone(earnings._tesla_curated_snapshot(submissions, 1318605,
+                                                            {**filing, "accession": "0001628280-26-000000"}, actual))
+
+    def test_curated_snapshot_does_not_override_conflicting_live_page(self):
+        result = earnings.collect_earnings(NOW, fixture(curated=True,
+                                                         consensus_date="Oct 22, 2026").__getitem__)
+        self.assertTrue(all(e["status"] == "actual_only" for e in result["entries"]))
 
 
 if __name__ == "__main__":

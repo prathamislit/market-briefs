@@ -26,6 +26,17 @@ METRICS = (("Revenue", REVENUE_TAGS, "USD", "USD millions", 1_000_000),
            ("Diluted EPS", ("EarningsPerShareDiluted",), "USD/shares", "USD/share", 1))
 QUARTERS = {3: ("first", "Q1"), 6: ("second", "Q2"),
             9: ("third", "Q3"), 12: ("fourth", "Q4")}
+# Dated, issuer-published Q3 2026 GAAP EPS average. Verified against Tesla IR
+# and its 2026-10-21 SEC Item 2.02 filing. No extrapolation to other quarters.
+TESLA_Q3_2026 = {
+    "cik": 1318605, "period_start": "2026-07-01", "period_end": "2026-09-30",
+    "filed": "2026-10-22",
+    "quarterly_accession": "0001628280-26-066775",
+    "results_accession": "0001628280-26-066738", "results_date": "2026-10-21",
+    "results_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm",
+    "consensus_date": "2026-10-19", "gaap_eps_mean": 0.23,
+    "consensus_url": "https://ir.tesla.com/press-release/earnings-consensus-third-quarter-2026",
+}
 _last_sec_request = 0.0
 
 
@@ -216,6 +227,38 @@ def _tesla_consensus(raw, period_end, results_date):
     return result
 
 
+def _tesla_curated_snapshot(submissions, cik, filing, actual):
+    """Match one audited issuer snapshot to its exact SEC filing lineage."""
+    snapshot = TESLA_Q3_2026
+    if (cik != snapshot["cik"] or filing["accession"] != snapshot["quarterly_accession"] or
+            filing["report_date"] != snapshot["period_end"] or filing["filed"] != snapshot["filed"] or
+            actual.get("period_start") != snapshot["period_start"] or
+            actual.get("period_end") != snapshot["period_end"] or
+            actual.get("unit") != "USD/share" or actual.get("basis") != "GAAP" or
+            not date.fromisoformat(snapshot["consensus_date"]) < date.fromisoformat(snapshot["results_date"])):
+        return None
+    recent = json.loads(submissions).get("filings", {}).get("recent", {})
+    for idx, form in enumerate(recent.get("form", [])):
+        try:
+            if (form == "8-K" and recent["accessionNumber"][idx] == snapshot["results_accession"] and
+                    recent["filingDate"][idx] == snapshot["results_date"] and
+                    recent["reportDate"][idx] == snapshot["results_date"]):
+                return {"published": snapshot["consensus_date"], "Diluted EPS": snapshot["gaap_eps_mean"],
+                        "consensus_url": snapshot["consensus_url"], "results_url": snapshot["results_url"],
+                        "evidence": "curated_primary_snapshot"}
+        except (IndexError, KeyError, TypeError):
+            continue
+    return None
+
+
+def _failure(exc):
+    result = {"error": type(exc).__name__}
+    if isinstance(exc, ValueError):
+        # Only our short validation messages or JSON parser positions appear.
+        result["detail"] = str(exc)[:120]
+    return result
+
+
 def collect_earnings(now, fetcher=None):
     """Report recent SEC quarterly actuals; compare matched Tesla issuer consensus."""
     if not isinstance(now, datetime) or now.tzinfo is None or now.utcoffset() is None:
@@ -225,11 +268,12 @@ def collect_earnings(now, fetcher=None):
     output = {"retrieved_at": now.isoformat(), "entries": [], "failures": [],
               "limitations": ["Coverage is limited to seven U.S. issuers' latest 10-Q within 120 days; older filings are historical context.",
                               "Company guidance requires verified issuer text; reaction needs licensed prices.",
-                              "Analyst consensus is unavailable unless published by the issuer before results."]}
+                              "Analyst consensus is unavailable unless published by the issuer before results.",
+                              "One curated Tesla Q3 2026 EPS snapshot is tied to its SEC results filing; unavailable live IR fetches remain failures."]}
     try:
         directory = _tickers(_payload(fetcher, TICKERS_URL))
     except (OSError, ValueError, UnicodeError, TypeError) as exc:
-        output["failures"].append({"source": "SEC ticker index", "url": TICKERS_URL, "error": type(exc).__name__})
+        output["failures"].append({"source": "SEC ticker index", "url": TICKERS_URL, **_failure(exc)})
         return output
     for ticker in TICKERS:
         cik = directory.get(ticker)
@@ -238,7 +282,8 @@ def collect_earnings(now, fetcher=None):
             continue
         filing_url = f"{SEC_ROOT}/submissions/CIK{cik:010d}.json"
         try:
-            filing = _recent_filing(_payload(fetcher, filing_url), now)
+            submissions = _payload(fetcher, filing_url)
+            filing = _recent_filing(submissions, now)
             if not filing:
                 continue
             facts_url = f"{SEC_ROOT}/api/xbrl/companyfacts/CIK{cik:010d}.json"
@@ -255,6 +300,7 @@ def collect_earnings(now, fetcher=None):
             consensus = None
             consensus_url = None
             results_url = None
+            issuer_unavailable = False
             if ticker == "TSLA":
                 period = next(iter(facts.values()))["period_end"]
                 end = date.fromisoformat(period)
@@ -269,14 +315,21 @@ def collect_earnings(now, fetcher=None):
                             try:
                                 consensus = _tesla_consensus(_payload(fetcher, consensus_url), period, published)
                             except (OSError, ValueError, UnicodeError, TypeError, KeyError) as exc:
+                                issuer_unavailable = isinstance(exc, (OSError, KeyError))
                                 output["failures"].append({"source": "Tesla consensus", "url": consensus_url,
-                                                           "error": type(exc).__name__})
+                                                           **_failure(exc)})
                         else:
                             output["failures"].append({"source": "Tesla results", "url": results_url,
                                                        "error": "Release date could not be verified"})
                     except (OSError, ValueError, UnicodeError, TypeError, KeyError) as exc:
+                        issuer_unavailable = isinstance(exc, (OSError, KeyError))
                         output["failures"].append({"source": "Tesla results", "url": results_url,
-                                                   "error": type(exc).__name__})
+                                                   **_failure(exc)})
+                    if issuer_unavailable and not consensus and "Diluted EPS" in facts:
+                        consensus = _tesla_curated_snapshot(submissions, cik, filing, facts["Diluted EPS"])
+                        if consensus:
+                            consensus_url = consensus["consensus_url"]
+                            results_url = consensus["results_url"]
             for metric, actual in facts.items():
                 expected = consensus.get(metric) if consensus else None
                 delta = round(actual["actual"] - expected, 6) if expected is not None else None
@@ -289,9 +342,12 @@ def collect_earnings(now, fetcher=None):
                     "expectation_source_url": consensus_url if expected is not None else None,
                     "expectation_published": consensus["published"] if expected is not None else None,
                     "results_source_url": results_url if expected is not None else None,
+                    "results_published": (TESLA_Q3_2026["results_date"] if expected is not None and
+                                          consensus.get("evidence") == "curated_primary_snapshot" else None),
+                    "expectation_evidence_basis": consensus.get("evidence", "live_issuer_pages") if expected is not None else None,
                     "guidance": None, "reaction": None,
                     "status": "matched_issuer_consensus" if expected is not None else "actual_only",
                 })
         except (OSError, ValueError, UnicodeError, TypeError, KeyError) as exc:
-            output["failures"].append({"source": ticker, "url": filing_url, "error": type(exc).__name__})
+            output["failures"].append({"source": ticker, "url": filing_url, **_failure(exc)})
     return output
