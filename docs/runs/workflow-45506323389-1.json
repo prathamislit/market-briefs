@@ -1,0 +1,15 @@
+{
+  "run_id": "45506323389",
+  "attempt": "1",
+  "recorded_at": "2026-11-24T23:02:11.850256+00:00",
+  "event": "schedule",
+  "schedule": "15 8 * * 1-5",
+  "commit": "1a123a1a66549a304cc8cf4521825128f6efbd7f",
+  "steps": {
+    "tests": "success",
+    "replay": "success",
+    "generate": "success",
+    "daily": "success"
+  },
+  "edition_collection_failed": "0"
+}
