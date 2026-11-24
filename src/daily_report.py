@@ -187,7 +187,7 @@ def compose_daily_report(briefs, *, market_data=None, watchlist=None, generated_
             healthy = [e for e in desk["entries"] if e.get("status") == "ok"]
             desk["status"] = ("partial" if len(healthy) < len(desk["entries"]) else "available") if healthy else "unavailable"
             continue
-        usable = any((e.get("status") == "ok" and e.get("level") is not None)
+        usable = any((e.get("status") in ("ok", "stale") and e.get("level") is not None)
                      if e.get("kind") == "market_observation" else
                      e.get("freshness") not in ("stale", "future_unverified")
                      for e in desk["entries"])
