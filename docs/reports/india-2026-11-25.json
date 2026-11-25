@@ -2,8 +2,8 @@
   "edition": "india",
   "market": "India",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-24T22:59:06.228892+00:00",
-  "retrieval_timestamp": "2026-11-24T22:59:06.228892+00:00",
+  "publication_timestamp": "2026-11-25T10:53:48.259924+00:00",
+  "retrieval_timestamp": "2026-11-25T10:53:48.259924+00:00",
   "timezone": "Asia/Kolkata",
   "calendar": {
     "status": "trading_day",
@@ -11,10 +11,46 @@
     "diagnostic": "Verified against official NSE CM equity holiday payload (20 dates)"
   },
   "synthetic_fixture": false,
-  "unique_item_count": 75,
+  "unique_item_count": 66,
   "freshness": "retrieved",
   "sections": {
     "overview": [
+      {
+        "title": "Trump's rescue of Nvidia's Huang brings political risks",
+        "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 01:03:05 GMT",
+        "publication_timestamp": "2026-11-25T01:03:05+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 01:03:05 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Why tiny cars are taking off across Europe",
+        "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 00:34:05 GMT",
+        "publication_timestamp": "2026-11-25T00:34:05+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 00:34:05 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
       {
         "title": "Faisal Islam: Fears over the AI boom haven't gone away",
         "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
@@ -46,24 +82,6 @@
         "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
-        "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 00:01:04 GMT",
-        "publication_timestamp": "2026-11-24T00:01:04+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:01:04 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
@@ -160,216 +178,18 @@
         ]
       },
       {
-        "title": "The rise and fall and rise again of Jensen Huang",
-        "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 15:49:52 GMT",
-        "publication_timestamp": "2026-11-23T15:49:52+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:49:52 GMT",
+        "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+        "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:01:04 GMT",
+        "publication_timestamp": "2026-11-24T00:01:04+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:01:04 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
-        "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 11:24:37 GMT",
-        "publication_timestamp": "2026-11-23T11:24:37+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 11:24:37 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Next data accessed in cyber breach",
-        "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 12:34:07 GMT",
-        "publication_timestamp": "2026-11-23T12:34:07+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:34:07 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Poundland is facing collapse - what's gone wrong?",
-        "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 10:09:25 GMT",
-        "publication_timestamp": "2026-11-23T10:09:25+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:09:25 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Pip assessments need 'fundamental overhaul', report to say",
-        "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 17:59:55 GMT",
-        "publication_timestamp": "2026-11-23T17:59:55+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 17:59:55 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "South East Water reports loss after supply issues",
-        "link": "https://www.bbc.co.uk/news/articles/c6n90j1qxel8o?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 10:19:46 GMT",
-        "publication_timestamp": "2026-11-23T10:19:46+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:19:46 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c6n90j1qxel8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Hundreds of applications, no replies: Inside the job ghosting problem‌",
-        "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
-        "published": "Sun, 22 Nov 2026 00:04:07 GMT",
-        "publication_timestamp": "2026-11-22T00:04:07+00:00",
-        "publication_timestamp_raw": "Sun, 22 Nov 2026 00:04:07 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Can AI really help spot Black Friday deals? We put it to the test",
-        "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
-        "published": "Sat, 21 Nov 2026 00:06:11 GMT",
-        "publication_timestamp": "2026-11-21T00:06:11+00:00",
-        "publication_timestamp_raw": "Sat, 21 Nov 2026 00:06:11 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-        "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 00:33:36 GMT",
-        "publication_timestamp": "2026-11-23T00:33:36+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 00:33:36 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-        "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
-        "published": "Fri, 20 Nov 2026 16:41:52 GMT",
-        "publication_timestamp": "2026-11-20T16:41:52+00:00",
-        "publication_timestamp_raw": "Fri, 20 Nov 2026 16:41:52 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "MP criticises Guernsey and Jersey company ownership register plans",
-        "link": "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss",
-        "published": "Sun, 22 Nov 2026 07:22:05 GMT",
-        "publication_timestamp": "2026-11-22T07:22:05+00:00",
-        "publication_timestamp_raw": "Sun, 22 Nov 2026 07:22:05 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-        "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-        "published": "Fri, 20 Nov 2026 17:49:48 GMT",
-        "publication_timestamp": "2026-11-20T17:49:48+00:00",
-        "publication_timestamp_raw": "Fri, 20 Nov 2026 17:49:48 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
@@ -412,21 +232,165 @@
         ]
       },
       {
-        "title": "Europe plans to catch the next computer chip wave",
-        "link": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
-        "published": "Wed, 18 Nov 2026 00:00:24 GMT",
-        "publication_timestamp": "2026-11-18T00:00:24+00:00",
-        "publication_timestamp_raw": "Wed, 18 Nov 2026 00:00:24 GMT",
+        "title": "HPE shares crash 17%, stock suffers its worst-ever single-day fall. Here's why",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-shares-crash-17-stock-suffers-its-worst-ever-single-day-fall-heres-why/slideshow/136148964.cms",
+        "published": "Wed, 25 Nov 2026 10:08:14 +0530",
+        "publication_timestamp": "2026-11-25T04:38:14+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:08:14 +0530",
         "summary": "",
         "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss"
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-shares-crash-17-stock-suffers-its-worst-ever-single-day-fall-heres-why/slideshow/136148964.cms"
         ],
         "supporting_sources": [
-          "BBC Business"
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki Bonus Updates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-updates-25-nov-2026/liveblog/136148282.cms",
+        "published": "Wed, 25 Nov 2026 10:03:14 +0530",
+        "publication_timestamp": "2026-11-25T04:33:14+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:03:14 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-updates-25-nov-2026/liveblog/136148282.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "APL Apollo Tubes among 4 Nifty500 stocks closing below VWAP",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms",
+        "published": "Wed, 25 Nov 2026 09:26:10 +0530",
+        "publication_timestamp": "2026-11-25T03:56:10+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:26:10 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "PB Fintech among 3 Nifty500 stocks flashing RSI uptrend signal",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-3-nifty500-stocks-flashing-rsi-uptrend-signal/slideshow/136147231.cms",
+        "published": "Wed, 25 Nov 2026 09:07:48 +0530",
+        "publication_timestamp": "2026-11-25T03:37:48+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:07:48 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-3-nifty500-stocks-flashing-rsi-uptrend-signal/slideshow/136147231.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Negative Breakout: These 4 stocks dropped below their 200 DMAs",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-4-stocks-dropped-below-their-200-dmas/slideshow/136147014.cms",
+        "published": "Wed, 25 Nov 2026 09:02:00 +0530",
+        "publication_timestamp": "2026-11-25T03:32:00+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:02:00 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-4-stocks-dropped-below-their-200-dmas/slideshow/136147014.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Stock Market Highlights: Sensex soars 1,502 pts, Nifty ends above 25,800; bank, pharma indices jump up to 2%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms",
+        "published": "Wed, 25 Nov 2026 07:11:52 +0530",
+        "publication_timestamp": "2026-11-25T01:41:52+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:11:52 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Market timers get schooled as S&P 500 swings rip up playbooks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/market-timers-get-schooled-with-swings/articleshow/136145370.cms",
+        "published": "Wed, 25 Nov 2026 07:03:27 +0530",
+        "publication_timestamp": "2026-11-25T01:33:27+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:03:27 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/market-timers-get-schooled-with-swings/articleshow/136145370.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Goldman Sachs, SocGen buy Rs 920 crore stake in Lenskart",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-socgen-buy-rs-920-crore-stake-in-lenskart/articleshow/136145273.cms",
+        "published": "Wed, 25 Nov 2026 06:56:01 +0530",
+        "publication_timestamp": "2026-11-25T01:26:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:56:01 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-socgen-buy-rs-920-crore-stake-in-lenskart/articleshow/136145273.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+        "published": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "publication_timestamp": "2026-11-25T00:57:44+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
         ]
       },
       {
@@ -664,204 +628,6 @@
         ]
       },
       {
-        "title": "Cipla Share Price Live Updates: Cipla Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-live-updates-23-nov-2026/liveblog/136092588.cms",
-        "published": "Mon, 23 Nov 2026 12:20:09 +0530",
-        "publication_timestamp": "2026-11-23T06:50:09+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:20:09 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-live-updates-23-nov-2026/liveblog/136092588.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "JSW Steel Share Price Live Updates: JSW Steel Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-today-live-23-nov-2026/liveblog/136092567.cms",
-        "published": "Mon, 23 Nov 2026 12:19:43 +0530",
-        "publication_timestamp": "2026-11-23T06:49:43+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:19:43 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-today-live-23-nov-2026/liveblog/136092567.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Jio Financial Services Share Price Live Updates: Jio Financial Services Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-share-price-today-live-updates-23-nov-2026/liveblog/136092528.cms",
-        "published": "Mon, 23 Nov 2026 12:18:52 +0530",
-        "publication_timestamp": "2026-11-23T06:48:52+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:18:52 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-share-price-today-live-updates-23-nov-2026/liveblog/136092528.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "The great Indian stock market comeback. Can the rally sustain and what should investors do?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/the-great-indian-stock-market-comeback-can-the-rally-sustain-and-what-should-investors-do/articleshow/136092236.cms",
-        "published": "Mon, 23 Nov 2026 12:09:55 +0530",
-        "publication_timestamp": "2026-11-23T06:39:55+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:09:55 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/news/the-great-indian-stock-market-comeback-can-the-rally-sustain-and-what-should-investors-do/articleshow/136092236.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Global Markets: 5 key triggers to watch this week",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-this-week/slideshow/136091589.cms",
-        "published": "Mon, 23 Nov 2026 11:14:38 +0530",
-        "publication_timestamp": "2026-11-23T05:44:38+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 11:14:38 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-this-week/slideshow/136091589.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Why is SanDisk stock falling? 5 factors weighing on shares",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-is-sandisk-stock-falling-5-factors-weighing-on-shares/slideshow/136091195.cms",
-        "published": "Mon, 23 Nov 2026 11:11:26 +0530",
-        "publication_timestamp": "2026-11-23T05:41:26+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 11:11:26 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/us-stocks/news/why-is-sandisk-stock-falling-5-factors-weighing-on-shares/slideshow/136091195.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "ITC Share Price Highlights: ITC Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-share-price-live-updates-23-nov-2026/liveblog/136089671.cms",
-        "published": "Mon, 23 Nov 2026 10:13:06 +0530",
-        "publication_timestamp": "2026-11-23T04:43:06+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:13:06 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-share-price-live-updates-23-nov-2026/liveblog/136089671.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-live-updates-23-nov-2026/liveblog/136089652.cms",
-        "published": "Mon, 23 Nov 2026 10:12:27 +0530",
-        "publication_timestamp": "2026-11-23T04:42:27+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:12:27 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-live-updates-23-nov-2026/liveblog/136089652.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Adani Ent Share Price Highlights: Adani Ent. Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-share-price-live-updates-23-nov-2026/liveblog/136089643.cms",
-        "published": "Mon, 23 Nov 2026 10:11:34 +0530",
-        "publication_timestamp": "2026-11-23T04:41:34+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:11:34 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-share-price-live-updates-23-nov-2026/liveblog/136089643.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Dr Reddys Share Price Highlights: Dr. Reddys Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/dr-reddys-share-price-today-live-updates-23-nov-2026/liveblog/136089636.cms",
-        "published": "Mon, 23 Nov 2026 10:11:17 +0530",
-        "publication_timestamp": "2026-11-23T04:41:17+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:11:17 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/dr-reddys-share-price-today-live-updates-23-nov-2026/liveblog/136089636.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Tata Steel Share Price Highlights: Tata Steel Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-steel-stock-price-live-updates-23-nov-2026/liveblog/136089633.cms",
-        "published": "Mon, 23 Nov 2026 10:11:07 +0530",
-        "publication_timestamp": "2026-11-23T04:41:07+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 10:11:07 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-steel-stock-price-live-updates-23-nov-2026/liveblog/136089633.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
         "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
         "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
         "published": "Tue, 24 Nov 2026 12:00:00 +0100",
@@ -932,45 +698,81 @@
         "supporting_sources": [
           "European Central Bank"
         ]
-      },
-      {
-        "title": "Boris Vujčić: Financial Stability Review - November 2026",
-        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
-        "published": "Wed, 18 Nov 2026 10:00:00 +0100",
-        "publication_timestamp": "2026-11-18T09:00:00+00:00",
-        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 +0100",
-        "summary": "",
-        "access": "headline_only",
-        "source": "ecb",
-        "source_name": "European Central Bank",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf"
-        ],
-        "supporting_sources": [
-          "European Central Bank"
-        ]
-      },
-      {
-        "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
-        "published": "Wed, 18 Nov 2026 10:00:00 +0100",
-        "publication_timestamp": "2026-11-18T09:00:00+00:00",
-        "publication_timestamp_raw": "Wed, 18 Nov 2026 10:00:00 +0100",
-        "summary": "",
-        "access": "headline_only",
-        "source": "ecb",
-        "source_name": "European Central Bank",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
-        ],
-        "supporting_sources": [
-          "European Central Bank"
-        ]
       }
     ],
     "india": [
+      {
+        "title": "The rising cost of putting food on the table in India",
+        "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 01:02:13 GMT",
+        "publication_timestamp": "2026-11-25T01:02:13+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 01:02:13 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "India bonds inch higher as oil steadies ahead of RBI verdict",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms",
+        "published": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "publication_timestamp": "2026-11-25T05:29:37+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Rupee pares FY27 losses, climbs 56 paise to 92.29/USD",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms",
+        "published": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "publication_timestamp": "2026-11-25T04:30:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "India pension funds pivot to bonds as equity exposure nears cap",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-pension-funds-pivot-to-bonds-as-equity-exposure-nears-cap/articleshow/136146220.cms",
+        "published": "Wed, 25 Nov 2026 08:12:38 +0530",
+        "publication_timestamp": "2026-11-25T02:42:38+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 08:12:38 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/india-pension-funds-pivot-to-bonds-as-equity-exposure-nears-cap/articleshow/136146220.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
       {
         "title": "PE/VC investments in India surge to USD 8.7 billion in October, highest monthly level in five years: EY-IVCA report",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms",
@@ -1060,77 +862,58 @@
         "supporting_sources": [
           "The Economic Times"
         ]
-      },
-      {
-        "title": "Rupee retreats with stocks as rally takes a breather, positive bias lingers",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
-        "published": "Mon, 23 Nov 2026 15:58:38 +0530",
-        "publication_timestamp": "2026-11-23T10:28:38+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:58:38 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "India bonds give up marginal opening gains as profit booking takes over",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
-        "published": "Mon, 23 Nov 2026 12:46:54 +0530",
-        "publication_timestamp": "2026-11-23T07:16:54+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:46:54 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
-          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Rupee retreats, Goldman calls it a 'port of stability' in AI storm",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-goldman-calls-it-a-port-of-stability-in-ai-storm/articleshow/136092977.cms",
-        "published": "Mon, 23 Nov 2026 12:39:49 +0530",
-        "publication_timestamp": "2026-11-23T07:09:49+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:39:49 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-goldman-calls-it-a-port-of-stability-in-ai-storm/articleshow/136092977.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
       }
     ],
     "us": [
       {
-        "title": "US attorney general dodges questions about Nvidia investigation",
-        "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 21:19:42 GMT",
-        "publication_timestamp": "2026-11-24T21:19:42+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 21:19:42 GMT",
+        "title": "US preparing to unveil plan for new tariffs on global trading partners",
+        "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 00:38:01 GMT",
+        "publication_timestamp": "2026-11-25T00:38:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 00:38:01 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "US attorney general dodges questions about Nvidia investigation",
+        "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 03:44:07 GMT",
+        "publication_timestamp": "2026-11-25T03:44:07+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 03:44:07 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "publication_timestamp": "2026-11-25T10:52:09+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
@@ -1155,39 +938,39 @@
         ]
       },
       {
-        "title": "Catering giant to switch main share listing to US in further blow to UK",
-        "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 09:54:04 GMT",
-        "publication_timestamp": "2026-11-23T09:54:04+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 09:54:04 GMT",
+        "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+        "published": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "publication_timestamp": "2026-11-25T01:58:10+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:28:10 +0530",
         "summary": "",
         "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss"
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms"
         ],
         "supporting_sources": [
-          "BBC Business"
+          "The Economic Times"
         ]
       },
       {
-        "title": "Trump threatens ban on US firms building AI data centres overseas",
-        "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-        "published": "Fri, 20 Nov 2026 20:54:12 GMT",
-        "publication_timestamp": "2026-11-20T20:54:12+00:00",
-        "publication_timestamp_raw": "Fri, 20 Nov 2026 20:54:12 GMT",
+        "title": "Gold ticks lower ahead of US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+        "published": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "publication_timestamp": "2026-11-25T01:56:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:26:22 +0530",
         "summary": "",
         "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+          "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
         ],
         "supporting_sources": [
-          "BBC Business"
+          "The Economic Times"
         ]
       },
       {
@@ -1301,6 +1084,42 @@
     ],
     "macro": [
       {
+        "title": "Why are investors betting on Abercrombie's growth story?",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-are-investors-betting-on-abercrombies-growth-story/slideshow/136151161.cms",
+        "published": "Wed, 25 Nov 2026 11:09:11 +0530",
+        "publication_timestamp": "2026-11-25T05:39:11+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:09:11 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-are-investors-betting-on-abercrombies-growth-story/slideshow/136151161.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Gold ticks lower ahead of US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+        "published": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "publication_timestamp": "2026-11-25T01:56:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
         "title": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms",
         "published": "Tue, 24 Nov 2026 18:08:23 +0530",
@@ -1409,27 +1228,45 @@
         "supporting_sources": [
           "The Economic Times"
         ]
-      },
+      }
+    ],
+    "fx": [
       {
-        "title": "German bond yields edge higher as equity rebound eases safe-haven demand",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/german-bond-yields-edge-higher-as-equity-rebound-eases-safe-haven-demand/articleshow/136097404.cms",
-        "published": "Mon, 23 Nov 2026 15:25:49 +0530",
-        "publication_timestamp": "2026-11-23T09:55:49+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:25:49 +0530",
+        "title": "Rupee pares FY27 losses, climbs 56 paise to 92.29/USD",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms",
+        "published": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "publication_timestamp": "2026-11-25T04:30:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:00:22 +0530",
         "summary": "",
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/bonds/german-bond-yields-edge-higher-as-equity-rebound-eases-safe-haven-demand/articleshow/136097404.cms"
+          "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms"
         ],
         "supporting_sources": [
           "The Economic Times"
         ]
-      }
-    ],
-    "fx": [
+      },
+      {
+        "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+        "published": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "publication_timestamp": "2026-11-25T01:58:10+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
       {
         "title": "Dollar climbs as renewed AI euphoria fuels Fed hike bets",
         "link": "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms",
@@ -1485,43 +1322,97 @@
         ]
       },
       {
-        "title": "Rupee retreats with stocks as rally takes a breather, positive bias lingers",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
-        "published": "Mon, 23 Nov 2026 15:58:38 +0530",
-        "publication_timestamp": "2026-11-23T10:28:38+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:58:38 +0530",
+        "title": "Card payments edge past cash in shops; euro area consumers want both",
+        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+        "published": "Wed, 25 Nov 2026 11:00:00 +0100",
+        "publication_timestamp": "2026-11-25T10:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:00:00 +0100",
         "summary": "",
         "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms"
+          "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
         ],
         "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Rupee retreats, Goldman calls it a 'port of stability' in AI storm",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-goldman-calls-it-a-port-of-stability-in-ai-storm/articleshow/136092977.cms",
-        "published": "Mon, 23 Nov 2026 12:39:49 +0530",
-        "publication_timestamp": "2026-11-23T07:09:49+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:39:49 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-goldman-calls-it-a-port-of-stability-in-ai-storm/articleshow/136092977.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
+          "European Central Bank"
         ]
       }
     ],
     "energy": [
+      {
+        "title": "Energy bills to rise by 26% from January after gas prices surge",
+        "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 09:54:39 GMT",
+        "publication_timestamp": "2026-11-25T09:54:39+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:54:39 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Energy bills will soar - here's how you can ease the pain",
+        "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:42:20 GMT",
+        "publication_timestamp": "2026-11-25T10:42:20+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:42:20 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "What will the energy cap changes mean for my bills?",
+        "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 09:54:32 GMT",
+        "publication_timestamp": "2026-11-25T09:54:32+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:54:32 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+        "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:04:55 GMT",
+        "publication_timestamp": "2026-11-25T10:04:55+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:04:55 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
       {
         "title": "Will I get the £100 energy payment and when will I receive it?",
         "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
@@ -1541,39 +1432,21 @@
         ]
       },
       {
-        "title": "Energy bills will soar - here's how you can ease the pain",
-        "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-        "published": "Mon, 23 Nov 2026 01:05:07 GMT",
-        "publication_timestamp": "2026-11-23T01:05:07+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 01:05:07 GMT",
+        "title": "India bonds inch higher as oil steadies ahead of RBI verdict",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms",
+        "published": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "publication_timestamp": "2026-11-25T05:29:37+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:59:37 +0530",
         "summary": "",
         "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
+          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms"
         ],
         "supporting_sources": [
-          "BBC Business"
-        ]
-      },
-      {
-        "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
-        "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
-        "published": "Sun, 22 Nov 2026 13:50:21 GMT",
-        "publication_timestamp": "2026-11-22T13:50:21+00:00",
-        "publication_timestamp_raw": "Sun, 22 Nov 2026 13:50:21 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "bbc",
-        "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
-        ],
-        "supporting_sources": [
-          "BBC Business"
+          "The Economic Times"
         ]
       },
       {
@@ -1595,24 +1468,79 @@
         ]
       }
     ],
-    "commodities": [],
+    "commodities": [
+      {
+        "title": "Gold Silver Rates Live Updates: Gold falls 1%, silver drops 2% on MCX. Check key levels and estimates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms",
+        "published": "Wed, 25 Nov 2026 08:19:04 +0530",
+        "publication_timestamp": "2026-11-25T02:49:04+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 08:19:04 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Gold ticks lower ahead of US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+        "published": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "publication_timestamp": "2026-11-25T01:56:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
     "geopolitics": [
       {
-        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
         "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-        "published": "Tue, 24 Nov 2026 22:24:23 GMT",
-        "publication_timestamp": "2026-11-24T22:24:23+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 22:24:23 GMT",
+        "published": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "publication_timestamp": "2026-11-25T10:52:09+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:52:09 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
+        ]
+      },
+      {
+        "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+        "published": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "publication_timestamp": "2026-11-25T00:57:44+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
         ]
       },
       {
@@ -1634,27 +1562,7 @@
         ]
       }
     ],
-    "earnings": [
-      {
-        "title": "India bonds give up marginal opening gains as profit booking takes over",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
-        "published": "Mon, 23 Nov 2026 12:46:54 +0530",
-        "publication_timestamp": "2026-11-23T07:16:54+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 12:46:54 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
-          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      }
-    ]
+    "earnings": []
   },
   "sources": [
     {
@@ -1663,7 +1571,7 @@
       "home": "https://www.rbi.org.in/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T22:59:06.228892+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1675,7 +1583,7 @@
       "home": "https://www.sebi.gov.in/",
       "status": "unconfigured",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T22:59:06.228892+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
       "error": "No permitted public feed configured",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1687,7 +1595,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-24T22:59:06.228892+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1698,10 +1606,10 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T22:59:06.228892+00:00",
-      "attempt_timestamp": "2026-11-24T22:59:06.228892+00:00",
+      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
       "error": null,
-      "item_count": 30,
+      "item_count": 25,
       "fetched_item_count": 40,
       "retained_last_good": false
     },
@@ -1710,8 +1618,8 @@
       "name": "The Economic Times",
       "home": "https://economictimes.indiatimes.com/markets",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T22:59:06.228892+00:00",
-      "attempt_timestamp": "2026-11-24T22:59:06.228892+00:00",
+      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -1722,10 +1630,10 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-24T22:59:06.228892+00:00",
-      "attempt_timestamp": "2026-11-24T22:59:06.228892+00:00",
+      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
       "error": null,
-      "item_count": 6,
+      "item_count": 5,
       "fetched_item_count": 15,
       "retained_last_good": false
     }

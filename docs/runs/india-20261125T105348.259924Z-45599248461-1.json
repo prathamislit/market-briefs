@@ -1,0 +1,1646 @@
+{
+  "edition": "india",
+  "market": "India",
+  "date": "2026-11-25",
+  "publication_timestamp": "2026-11-25T10:53:48.259924+00:00",
+  "retrieval_timestamp": "2026-11-25T10:53:48.259924+00:00",
+  "timezone": "Asia/Kolkata",
+  "calendar": {
+    "status": "trading_day",
+    "source": "NSE equity segment",
+    "diagnostic": "Verified against official NSE CM equity holiday payload (20 dates)"
+  },
+  "synthetic_fixture": false,
+  "unique_item_count": 66,
+  "freshness": "retrieved",
+  "sections": {
+    "overview": [
+      {
+        "title": "Trump's rescue of Nvidia's Huang brings political risks",
+        "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 01:03:05 GMT",
+        "publication_timestamp": "2026-11-25T01:03:05+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 01:03:05 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Why tiny cars are taking off across Europe",
+        "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 00:34:05 GMT",
+        "publication_timestamp": "2026-11-25T00:34:05+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 00:34:05 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+        "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 18:21:43 GMT",
+        "publication_timestamp": "2026-11-24T18:21:43+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:21:43 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 10:53:37 GMT",
+        "publication_timestamp": "2026-11-24T10:53:37+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 10:53:37 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "World Cup drove profits surge, says Marston's",
+        "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 13:03:20 GMT",
+        "publication_timestamp": "2026-11-24T13:03:20+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 13:03:20 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "The shake-up facing renters as a new kind of landlord emerges",
+        "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:28:48 GMT",
+        "publication_timestamp": "2026-11-24T00:28:48+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:28:48 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+        "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:11:08 GMT",
+        "publication_timestamp": "2026-11-24T00:11:08+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:11:08 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+        "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 21:23:42 GMT",
+        "publication_timestamp": "2026-11-23T21:23:42+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 21:23:42 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "How important are Nvidia and Jensen Huang to the US economy?",
+        "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "publication_timestamp": "2026-11-23T16:12:35+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+        "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 00:01:04 GMT",
+        "publication_timestamp": "2026-11-24T00:01:04+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 00:01:04 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+        "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 00:08:00 GMT",
+        "publication_timestamp": "2026-11-23T00:08:00+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 00:08:00 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Should AI be judging our credit worthiness?",
+        "link": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
+        "published": "Fri, 20 Nov 2026 07:32:19 GMT",
+        "publication_timestamp": "2026-11-20T07:32:19+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 07:32:19 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "HPE shares crash 17%, stock suffers its worst-ever single-day fall. Here's why",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-shares-crash-17-stock-suffers-its-worst-ever-single-day-fall-heres-why/slideshow/136148964.cms",
+        "published": "Wed, 25 Nov 2026 10:08:14 +0530",
+        "publication_timestamp": "2026-11-25T04:38:14+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:08:14 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-shares-crash-17-stock-suffers-its-worst-ever-single-day-fall-heres-why/slideshow/136148964.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki Bonus Updates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-updates-25-nov-2026/liveblog/136148282.cms",
+        "published": "Wed, 25 Nov 2026 10:03:14 +0530",
+        "publication_timestamp": "2026-11-25T04:33:14+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:03:14 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-updates-25-nov-2026/liveblog/136148282.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "APL Apollo Tubes among 4 Nifty500 stocks closing below VWAP",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms",
+        "published": "Wed, 25 Nov 2026 09:26:10 +0530",
+        "publication_timestamp": "2026-11-25T03:56:10+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:26:10 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "PB Fintech among 3 Nifty500 stocks flashing RSI uptrend signal",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-3-nifty500-stocks-flashing-rsi-uptrend-signal/slideshow/136147231.cms",
+        "published": "Wed, 25 Nov 2026 09:07:48 +0530",
+        "publication_timestamp": "2026-11-25T03:37:48+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:07:48 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-3-nifty500-stocks-flashing-rsi-uptrend-signal/slideshow/136147231.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Negative Breakout: These 4 stocks dropped below their 200 DMAs",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-4-stocks-dropped-below-their-200-dmas/slideshow/136147014.cms",
+        "published": "Wed, 25 Nov 2026 09:02:00 +0530",
+        "publication_timestamp": "2026-11-25T03:32:00+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:02:00 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-4-stocks-dropped-below-their-200-dmas/slideshow/136147014.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Stock Market Highlights: Sensex soars 1,502 pts, Nifty ends above 25,800; bank, pharma indices jump up to 2%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms",
+        "published": "Wed, 25 Nov 2026 07:11:52 +0530",
+        "publication_timestamp": "2026-11-25T01:41:52+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:11:52 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Market timers get schooled as S&P 500 swings rip up playbooks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/market-timers-get-schooled-with-swings/articleshow/136145370.cms",
+        "published": "Wed, 25 Nov 2026 07:03:27 +0530",
+        "publication_timestamp": "2026-11-25T01:33:27+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:03:27 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/market-timers-get-schooled-with-swings/articleshow/136145370.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Goldman Sachs, SocGen buy Rs 920 crore stake in Lenskart",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-socgen-buy-rs-920-crore-stake-in-lenskart/articleshow/136145273.cms",
+        "published": "Wed, 25 Nov 2026 06:56:01 +0530",
+        "publication_timestamp": "2026-11-25T01:26:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:56:01 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-socgen-buy-rs-920-crore-stake-in-lenskart/articleshow/136145273.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+        "published": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "publication_timestamp": "2026-11-25T00:57:44+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-end-lower-as-investors-assess-jensen-huangs-return-to-nvidia/articleshow/136141893.cms",
+        "published": "Wed, 25 Nov 2026 02:39:28 +0530",
+        "publication_timestamp": "2026-11-24T21:09:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 02:39:28 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-end-lower-as-investors-assess-jensen-huangs-return-to-nvidia/articleshow/136141893.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia: US Stock Market Highlights",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
+        "published": "Tue, 24 Nov 2026 18:30:48 +0530",
+        "publication_timestamp": "2026-11-24T13:00:48+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:30:48 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Anthropic CEO Dario Amodei sells shares worth USD 280.41 million following IPO",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms",
+        "published": "Tue, 24 Nov 2026 17:07:14 +0530",
+        "publication_timestamp": "2026-11-24T11:37:14+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 17:07:14 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "IIFCL IPO: Govt plans to sell part of its stake, company to issue fresh shares",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/iifcl-ipo-govt-plans-to-sell-part-of-its-stake-company-to-issue-fresh-shares/articleshow/136124476.cms",
+        "published": "Tue, 24 Nov 2026 14:02:38 +0530",
+        "publication_timestamp": "2026-11-24T08:32:38+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 14:02:38 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/ipos/fpos/iifcl-ipo-govt-plans-to-sell-part-of-its-stake-company-to-issue-fresh-shares/articleshow/136124476.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Investors mint Rs 34.61 lakh cr in November as markets rally nearly 11%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/investors-mint-rs-34-61-lakh-cr-in-november-as-markets-rally-nearly-11/articleshow/136123662.cms",
+        "published": "Tue, 24 Nov 2026 13:28:46 +0530",
+        "publication_timestamp": "2026-11-24T07:58:46+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 13:28:46 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/investors-mint-rs-34-61-lakh-cr-in-november-as-markets-rally-nearly-11/articleshow/136123662.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "HDFC Bank, Reliance Industries among 10 stocks with highest DII holding in Q2. See full list",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-reliance-industries-among-10-stocks-with-highest-dii-holding-in-q2-see-full-list/slideshow/136126992.cms",
+        "published": "Tue, 24 Nov 2026 11:45:03 +0530",
+        "publication_timestamp": "2026-11-24T06:15:03+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 11:45:03 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-reliance-industries-among-10-stocks-with-highest-dii-holding-in-q2-see-full-list/slideshow/136126992.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "The LTCG debate: Why markets need tax stability and not ad-hoc fixes",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/the-ltcg-debate-why-markets-need-tax-stability-and-not-ad-hoc-fixes/articleshow/136121257.cms",
+        "published": "Tue, 24 Nov 2026 11:38:55 +0530",
+        "publication_timestamp": "2026-11-24T06:08:55+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 11:38:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/the-ltcg-debate-why-markets-need-tax-stability-and-not-ad-hoc-fixes/articleshow/136121257.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus/articleshow/136119619.cms",
+        "published": "Tue, 24 Nov 2026 10:10:09 +0530",
+        "publication_timestamp": "2026-11-24T04:40:09+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 10:10:09 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus/articleshow/136119619.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "South Korea’s Kospi rockets 8% as AI-linked stocks get breather after Jensen Huang’s return as Nvidia CEO. Worst over?",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-rebound-as-huangs-nvidia-return-lifts-ai-stocks/articleshow/136118071.cms",
+        "published": "Tue, 24 Nov 2026 08:35:02 +0530",
+        "publication_timestamp": "2026-11-24T03:05:02+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:35:02 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-rebound-as-huangs-nvidia-return-lifts-ai-stocks/articleshow/136118071.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "NSEL releases Rs 1,950 crore in one-time settlement, ends 14-year payment default",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nsel-releases-rs-1950-crore-in-one-time-settlement-ends-14-year-payment-default/articleshow/136104164.cms",
+        "published": "Mon, 23 Nov 2026 18:43:56 +0530",
+        "publication_timestamp": "2026-11-23T13:13:56+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:43:56 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/nsel-releases-rs-1950-crore-in-one-time-settlement-ends-14-year-payment-default/articleshow/136104164.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Nasdaq surges 6%, Dow soars 1,400 pts as markets rebound on Huang’s return: Stock Market Highlights",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-meta-anthropic-amd-micron-tesla-ai-chip-earnings-fed-rate-treasury-yield-news-23rd-november-2026/liveblog/136104474.cms",
+        "published": "Mon, 23 Nov 2026 18:42:48 +0530",
+        "publication_timestamp": "2026-11-23T13:12:48+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:42:48 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-meta-anthropic-amd-micron-tesla-ai-chip-earnings-fed-rate-treasury-yield-news-23rd-november-2026/liveblog/136104474.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Adani Airport raises $300 mn from 360 ONE Asset, taking total equity infusion to $1.35 bn",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms",
+        "published": "Mon, 23 Nov 2026 18:41:12 +0530",
+        "publication_timestamp": "2026-11-23T13:11:12+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:41:12 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Nasdaq futures surge 3% as battered AI stocks gain ground",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-surge-3-as-battered-ai-stocks-gain-ground/articleshow/136104059.cms",
+        "published": "Mon, 23 Nov 2026 18:39:42 +0530",
+        "publication_timestamp": "2026-11-23T13:09:42+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:39:42 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-surge-3-as-battered-ai-stocks-gain-ground/articleshow/136104059.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+        "published": "Tue, 24 Nov 2026 12:00:00 +0100",
+        "publication_timestamp": "2026-11-24T11:00:00+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 12:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Philip R. Lane: Climate change and monetary policy",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+        "published": "Mon, 23 Nov 2026 15:30:00 +0100",
+        "publication_timestamp": "2026-11-23T14:30:00+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 15:30:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+        "published": "Mon, 23 Nov 2026 11:00:00 +0100",
+        "publication_timestamp": "2026-11-23T10:00:00+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 11:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      },
+      {
+        "title": "Christine Lagarde: Acting in time",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+        "published": "Fri, 20 Nov 2026 09:30:00 +0100",
+        "publication_timestamp": "2026-11-20T08:30:00+00:00",
+        "publication_timestamp_raw": "Fri, 20 Nov 2026 09:30:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      }
+    ],
+    "india": [
+      {
+        "title": "The rising cost of putting food on the table in India",
+        "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 01:02:13 GMT",
+        "publication_timestamp": "2026-11-25T01:02:13+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 01:02:13 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "India bonds inch higher as oil steadies ahead of RBI verdict",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms",
+        "published": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "publication_timestamp": "2026-11-25T05:29:37+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Rupee pares FY27 losses, climbs 56 paise to 92.29/USD",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms",
+        "published": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "publication_timestamp": "2026-11-25T04:30:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "India pension funds pivot to bonds as equity exposure nears cap",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-pension-funds-pivot-to-bonds-as-equity-exposure-nears-cap/articleshow/136146220.cms",
+        "published": "Wed, 25 Nov 2026 08:12:38 +0530",
+        "publication_timestamp": "2026-11-25T02:42:38+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 08:12:38 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/india-pension-funds-pivot-to-bonds-as-equity-exposure-nears-cap/articleshow/136146220.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "PE/VC investments in India surge to USD 8.7 billion in October, highest monthly level in five years: EY-IVCA report",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms",
+        "published": "Tue, 24 Nov 2026 19:17:50 +0530",
+        "publication_timestamp": "2026-11-24T13:47:50+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 19:17:50 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Shift in pension and insurance money to equities dampens long-term G-sec demand: RBI DG",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms",
+        "published": "Tue, 24 Nov 2026 18:09:55 +0530",
+        "publication_timestamp": "2026-11-24T12:39:55+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:09:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "RBI DG asks primary dealers to bid responsibly in G-Sec underwriting auctions",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/rbi-dg-asks-primary-dealers-to-bid-responsibly-in-g-sec-underwriting-auctions/articleshow/136125661.cms",
+        "published": "Tue, 24 Nov 2026 14:56:23 +0530",
+        "publication_timestamp": "2026-11-24T09:26:23+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 14:56:23 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/rbi-dg-asks-primary-dealers-to-bid-responsibly-in-g-sec-underwriting-auctions/articleshow/136125661.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "India’s rupee has become an accidental carry star",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/indias-rupee-has-become-an-accidental-carry-star/articleshow/136117132.cms",
+        "published": "Tue, 24 Nov 2026 07:13:12 +0530",
+        "publication_timestamp": "2026-11-24T01:43:12+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 07:13:12 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/indias-rupee-has-become-an-accidental-carry-star/articleshow/136117132.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Rupee reversal, debt supply drag India bonds in holiday-shortened week",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
+        "published": "Mon, 23 Nov 2026 18:37:06 +0530",
+        "publication_timestamp": "2026-11-23T13:07:06+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:37:06 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "us": [
+      {
+        "title": "US preparing to unveil plan for new tariffs on global trading partners",
+        "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 00:38:01 GMT",
+        "publication_timestamp": "2026-11-25T00:38:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 00:38:01 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "US attorney general dodges questions about Nvidia investigation",
+        "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 03:44:07 GMT",
+        "publication_timestamp": "2026-11-25T03:44:07+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 03:44:07 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "publication_timestamp": "2026-11-25T10:52:09+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "How important are Nvidia and Jensen Huang to the US economy?",
+        "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+        "published": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "publication_timestamp": "2026-11-23T16:12:35+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 16:12:35 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+        "published": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "publication_timestamp": "2026-11-25T01:58:10+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Gold ticks lower ahead of US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+        "published": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "publication_timestamp": "2026-11-25T01:56:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia: US Stock Market Highlights",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
+        "published": "Tue, 24 Nov 2026 18:30:48 +0530",
+        "publication_timestamp": "2026-11-24T13:00:48+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:30:48 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Shift in pension and insurance money to equities dampens long-term G-sec demand: RBI DG",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms",
+        "published": "Tue, 24 Nov 2026 18:09:55 +0530",
+        "publication_timestamp": "2026-11-24T12:39:55+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:09:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "AI boom looms over Warsh's Fed as inflation worries grow",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms",
+        "published": "Tue, 24 Nov 2026 17:09:37 +0530",
+        "publication_timestamp": "2026-11-24T11:39:37+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 17:09:37 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "RBI DG asks primary dealers to bid responsibly in G-Sec underwriting auctions",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/rbi-dg-asks-primary-dealers-to-bid-responsibly-in-g-sec-underwriting-auctions/articleshow/136125661.cms",
+        "published": "Tue, 24 Nov 2026 14:56:23 +0530",
+        "publication_timestamp": "2026-11-24T09:26:23+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 14:56:23 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/rbi-dg-asks-primary-dealers-to-bid-responsibly-in-g-sec-underwriting-auctions/articleshow/136125661.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Dollar climbs as renewed AI euphoria fuels Fed hike bets",
+        "link": "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms",
+        "published": "Tue, 24 Nov 2026 08:32:32 +0530",
+        "publication_timestamp": "2026-11-24T03:02:32+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:32:32 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-wall-street-soars-on-huangs-return-to-nvidia-treasury-yields-rise/articleshow/136116751.cms",
+        "published": "Tue, 24 Nov 2026 06:24:33 +0530",
+        "publication_timestamp": "2026-11-24T00:54:33+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 06:24:33 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-wall-street-soars-on-huangs-return-to-nvidia-treasury-yields-rise/articleshow/136116751.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "macro": [
+      {
+        "title": "Why are investors betting on Abercrombie's growth story?",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-are-investors-betting-on-abercrombies-growth-story/slideshow/136151161.cms",
+        "published": "Wed, 25 Nov 2026 11:09:11 +0530",
+        "publication_timestamp": "2026-11-25T05:39:11+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:09:11 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-are-investors-betting-on-abercrombies-growth-story/slideshow/136151161.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Gold ticks lower ahead of US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+        "published": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "publication_timestamp": "2026-11-25T01:56:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms",
+        "published": "Tue, 24 Nov 2026 18:08:23 +0530",
+        "publication_timestamp": "2026-11-24T12:38:23+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:08:23 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "AI boom looms over Warsh's Fed as inflation worries grow",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms",
+        "published": "Tue, 24 Nov 2026 17:09:37 +0530",
+        "publication_timestamp": "2026-11-24T11:39:37+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 17:09:37 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Japanese bond yields fall as lower oil prices ease inflation concerns",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
+        "published": "Tue, 24 Nov 2026 08:34:17 +0530",
+        "publication_timestamp": "2026-11-24T03:04:17+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:34:17 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "rates": [
+      {
+        "title": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms",
+        "published": "Tue, 24 Nov 2026 18:08:23 +0530",
+        "publication_timestamp": "2026-11-24T12:38:23+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 18:08:23 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Japanese bond yields fall as lower oil prices ease inflation concerns",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
+        "published": "Tue, 24 Nov 2026 08:34:17 +0530",
+        "publication_timestamp": "2026-11-24T03:04:17+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:34:17 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-wall-street-soars-on-huangs-return-to-nvidia-treasury-yields-rise/articleshow/136116751.cms",
+        "published": "Tue, 24 Nov 2026 06:24:33 +0530",
+        "publication_timestamp": "2026-11-24T00:54:33+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 06:24:33 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-wall-street-soars-on-huangs-return-to-nvidia-treasury-yields-rise/articleshow/136116751.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "fx": [
+      {
+        "title": "Rupee pares FY27 losses, climbs 56 paise to 92.29/USD",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms",
+        "published": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "publication_timestamp": "2026-11-25T04:30:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:00:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+        "published": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "publication_timestamp": "2026-11-25T01:58:10+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:28:10 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Dollar climbs as renewed AI euphoria fuels Fed hike bets",
+        "link": "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms",
+        "published": "Tue, 24 Nov 2026 08:32:32 +0530",
+        "publication_timestamp": "2026-11-24T03:02:32+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:32:32 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "India’s rupee has become an accidental carry star",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/indias-rupee-has-become-an-accidental-carry-star/articleshow/136117132.cms",
+        "published": "Tue, 24 Nov 2026 07:13:12 +0530",
+        "publication_timestamp": "2026-11-24T01:43:12+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 07:13:12 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/news/indias-rupee-has-become-an-accidental-carry-star/articleshow/136117132.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Rupee reversal, debt supply drag India bonds in holiday-shortened week",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
+        "published": "Mon, 23 Nov 2026 18:37:06 +0530",
+        "publication_timestamp": "2026-11-23T13:07:06+00:00",
+        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:37:06 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Card payments edge past cash in shops; euro area consumers want both",
+        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+        "published": "Wed, 25 Nov 2026 11:00:00 +0100",
+        "publication_timestamp": "2026-11-25T10:00:00+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:00:00 +0100",
+        "summary": "",
+        "access": "headline_only",
+        "source": "ecb",
+        "source_name": "European Central Bank",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
+        ],
+        "supporting_sources": [
+          "European Central Bank"
+        ]
+      }
+    ],
+    "energy": [
+      {
+        "title": "Energy bills to rise by 26% from January after gas prices surge",
+        "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 09:54:39 GMT",
+        "publication_timestamp": "2026-11-25T09:54:39+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:54:39 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Energy bills will soar - here's how you can ease the pain",
+        "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:42:20 GMT",
+        "publication_timestamp": "2026-11-25T10:42:20+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:42:20 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "What will the energy cap changes mean for my bills?",
+        "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 09:54:32 GMT",
+        "publication_timestamp": "2026-11-25T09:54:32+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:54:32 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+        "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:04:55 GMT",
+        "publication_timestamp": "2026-11-25T10:04:55+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:04:55 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Will I get the £100 energy payment and when will I receive it?",
+        "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
+        "published": "Tue, 24 Nov 2026 20:16:24 GMT",
+        "publication_timestamp": "2026-11-24T20:16:24+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 20:16:24 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "India bonds inch higher as oil steadies ahead of RBI verdict",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms",
+        "published": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "publication_timestamp": "2026-11-25T05:29:37+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:59:37 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Japanese bond yields fall as lower oil prices ease inflation concerns",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
+        "published": "Tue, 24 Nov 2026 08:34:17 +0530",
+        "publication_timestamp": "2026-11-24T03:04:17+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:34:17 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "commodities": [
+      {
+        "title": "Gold Silver Rates Live Updates: Gold falls 1%, silver drops 2% on MCX. Check key levels and estimates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms",
+        "published": "Wed, 25 Nov 2026 08:19:04 +0530",
+        "publication_timestamp": "2026-11-25T02:49:04+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 08:19:04 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Gold ticks lower ahead of US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+        "published": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "publication_timestamp": "2026-11-25T01:56:22+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 07:26:22 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "published": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "publication_timestamp": "2026-11-25T10:52:09+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:52:09 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "bbc",
+        "source_name": "BBC Business",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "supporting_sources": [
+          "BBC Business"
+        ]
+      },
+      {
+        "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+        "published": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "publication_timestamp": "2026-11-25T00:57:44+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:27:44 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Asian stocks rally as Huang's Nvidia return revives AI trade",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade/articleshow/136117829.cms",
+        "published": "Tue, 24 Nov 2026 08:14:53 +0530",
+        "publication_timestamp": "2026-11-24T02:44:53+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 08:14:53 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/news/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade/articleshow/136117829.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      }
+    ],
+    "earnings": []
+  },
+  "sources": [
+    {
+      "id": "rbi",
+      "name": "Reserve Bank of India",
+      "home": "https://www.rbi.org.in/",
+      "status": "failed",
+      "last_success_timestamp": null,
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "error": "HTTP 404: feed request rejected",
+      "item_count": 0,
+      "fetched_item_count": 0,
+      "retained_last_good": false
+    },
+    {
+      "id": "sebi",
+      "name": "Securities and Exchange Board of India",
+      "home": "https://www.sebi.gov.in/",
+      "status": "unconfigured",
+      "last_success_timestamp": null,
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "error": "No permitted public feed configured",
+      "item_count": 0,
+      "fetched_item_count": 0,
+      "retained_last_good": false
+    },
+    {
+      "id": "eia",
+      "name": "U.S. Energy Information Administration",
+      "home": "https://www.eia.gov/",
+      "status": "failed",
+      "last_success_timestamp": null,
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "error": "HTTP 404: feed request rejected",
+      "item_count": 0,
+      "fetched_item_count": 0,
+      "retained_last_good": false
+    },
+    {
+      "id": "bbc",
+      "name": "BBC Business",
+      "home": "https://www.bbc.com/news/business",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "error": null,
+      "item_count": 25,
+      "fetched_item_count": 40,
+      "retained_last_good": false
+    },
+    {
+      "id": "economic_times",
+      "name": "The Economic Times",
+      "home": "https://economictimes.indiatimes.com/markets",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "error": null,
+      "item_count": 40,
+      "fetched_item_count": 40,
+      "retained_last_good": false
+    },
+    {
+      "id": "ecb",
+      "name": "European Central Bank",
+      "home": "https://www.ecb.europa.eu/",
+      "status": "ok",
+      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "error": null,
+      "item_count": 5,
+      "fetched_item_count": 15,
+      "retained_last_good": false
+    }
+  ],
+  "limitations": [
+    "Only permitted public feeds configured for this run are included.",
+    "Headlines and concise summaries are not evidence of full article coverage.",
+    "This report does not claim comprehensive access to paywalled financial journalism."
+  ]
+}

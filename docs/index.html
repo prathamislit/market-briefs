@@ -108,12 +108,16 @@
     <div id="archive-control" class="toolbar"></div>
   </main>
   <script>
-    const manifest = [{"edition": "india", "date": "2026-11-25", "publication_timestamp": "2026-11-24T22:59:06.228892+00:00", "retrieval_timestamp": "2026-11-24T22:59:06.228892+00:00", "json": "india-2026-11-25.json", "markdown": "india-2026-11-25.md"}, {"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T22:59:09.526045+00:00", "retrieval_timestamp": "2026-11-24T22:59:09.526045+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
+    const manifest = [{"edition": "us", "date": "2026-11-25", "publication_timestamp": "2026-11-25T10:53:52.174494+00:00", "retrieval_timestamp": "2026-11-25T10:53:52.174494+00:00", "json": "us-2026-11-25.json", "markdown": "us-2026-11-25.md"}, {"edition": "india", "date": "2026-11-25", "publication_timestamp": "2026-11-25T10:53:48.259924+00:00", "retrieval_timestamp": "2026-11-25T10:53:48.259924+00:00", "json": "india-2026-11-25.json", "markdown": "india-2026-11-25.md"}, {"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T22:59:09.526045+00:00", "retrieval_timestamp": "2026-11-24T22:59:09.526045+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
     let edition = "all";
     let section = "all";
     let visibleCount = 12;
     let renderVersion = 0;
+    let renderedView = "";
+    let renderedCount = 0;
+    let renderedHadErrors = false;
     const reportCache = new Map();
+    const dailyCache = new Map();
     const latestDates = new Map();
     for (const entry of manifest) {
       if (!latestDates.has(entry.edition) || entry.date > latestDates.get(entry.edition)) latestDates.set(entry.edition, entry.date);
@@ -306,11 +310,18 @@
     async function showDailyReport(entry) {
       const version = ++dailyRenderVersion;
       dailyRoot.setAttribute("aria-busy", "true");
-      dailyRoot.innerHTML = '<article class="card report"><p>Loading Daily Markets report…</p></article>';
       try {
-        const response = await fetch(dailyPath(entry.json, "json"));
-        if (!response.ok) throw new Error("Daily Markets report unavailable");
-        const report = await response.json();
+        const path = dailyPath(entry.json, "json");
+        if (!dailyCache.has(path)) {
+          dailyCache.set(path, fetch(path).then(response => {
+            if (!response.ok) throw new Error("Daily Markets report unavailable");
+            return response.json();
+          }).catch(error => {
+            dailyCache.delete(path);
+            throw error;
+          }));
+        }
+        const report = await dailyCache.get(path);
         const markdown = dailyPath(entry.markdown, "md");
         const json = dailyPath(entry.json, "json");
         const gaps = Array.isArray(report.limitations) ? report.limitations : [];
@@ -437,24 +448,34 @@
     async function render() {
       const version = ++renderVersion;
       const selectedSection = section;
+      const view = `${edition}:${selectedSection}`;
+      const append = renderedView === view && !renderedHadErrors;
       archiveControl.innerHTML = "";
       root.setAttribute("aria-busy", "true");
       const rows = manifest.filter(x => edition === "all" || x.edition === edition);
       if (!rows.length) {
         root.innerHTML = '<article class="card"><h2>No reports yet</h2><div class="meta">The next scheduled or manual run will add an edition.</div></article>';
+        renderedView = view;
+        renderedCount = 0;
+        renderedHadErrors = false;
         root.setAttribute("aria-busy", "false");
         return;
       }
-      root.innerHTML = '<article class="card"><h2>Loading reports...</h2></article>';
-      const visibleRows = rows.slice(0, visibleCount);
+      if (!root.hasChildNodes()) root.innerHTML = '<article class="card"><h2>Loading reports...</h2></article>';
+      const visibleRows = rows.slice(append ? renderedCount : 0, visibleCount);
       const rendered = await Promise.all(visibleRows.map(async row => {
-        try { return await renderReport(row, selectedSection); }
-        catch (error) { return '<article class="card report"><h2>Report unavailable</h2><div class="meta">' + escapeHtml(error.message) + '</div></article>'; }
+        try { return {markup: await renderReport(row, selectedSection), error: false}; }
+        catch (error) { return {markup: '<article class="card report"><h2>Report unavailable</h2><div class="meta">' + escapeHtml(error.message) + '</div></article>', error: true}; }
       }));
       if (version !== renderVersion) return;
-      root.innerHTML = rendered.join("");
+      const markup = rendered.map(result => result.markup).join("");
+      if (append) root.insertAdjacentHTML("beforeend", markup);
+      else root.innerHTML = markup;
+      renderedView = view;
+      renderedCount = Math.min(rows.length, visibleCount);
+      renderedHadErrors = rendered.some(result => result.error);
       root.setAttribute("aria-busy", "false");
-      if (rows.length > visibleRows.length) {
+      if (rows.length > renderedCount) {
         archiveControl.innerHTML = '<button id="load-older">Load older editions</button>';
         document.getElementById("load-older").addEventListener("click", () => {
           visibleCount += 12;
