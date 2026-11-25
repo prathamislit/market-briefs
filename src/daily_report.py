@@ -252,7 +252,7 @@ def compose_daily_report(briefs, *, market_data=None, watchlist=None, etf_data=N
             healthy = [e for e in desk["entries"] if e.get("status") == "ok"]
             desk["status"] = ("partial" if len(healthy) < len(desk["entries"]) else "available") if healthy else "unavailable"
             continue
-        usable = any((e.get("status") in ("ok", "stale") and e.get("level") is not None)
+        usable = any((e.get("status") in ("ok", "reference") and e.get("level") is not None)
                      if e.get("kind") == "market_observation" else
                      e.get("freshness") not in ("stale", "future_unverified")
                      for e in desk["entries"])
@@ -299,7 +299,7 @@ def render_markdown(report):
         for entry in desk["entries"]:
             if entry.get("kind") == "market_observation":
                 name = str(entry["name"])
-                if entry.get("status") in ("ok", "stale") and entry.get("level") is not None:
+                if entry.get("status") in ("ok", "reference", "stale") and entry.get("level") is not None:
                     change_unit = "percentage points" if entry.get("unit") == "percent" else (entry.get("unit") or "units")
                     change = (f"{entry['change']} {change_unit}" if entry.get("change") is not None else "unavailable")
                     detail = f"{entry.get('status')}: {entry['level']} {entry.get('unit') or ''}; change {change}; as of {entry.get('as_of') or 'unavailable'}"

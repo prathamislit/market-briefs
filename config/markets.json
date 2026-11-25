@@ -2,16 +2,16 @@
   "schema_version": 1,
   "provider": "Federal Reserve Bank of St. Louis (FRED public CSV; original agencies shown per series)",
   "series": [
-    {"id":"DGS2","name":"US Treasury 2-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15","max_age_days":5},
-    {"id":"DGS10","name":"US Treasury 10-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15","max_age_days":5},
-    {"id":"DGS30","name":"US Treasury 30-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15","max_age_days":5},
-    {"id":"DEXINUS","name":"USD/INR (New York noon buying rate)","region":"india","unit":"INR per USD","source":"Federal Reserve Board, H.10","max_age_days":5},
-    {"id":"DEXCHUS","name":"USD/CNY (New York noon buying rate)","region":"china","unit":"CNY per USD","source":"Federal Reserve Board, H.10","max_age_days":5},
-    {"id":"DEXJPUS","name":"USD/JPY (New York noon buying rate)","region":"japan","unit":"JPY per USD","source":"Federal Reserve Board, H.10","max_age_days":5},
-    {"id":"DEXUSEU","name":"EUR/USD (New York noon buying rate)","region":"global","unit":"USD per EUR","source":"Federal Reserve Board, H.10","max_age_days":5},
-    {"id":"DCOILWTICO","name":"WTI crude oil spot","region":"global","unit":"USD per barrel","source":"US Energy Information Administration","max_age_days":10},
-    {"id":"DCOILBRENTEU","name":"Brent crude oil spot","region":"global","unit":"USD per barrel","source":"US Energy Information Administration","max_age_days":10},
-    {"id":"DHHNGSP","name":"Henry Hub natural gas spot","region":"global","unit":"USD per MMBtu","source":"US Energy Information Administration","max_age_days":10}
+    {"id":"DGS2","name":"US Treasury 2-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15 (fallback)","treasury_field":"BC_2YEAR","max_age_business_days":1},
+    {"id":"DGS10","name":"US Treasury 10-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15 (fallback)","treasury_field":"BC_10YEAR","max_age_business_days":1},
+    {"id":"DGS30","name":"US Treasury 30-year yield","region":"us","unit":"percent","source":"Federal Reserve Board, H.15 (fallback)","treasury_field":"BC_30YEAR","max_age_business_days":1},
+    {"id":"DEXINUS","name":"USD/INR (New York noon buying rate)","region":"india","unit":"INR per USD","source":"Federal Reserve Board, H.10","cadence":"weekly_reference","max_age_business_days":6},
+    {"id":"DEXCHUS","name":"USD/CNY (New York noon buying rate)","region":"china","unit":"CNY per USD","source":"Federal Reserve Board, H.10","cadence":"weekly_reference","max_age_business_days":6},
+    {"id":"DEXJPUS","name":"USD/JPY (New York noon buying rate)","region":"japan","unit":"JPY per USD","source":"Federal Reserve Board, H.10","cadence":"weekly_reference","max_age_business_days":6},
+    {"id":"DEXUSEU","name":"EUR/USD (New York noon buying rate)","region":"global","unit":"USD per EUR","source":"Federal Reserve Board, H.10","cadence":"weekly_reference","max_age_business_days":6},
+    {"id":"DCOILWTICO","name":"WTI crude oil spot","region":"global","unit":"USD per barrel","source":"US Energy Information Administration via FRED","reference_only":true,"max_age_business_days":2},
+    {"id":"DCOILBRENTEU","name":"Brent crude oil spot","region":"global","unit":"USD per barrel","source":"US Energy Information Administration via FRED","reference_only":true,"max_age_business_days":2},
+    {"id":"DHHNGSP","name":"Henry Hub natural gas spot","region":"global","unit":"USD per MMBtu","source":"US Energy Information Administration via FRED","reference_only":true,"max_age_business_days":2}
   ],
   "unavailable": [
     {"name":"S&P 500, Nasdaq, Dow and global equity closes","region":"us","note":"Index prices require a verified source with permitted redistribution."},

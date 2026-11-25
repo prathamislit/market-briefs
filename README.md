@@ -152,8 +152,10 @@ Retrieval time never substitutes for the underlying data date.
 | What matters next | Dated official events when collection succeeds |
 | Source register | Public source status, provenance, and diagnostics |
 
-`config/markets.json` configures ten public FRED CSV series.
-Original agencies remain identified alongside FRED distribution links.
+`config/markets.json` configures three direct Treasury yields and seven FRED CSV series.
+Treasury's monthly XML feed supersedes a lagging FRED H.15 series.
+FRED remains a dated fallback when Treasury's feed fails.
+Original agencies and actual selected-source links appear per observation.
 These are dated observations, not real-time market quotes.
 
 The dashboard also embeds a TradingView-hosted market-data table.
@@ -176,9 +178,16 @@ Its values cannot enter the reproducible report JSON or historical archives.
 | Exchange rates | USD/INR, USD/CNY, USD/JPY, and EUR/USD |
 | Energy spot prices | WTI, Brent, and Henry Hub natural gas |
 
-Rates and FX become stale after five calendar days.
-Energy observations become stale after ten calendar days.
-Age is measured against the UTC report date.
+Yields become stale after one elapsed weekday.
+The weekly H.10 noon FX series remains a historical reference.
+It becomes stale after six elapsed weekdays.
+EIA spot series through FRED are historical references.
+They become stale after two elapsed weekdays.
+The dashboard links EIA's fresher daily price page.
+Its third-party spot prices are not copied into this repository.
+Age is measured against the New York report date.
+Weekends and observed U.S. federal holidays are excluded.
+Historical and stale rows remain dated, linked, and collapsed.
 Changes compare the latest two numeric observations.
 Those observations can span holidays and missing-data intervals.
 Yield changes use percentage points, not percentage returns.
