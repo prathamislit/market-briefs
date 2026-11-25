@@ -160,6 +160,9 @@ The dashboard also embeds a TradingView-hosted market-data table.
 It displays six US/global index references and five BSE indices.
 Four indicative currency pairs and six commodity CFD proxies follow.
 SPY, GLD, SLV, and USO show ETF share prices separately.
+The US 500 CFD moves outside regular exchange hours.
+It is not the official S&P 500 closing level.
+The dashboard links directly to FRED's dated official close.
 CFD quotes differ from official indices and agency spot observations.
 BSE indices are end of day; ETF quotes may be delayed.
 Nifty and VIX link to their official source pages.
