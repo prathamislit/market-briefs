@@ -2,8 +2,8 @@
   "edition": "us",
   "market": "United States",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-25T10:53:52.174494+00:00",
-  "retrieval_timestamp": "2026-11-25T10:53:52.174494+00:00",
+  "publication_timestamp": "2026-11-25T11:11:40.272887+00:00",
+  "retrieval_timestamp": "2026-11-25T11:11:40.272887+00:00",
   "timezone": "America/New_York",
   "calendar": {
     "status": "trading_day",
@@ -11,7 +11,7 @@
     "diagnostic": "Verified against XNYS session calendar"
   },
   "synthetic_fixture": false,
-  "unique_item_count": 97,
+  "unique_item_count": 100,
   "freshness": "retrieved",
   "sections": {
     "overview": [
@@ -52,581 +52,579 @@
         ]
       },
       {
-        "title": "SCHEDULE 13G/A - Sound Point Direct Lending BDC (0002061174) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2061174/000162828026075856/0001628280-26-075856-index.htm",
-        "published": "2026-11-24T20:51:19-05:00",
-        "publication_timestamp": "2026-11-25T01:51:19+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:51:19-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001628280-26-075856 Size: 16 KB",
+        "title": "D - ENERGYNE RESOURCES MULTI WELL 2 INC (0002165582) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2165582/000216558226000001/0002165582-26-000001-index.htm",
+        "published": "2026-11-25T06:10:41-05:00",
+        "publication_timestamp": "2026-11-25T11:10:41+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:10:41-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0002165582-26-000001 Size: 6 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2061174/000162828026075856/0001628280-26-075856-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/2165582/000216558226000001/0002165582-26-000001-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13G/A - ASSURED GUARANTY LTD (0001273813) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1273813/000162828026075856/0001628280-26-075856-index.htm",
-        "published": "2026-11-24T20:51:19-05:00",
-        "publication_timestamp": "2026-11-25T01:51:19+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:51:19-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001628280-26-075856 Size: 16 KB",
+        "title": "SCHEDULE 13D/A - ZTO Express (Cayman) Inc. (0001677250) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1677250/000110465926131769/0001104659-26-131769-index.htm",
+        "published": "2026-11-25T06:09:33-05:00",
+        "publication_timestamp": "2026-11-25T11:09:33+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:09:33-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131769 Size: 17 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1273813/000162828026075856/0001628280-26-075856-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1273813/000162828026075855/0001628280-26-075855-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1273813/000162828026075854/0001628280-26-075854-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1677250/000110465926131769/0001104659-26-131769-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13G/A - Sound Point Meridian Capital, Inc. (0001930147) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1930147/000162828026075855/0001628280-26-075855-index.htm",
-        "published": "2026-11-24T20:49:57-05:00",
-        "publication_timestamp": "2026-11-25T01:49:57+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:49:57-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001628280-26-075855 Size: 16 KB",
+        "title": "SCHEDULE 13D/A - Alibaba Group Holding Ltd (0001577552) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926131769/0001104659-26-131769-index.htm",
+        "published": "2026-11-25T06:09:33-05:00",
+        "publication_timestamp": "2026-11-25T11:09:33+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:09:33-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131769 Size: 17 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1930147/000162828026075855/0001628280-26-075855-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1577552/000110465926131769/0001104659-26-131769-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13G/A - Sound Point Alternative Income Fund (0002028174) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2028174/000162828026075854/0001628280-26-075854-index.htm",
-        "published": "2026-11-24T20:47:32-05:00",
-        "publication_timestamp": "2026-11-25T01:47:32+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:47:32-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001628280-26-075854 Size: 17 KB",
+        "title": "6-K - Li Auto Inc. (0001791706) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1791706/000110465926131768/0001104659-26-131768-index.htm",
+        "published": "2026-11-25T06:09:18-05:00",
+        "publication_timestamp": "2026-11-25T11:09:18+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:09:18-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131768 Size: 292 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2028174/000162828026075854/0001628280-26-075854-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1791706/000110465926131768/0001104659-26-131768-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - Saba Capital Management, L.P. (0001510281) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006274/0001062993-26-006274-index.htm",
-        "published": "2026-11-24T20:11:17-05:00",
-        "publication_timestamp": "2026-11-25T01:11:17+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:11:17-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006274 Size: 23 KB",
+        "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026123871/0001213900-26-123871-index.htm",
+        "published": "2026-11-25T06:08:59-05:00",
+        "publication_timestamp": "2026-11-25T11:08:59+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:08:59-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001213900-26-123871 Size: 3 MB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006274/0001062993-26-006274-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006273/0001062993-26-006273-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006272/0001062993-26-006272-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006269/0001062993-26-006269-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1665650/000121390026123871/0001213900-26-123871-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1665650/000191870426036892/0001918704-26-036892-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - MEXICO FUND INC (0000065433) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/65433/000106299326006274/0001062993-26-006274-index.htm",
-        "published": "2026-11-24T20:11:17-05:00",
-        "publication_timestamp": "2026-11-25T01:11:17+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:11:17-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006274 Size: 23 KB",
+        "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/19617/000121390026123871/0001213900-26-123871-index.htm",
+        "published": "2026-11-25T06:08:59-05:00",
+        "publication_timestamp": "2026-11-25T11:08:59+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:08:59-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001213900-26-123871 Size: 3 MB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/65433/000106299326006274/0001062993-26-006274-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/19617/000121390026123871/0001213900-26-123871-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/19617/000191870426036892/0001918704-26-036892-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - NEW GERMANY FUND INC (0000858706) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/858706/000106299326006273/0001062993-26-006273-index.htm",
-        "published": "2026-11-24T20:03:55-05:00",
-        "publication_timestamp": "2026-11-25T01:03:55+00:00",
-        "publication_timestamp_raw": "2026-11-24T20:03:55-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006273 Size: 31 KB",
+        "title": "6-K - Gaotu Techedu Inc. (0001768259) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1768259/000119312526476711/0001193125-26-476711-index.htm",
+        "published": "2026-11-25T06:08:49-05:00",
+        "publication_timestamp": "2026-11-25T11:08:49+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:08:49-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476711 Size: 849 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/858706/000106299326006273/0001062993-26-006273-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1768259/000119312526476711/0001193125-26-476711-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D - Field Jacob Robert (0002166136) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2166136/000121390026123820/0001213900-26-123820-index.htm",
-        "published": "2026-11-24T19:30:24-05:00",
-        "publication_timestamp": "2026-11-25T00:30:24+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:30:24-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001213900-26-123820 Size: 48 KB",
+        "title": "6-K - Clinuvel Pharmaceuticals Ltd (0001290877) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1290877/000149315226054091/0001493152-26-054091-index.htm",
+        "published": "2026-11-25T06:05:45-05:00",
+        "publication_timestamp": "2026-11-25T11:05:45+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:05:45-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001493152-26-054091 Size: 1 MB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2166136/000121390026123820/0001213900-26-123820-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1290877/000149315226054091/0001493152-26-054091-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D - Zone Frontier Inc. (0001956741) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026123820/0001213900-26-123820-index.htm",
-        "published": "2026-11-24T19:30:24-05:00",
-        "publication_timestamp": "2026-11-25T00:30:24+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:30:24-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001213900-26-123820 Size: 48 KB",
+        "title": "6-K - Fitness Champs Holdings Ltd (0002023796) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2023796/000149315226054090/0001493152-26-054090-index.htm",
+        "published": "2026-11-25T06:05:12-05:00",
+        "publication_timestamp": "2026-11-25T11:05:12+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:05:12-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001493152-26-054090 Size: 28 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1956741/000121390026123820/0001213900-26-123820-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/2023796/000149315226054090/0001493152-26-054090-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - HIGHLAND OPPORTUNITIES & INCOME FUND (0001710680) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1710680/000106299326006272/0001062993-26-006272-index.htm",
-        "published": "2026-11-24T19:21:48-05:00",
-        "publication_timestamp": "2026-11-25T00:21:48+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:21:48-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006272 Size: 24 KB",
+        "title": "6-K - Magnum Ice Cream Co N.V. (0002071668) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2071668/000117184326007702/0001171843-26-007702-index.htm",
+        "published": "2026-11-25T06:05:06-05:00",
+        "publication_timestamp": "2026-11-25T11:05:06+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:05:06-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001171843-26-007702 Size: 19 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1710680/000106299326006272/0001062993-26-006272-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/2071668/000117184326007702/0001171843-26-007702-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - Fund 1 Investments, LLC (0001959730) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1959730/000092189526003256/0000921895-26-003256-index.htm",
-        "published": "2026-11-24T19:20:33-05:00",
-        "publication_timestamp": "2026-11-25T00:20:33+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:20:33-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0000921895-26-003256 Size: 6 KB",
+        "title": "F-1/A - Timwood Holdings Ltd (0002092291) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2092291/000118518526005610/0001185185-26-005610-index.htm",
+        "published": "2026-11-25T06:03:45-05:00",
+        "publication_timestamp": "2026-11-25T11:03:45+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:03:45-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001185185-26-005610 Size: 2 MB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1959730/000092189526003256/0000921895-26-003256-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/2092291/000118518526005610/0001185185-26-005610-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - Funko, Inc. (0001704711) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1704711/000092189526003256/0000921895-26-003256-index.htm",
-        "published": "2026-11-24T19:20:33-05:00",
-        "publication_timestamp": "2026-11-25T00:20:33+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:20:33-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0000921895-26-003256 Size: 6 KB",
+        "title": "6-K - IPERIONX Ltd (0001898601) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1898601/000114036126045560/0001140361-26-045560-index.htm",
+        "published": "2026-11-25T06:03:20-05:00",
+        "publication_timestamp": "2026-11-25T11:03:20+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:03:20-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001140361-26-045560 Size: 681 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1704711/000092189526003256/0000921895-26-003256-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1898601/000114036126045560/0001140361-26-045560-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D - Saba Capital Management, L.P. (0001510281) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006271/0001062993-26-006271-index.htm",
-        "published": "2026-11-24T19:18:43-05:00",
-        "publication_timestamp": "2026-11-25T00:18:43+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:18:43-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006271 Size: 61 KB",
+        "title": "6-K - SaverOne 2014 Ltd. (0001894693) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1894693/000121390026123869/0001213900-26-123869-index.htm",
+        "published": "2026-11-25T06:02:59-05:00",
+        "publication_timestamp": "2026-11-25T11:02:59+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:02:59-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001213900-26-123869 Size: 101 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1510281/000106299326006271/0001062993-26-006271-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1894693/000121390026123869/0001213900-26-123869-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13G/A - Skye Bioscience, Inc. (0001516551) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1516551/000121465926014727/0001214659-26-014727-index.htm",
-        "published": "2026-11-24T19:15:03-05:00",
-        "publication_timestamp": "2026-11-25T00:15:03+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:15:03-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001214659-26-014727 Size: 14 KB",
+        "title": "424B2 - TORONTO DOMINION BANK (0000947263) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/947263/000114036126045559/0001140361-26-045559-index.htm",
+        "published": "2026-11-25T06:02:57-05:00",
+        "publication_timestamp": "2026-11-25T11:02:57+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:02:57-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001140361-26-045559 Size: 412 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1516551/000121465926014727/0001214659-26-014727-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/947263/000114036126045559/0001140361-26-045559-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/947263/000114036126045558/0001140361-26-045558-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13G/A - TANG CAPITAL MANAGEMENT LLC (0001232621) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1232621/000121465926014727/0001214659-26-014727-index.htm",
-        "published": "2026-11-24T19:15:03-05:00",
-        "publication_timestamp": "2026-11-25T00:15:03+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:15:03-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001214659-26-014727 Size: 14 KB",
+        "title": "6-K - Zhihu Inc. (0001835724) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1835724/000110465926131753/0001104659-26-131753-index.htm",
+        "published": "2026-11-25T06:02:50-05:00",
+        "publication_timestamp": "2026-11-25T11:02:50+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:02:50-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131753 Size: 211 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1232621/000121465926014727/0001214659-26-014727-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1835724/000110465926131753/0001104659-26-131753-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - Destiny Tech100 Inc. (0001843974) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1843974/000106299326006269/0001062993-26-006269-index.htm",
-        "published": "2026-11-24T19:14:05-05:00",
-        "publication_timestamp": "2026-11-25T00:14:05+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:14:05-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006269 Size: 17 KB",
+        "title": "6-K - SUPER HI INTERNATIONAL HOLDING LTD. (0001995306) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1995306/000110465926131751/0001104659-26-131751-index.htm",
+        "published": "2026-11-25T06:01:50-05:00",
+        "publication_timestamp": "2026-11-25T11:01:50+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:01:50-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131751 Size: 229 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1843974/000106299326006269/0001062993-26-006269-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1995306/000110465926131751/0001104659-26-131751-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - Apollo Origination II (UL) Capital Trust (0002052153) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2052153/000119312526476434/0001193125-26-476434-index.htm",
-        "published": "2026-11-24T19:01:14-05:00",
-        "publication_timestamp": "2026-11-25T00:01:14+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:01:14-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-476434 Size: 170 KB",
+        "title": "6-K - Bilibili Inc. (0001723690) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1723690/000119312526476698/0001193125-26-476698-index.htm",
+        "published": "2026-11-25T06:01:32-05:00",
+        "publication_timestamp": "2026-11-25T11:01:32+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:01:32-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476698 Size: 192 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2052153/000119312526476434/0001193125-26-476434-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1723690/000119312526476698/0001193125-26-476698-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - Apollo Principal Holdings B GP, LLC (0002011937) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2011937/000119312526476434/0001193125-26-476434-index.htm",
-        "published": "2026-11-24T19:01:14-05:00",
-        "publication_timestamp": "2026-11-25T00:01:14+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:01:14-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-476434 Size: 170 KB",
+        "title": "8-K - DEERE & CO (0000315189) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/0001104659-26-131741-index.htm",
+        "published": "2026-11-25T06:00:47-05:00",
+        "publication_timestamp": "2026-11-25T11:00:47+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:00:47-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131741 Size: 5 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2011937/000119312526476434/0001193125-26-476434-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/0001104659-26-131741-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "X-17A-5 - GREENSLEDGE CAPITAL MARKETS LLC (0001468257) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1468257/000146825726000011/0001468257-26-000011-index.htm",
-        "published": "2026-11-24T18:52:49-05:00",
-        "publication_timestamp": "2026-11-24T23:52:49+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:52:49-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001468257-26-000011 Size: 688 KB",
+        "title": "425 - Zscaler, Inc. (0001713683) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1713683/000110465926131745/0001104659-26-131745-index.htm",
+        "published": "2026-11-25T06:00:28-05:00",
+        "publication_timestamp": "2026-11-25T11:00:28+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:00:28-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131745 Size: 42 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1468257/000146825726000011/0001468257-26-000011-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1713683/000110465926131745/0001104659-26-131745-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "X-17A-5 - CAPITAL SYNERGY PARTNERS, INC. (0001448202) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1448202/000144820226000002/0001448202-26-000002-index.htm",
-        "published": "2026-11-24T18:43:38-05:00",
-        "publication_timestamp": "2026-11-24T23:43:38+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:43:38-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001448202-26-000002 Size: 16 MB",
+        "title": "425 - CrowdStrike Holdings, Inc. (0001535527) (Filed by)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926131745/0001104659-26-131745-index.htm",
+        "published": "2026-11-25T06:00:28-05:00",
+        "publication_timestamp": "2026-11-25T11:00:28+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:00:28-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131745 Size: 42 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1448202/000144820226000002/0001448202-26-000002-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1535527/000110465926131745/0001104659-26-131745-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - CSG Space a.s. (0002156024) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2156024/000121390026123797/0001213900-26-123797-index.htm",
-        "published": "2026-11-24T18:34:59-05:00",
-        "publication_timestamp": "2026-11-24T23:34:59+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:34:59-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001213900-26-123797 Size: 10 KB",
+        "title": "6-K - Addex Therapeutics Ltd. (0001574232) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1574232/000110465926131744/0001104659-26-131744-index.htm",
+        "published": "2026-11-25T06:00:24-05:00",
+        "publication_timestamp": "2026-11-25T11:00:24+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:00:24-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131744 Size: 1 MB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2156024/000121390026123797/0001213900-26-123797-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1574232/000110465926131744/0001104659-26-131744-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "SCHEDULE 13D/A - MDA Space Ltd. (0001857047) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1857047/000121390026123797/0001213900-26-123797-index.htm",
-        "published": "2026-11-24T18:34:59-05:00",
-        "publication_timestamp": "2026-11-24T23:34:59+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:34:59-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001213900-26-123797 Size: 10 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1857047/000121390026123797/0001213900-26-123797-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - Origin Group DN, Inc. (0002137049) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2137049/000110465926131709/0001104659-26-131709-index.htm",
-        "published": "2026-11-24T18:10:29-05:00",
-        "publication_timestamp": "2026-11-24T23:10:29+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:10:29-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001104659-26-131709 Size: 18 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2137049/000110465926131709/0001104659-26-131709-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G - XTI Aerospace, Inc. (0001529113) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1529113/000110465926131709/0001104659-26-131709-index.htm",
-        "published": "2026-11-24T18:10:29-05:00",
-        "publication_timestamp": "2026-11-24T23:10:29+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:10:29-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001104659-26-131709 Size: 18 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1529113/000110465926131709/0001104659-26-131709-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G/A - Gnauck Johannes (0002058451) (Filed by)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2058451/000205845126000003/0002058451-26-000003-index.htm",
-        "published": "2026-11-24T18:01:12-05:00",
-        "publication_timestamp": "2026-11-24T23:01:12+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:01:12-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0002058451-26-000003 Size: 9 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2058451/000205845126000003/0002058451-26-000003-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "SCHEDULE 13G/A - MICROVISION, INC. (0000065770) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/65770/000205845126000003/0002058451-26-000003-index.htm",
-        "published": "2026-11-24T18:01:12-05:00",
-        "publication_timestamp": "2026-11-24T23:01:12+00:00",
-        "publication_timestamp_raw": "2026-11-24T18:01:12-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0002058451-26-000003 Size: 9 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/65770/000205845126000003/0002058451-26-000003-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "485BPOS - EA Series Trust (0001592900) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1592900/000159290026005217/0001592900-26-005217-index.htm",
-        "published": "2026-11-24T17:30:52-05:00",
-        "publication_timestamp": "2026-11-24T22:30:52+00:00",
-        "publication_timestamp_raw": "2026-11-24T17:30:52-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001592900-26-005217 Size: 7 MB",
+        "title": "EFFECT - Azora Therapeutics, Inc. (DE) (0001513525) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1513525/999999999526003617/9999999995-26-003617-index.htm",
+        "published": "2026-11-25T00:15:12-05:00",
+        "publication_timestamp": "2026-11-25T05:15:12+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:12-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003617 Size: 2 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1592900/000159290026005217/0001592900-26-005217-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1513525/999999999526003617/9999999995-26-003617-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "8-K - American Resources Corp (0001590715) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1590715/000147793226007287/0001477932-26-007287-index.htm",
-        "published": "2026-11-24T17:30:36-05:00",
-        "publication_timestamp": "2026-11-24T22:30:36+00:00",
-        "publication_timestamp_raw": "2026-11-24T17:30:36-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001477932-26-007287 Size: 3 MB Item 4.02: Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review Item 9.01: Financial Statements and Exhibits",
+        "title": "EFFECT - Gossamer Bio, Inc. (0001728117) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1728117/999999999526003616/9999999995-26-003616-index.htm",
+        "published": "2026-11-25T00:15:10-05:00",
+        "publication_timestamp": "2026-11-25T05:15:10+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:10-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003616 Size: 1 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1590715/000147793226007287/0001477932-26-007287-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1728117/999999999526003616/9999999995-26-003616-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "485BPOS - BlackRock Funds II (0001398078) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1398078/000119312526476221/0001193125-26-476221-index.htm",
-        "published": "2026-11-24T17:30:30-05:00",
-        "publication_timestamp": "2026-11-24T22:30:30+00:00",
-        "publication_timestamp_raw": "2026-11-24T17:30:30-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-476221 Size: 10 MB",
+        "title": "EFFECT - Lyell Immunopharma, Inc. (0001806952) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1806952/999999999526003615/9999999995-26-003615-index.htm",
+        "published": "2026-11-25T00:15:09-05:00",
+        "publication_timestamp": "2026-11-25T05:15:09+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:09-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003615 Size: 1 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1398078/000119312526476221/0001193125-26-476221-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1806952/999999999526003615/9999999995-26-003615-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "ABS-15G - Figure Auto Depositor I LLC (0002161923) (Securitizer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2161923/000119312526476220/0001193125-26-476220-index.htm",
-        "published": "2026-11-24T17:30:14-05:00",
-        "publication_timestamp": "2026-11-24T22:30:14+00:00",
-        "publication_timestamp_raw": "2026-11-24T17:30:14-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-476220 Size: 74 KB Item 2.01: Findings and Conclusions of the Third Party Due Diligence Provider Obtained by the Issuer",
+        "title": "EFFECT - J-Long Group Ltd (0001948436) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1948436/999999999526003614/9999999995-26-003614-index.htm",
+        "published": "2026-11-25T00:15:07-05:00",
+        "publication_timestamp": "2026-11-25T05:15:07+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:07-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003614 Size: 1 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2161923/000119312526476220/0001193125-26-476220-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1948436/999999999526003614/9999999995-26-003614-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "ABS-15G - Figure Auto Depositor I LLC (0002161923) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2161923/000119312526476220/0001193125-26-476220-index.htm",
-        "published": "2026-11-24T17:30:14-05:00",
-        "publication_timestamp": "2026-11-24T22:30:14+00:00",
-        "publication_timestamp_raw": "2026-11-24T17:30:14-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-476220 Size: 74 KB Item 2.01: Findings and Conclusions of the Third Party Due Diligence Provider Obtained by the Issuer",
+        "title": "EFFECT - Velocity Financial, Inc. (0001692376) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1692376/999999999526003613/9999999995-26-003613-index.htm",
+        "published": "2026-11-25T00:15:06-05:00",
+        "publication_timestamp": "2026-11-25T05:15:06+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:06-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003613 Size: 1 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2161923/000119312526476220/0001193125-26-476220-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1692376/999999999526003613/9999999995-26-003613-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
         ]
       },
       {
-        "title": "ABS-15G - Figure Auto Depositor I LLC (0002161923) (Depositor)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2161923/000119312526476220/0001193125-26-476220-index.htm",
-        "published": "2026-11-24T17:30:14-05:00",
-        "publication_timestamp": "2026-11-24T22:30:14+00:00",
-        "publication_timestamp_raw": "2026-11-24T17:30:14-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-476220 Size: 74 KB Item 2.01: Findings and Conclusions of the Third Party Due Diligence Provider Obtained by the Issuer",
+        "title": "EFFECT - CTW (0002047148) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2047148/999999999526003612/9999999995-26-003612-index.htm",
+        "published": "2026-11-25T00:15:05-05:00",
+        "publication_timestamp": "2026-11-25T05:15:05+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:05-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003612 Size: 1 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2161923/000119312526476220/0001193125-26-476220-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/2047148/999999999526003612/9999999995-26-003612-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "EFFECT - AUGUSTAR VARIABLE INSURANCE PRODUCTS FUND INC (0000315754) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/315754/999999999526003611/9999999995-26-003611-index.htm",
+        "published": "2026-11-25T00:15:03-05:00",
+        "publication_timestamp": "2026-11-25T05:15:03+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:03-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003611 Size: 11 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/315754/999999999526003611/9999999995-26-003611-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "QUALIF - Power Ultra Inc. (0002112623) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2112623/999999999426000213/9999999994-26-000213-index.htm",
+        "published": "2026-11-25T00:15:01-05:00",
+        "publication_timestamp": "2026-11-25T05:15:01+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:01-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999994-26-000213 Size: 1 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2112623/999999999426000213/9999999994-26-000213-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "424B3 - BioAtla, Inc. (0001826892) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1826892/000119312526476552/0001193125-26-476552-index.htm",
+        "published": "2026-11-24T21:55:15-05:00",
+        "publication_timestamp": "2026-11-25T02:55:15+00:00",
+        "publication_timestamp_raw": "2026-11-24T21:55:15-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476552 Size: 2 MB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1826892/000119312526476552/0001193125-26-476552-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "FWP - GS Finance Corp. (0001419828) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1419828/000119312526476551/0001193125-26-476551-index.htm",
+        "published": "2026-11-24T21:50:29-05:00",
+        "publication_timestamp": "2026-11-25T02:50:29+00:00",
+        "publication_timestamp_raw": "2026-11-24T21:50:29-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476551 Size: 316 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1419828/000119312526476551/0001193125-26-476551-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "FWP - GOLDMAN SACHS GROUP INC (0000886982) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/886982/000119312526476550/0001193125-26-476550-index.htm",
+        "published": "2026-11-24T21:50:22-05:00",
+        "publication_timestamp": "2026-11-25T02:50:22+00:00",
+        "publication_timestamp_raw": "2026-11-24T21:50:22-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476550 Size: 316 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/886982/000119312526476550/0001193125-26-476550-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -642,7 +640,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
         ],
@@ -660,7 +658,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss"
         ],
@@ -849,6 +847,42 @@
         ]
       },
       {
+        "title": "Trump’s meddling in Huang scandal reignites voter angst over tech’s outsized political power",
+        "link": "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html",
+        "published": "Wed, 25 Nov 2026 11:00:01 GMT",
+        "publication_timestamp": "2026-11-25T11:00:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:00:01 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "Budget carrier Norse Atlantic falls 77% after warning its finances are ‘critical’ amid soaring fuel costs",
+        "link": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html",
+        "published": "Wed, 25 Nov 2026 11:10:28 GMT",
+        "publication_timestamp": "2026-11-25T11:10:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:10:28 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
         "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
         "link": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
         "published": "Wed, 25 Nov 2026 06:29:46 GMT",
@@ -858,27 +892,9 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
-        ],
-        "supporting_sources": [
-          "CNBC"
-        ]
-      },
-      {
-        "title": "Budget carrier Norse Atlantic falls 81% after warning its finances are ‘critical’ amid soaring fuel costs",
-        "link": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html",
-        "published": "Wed, 25 Nov 2026 10:18:03 GMT",
-        "publication_timestamp": "2026-11-25T10:18:03+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:18:03 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "cnbc",
-        "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html"
         ],
         "supporting_sources": [
           "CNBC"
@@ -894,7 +910,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
         ],
@@ -912,27 +928,9 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html"
-        ],
-        "supporting_sources": [
-          "CNBC"
-        ]
-      },
-      {
-        "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
-        "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
-        "published": "Tue, 24 Nov 2026 20:45:57 GMT",
-        "publication_timestamp": "2026-11-24T20:45:57+00:00",
-        "publication_timestamp_raw": "Tue, 24 Nov 2026 20:45:57 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "cnbc",
-        "source_name": "CNBC",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html"
+          "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html"
         ],
         "supporting_sources": [
           "CNBC"
@@ -966,7 +964,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/talents-crypto-ai-investment.html"
         ],
@@ -975,18 +973,18 @@
         ]
       },
       {
-        "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
-        "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
-        "published": "Wed, 25 Nov 2026 04:06:01 GMT",
-        "publication_timestamp": "2026-11-25T04:06:01+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 04:06:01 GMT",
+        "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+        "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+        "published": "Tue, 24 Nov 2026 20:45:57 GMT",
+        "publication_timestamp": "2026-11-24T20:45:57+00:00",
+        "publication_timestamp_raw": "Tue, 24 Nov 2026 20:45:57 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html"
+          "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html"
         ],
         "supporting_sources": [
           "CNBC"
@@ -1002,9 +1000,27 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/china-xiamen-boeing-deal.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
+        "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
+        "published": "Wed, 25 Nov 2026 04:06:01 GMT",
+        "publication_timestamp": "2026-11-25T04:06:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 04:06:01 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html"
         ],
         "supporting_sources": [
           "CNBC"
@@ -1074,7 +1090,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
         ],
@@ -1164,27 +1180,9 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
-        ],
-        "supporting_sources": [
-          "CNBC"
-        ]
-      },
-      {
-        "title": "Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'",
-        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
-        "published": "Mon, 23 Nov 2026 20:22:49 GMT",
-        "publication_timestamp": "2026-11-23T20:22:49+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 20:22:49 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "cnbc",
-        "source_name": "CNBC",
         "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html"
+          "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
         ],
         "supporting_sources": [
           "CNBC"
@@ -1310,7 +1308,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1420,7 +1418,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1438,7 +1436,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
         ],
@@ -1456,7 +1454,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         ],
@@ -1510,7 +1508,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
         ],
@@ -1528,7 +1526,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
         ],
@@ -1611,6 +1609,25 @@
         ]
       },
       {
+        "title": "6-K - TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD (0001046179) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000807/0001046179-26-000807-index.htm",
+        "published": "2026-11-25T06:11:07-05:00",
+        "publication_timestamp": "2026-11-25T11:11:07+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:11:07-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001046179-26-000807 Size: 17 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000807/0001046179-26-000807-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000805/0001046179-26-000805-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
         "title": "Jim Cramer sizes up six retail stocks after earnings — and names his two favorites",
         "link": "https://www.cnbc.com/2026/11/24/jim-cramer-retail-stocks-earnings.html",
         "published": "Wed, 25 Nov 2026 00:04:08 GMT",
@@ -1620,7 +1637,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/24/jim-cramer-retail-stocks-earnings.html"
         ],
@@ -1739,24 +1756,6 @@
         ]
       },
       {
-        "title": "SCHEDULE 13D - BNY MELLON HIGH YIELD STRATEGIES FUND (0001057861) (Subject)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1057861/000106299326006271/0001062993-26-006271-index.htm",
-        "published": "2026-11-24T19:18:43-05:00",
-        "publication_timestamp": "2026-11-25T00:18:43+00:00",
-        "publication_timestamp_raw": "2026-11-24T19:18:43-05:00",
-        "summary": "Filed: 2026-11-24 AccNo: 0001062993-26-006271 Size: 61 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1057861/000106299326006271/0001062993-26-006271-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
         "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
         "link": "https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html",
         "published": "Tue, 24 Nov 2026 22:18:47 GMT",
@@ -1822,7 +1821,7 @@
         "access": "headline_only",
         "source": "ecb",
         "source_name": "European Central Bank",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
         ],
@@ -1833,6 +1832,24 @@
     ],
     "energy": [
       {
+        "title": "6-K - OMS Energy Technologies Inc. (0002012219) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2012219/000119312526476700/0001193125-26-476700-index.htm",
+        "published": "2026-11-25T06:02:37-05:00",
+        "publication_timestamp": "2026-11-25T11:02:37+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:02:37-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476700 Size: 585 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2012219/000119312526476700/0001193125-26-476700-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
         "title": "Energy bills to rise by 26% from January after gas prices surge",
         "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
         "published": "Wed, 25 Nov 2026 09:54:39 GMT",
@@ -1842,7 +1859,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1860,7 +1877,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1878,7 +1895,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss"
         ],
@@ -1896,7 +1913,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1932,7 +1949,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html"
         ],
@@ -1942,6 +1959,42 @@
       }
     ],
     "commodities": [
+      {
+        "title": "FWP - MAYFAIR GOLD CORP. (0001823255) (Subject)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1823255/000110465926131750/0001104659-26-131750-index.htm",
+        "published": "2026-11-25T06:01:23-05:00",
+        "publication_timestamp": "2026-11-25T11:01:23+00:00",
+        "publication_timestamp_raw": "2026-11-25T06:01:23-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131750 Size: 15 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1823255/000110465926131750/0001104659-26-131750-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "EFFECT - Blue Gold Ltd (0002019435) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2019435/999999999526003610/9999999995-26-003610-index.htm",
+        "published": "2026-11-25T00:15:02-05:00",
+        "publication_timestamp": "2026-11-25T05:15:02+00:00",
+        "publication_timestamp_raw": "2026-11-25T00:15:02-05:00",
+        "summary": "Filed: 2026-11-24 AccNo: 9999999995-26-003610 Size: 1 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2019435/999999999526003610/9999999995-26-003610-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
       {
         "title": "Gold is doing something strange. Here's one way to play it",
         "link": "https://www.cnbc.com/2026/11/24/gold-is-doing-something-strange-heres-one-way-to-play-it-.html",
@@ -1972,7 +2025,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         ],
@@ -1990,7 +2043,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
         ],
@@ -2046,7 +2099,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/24/jim-cramer-retail-stocks-earnings.html"
         ],
@@ -2062,8 +2115,8 @@
       "name": "Federal Reserve",
       "home": "https://www.federalreserve.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 20,
@@ -2075,7 +2128,7 @@
       "home": "https://home.treasury.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -2086,8 +2139,8 @@
       "name": "Bureau of Labor Statistics",
       "home": "https://www.bls.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 1,
       "fetched_item_count": 1,
@@ -2099,7 +2152,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -2110,8 +2163,8 @@
       "name": "U.S. Securities and Exchange Commission",
       "home": "https://www.sec.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -2122,8 +2175,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 25,
       "fetched_item_count": 40,
@@ -2134,8 +2187,8 @@
       "name": "CNBC",
       "home": "https://www.cnbc.com/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 30,
       "fetched_item_count": 30,
@@ -2146,8 +2199,8 @@
       "name": "U.S. Bureau of Economic Analysis",
       "home": "https://www.bea.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 2,
       "fetched_item_count": 39,
@@ -2158,8 +2211,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:52.174494+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:52.174494+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:40.272887+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:40.272887+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 15,

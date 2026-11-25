@@ -80,6 +80,17 @@
       <h2 id="daily-title">Daily Markets</h2>
       <p class="meta">Evidence, observations, and explicit gaps across eight research sections.</p>
       <div id="daily-controls" class="daily-controls"></div>
+      <article class="card report" aria-label="Daily market prices">
+        <h3>S&amp;P proxies and commodity ETF prices</h3>
+        <p class="meta">TradingView quotes. SPXUSD is a cash CFD proxy, not the official S&amp;P 500 index. SPY tracks the index. GLD, SLV, and USO are ETF share prices, not commodity spot prices. ETF quotes may be delayed. This display is not part of archived reports.</p>
+        <div class="tradingview-widget-container" style="height:370px;width:100%">
+          <div class="tradingview-widget-container__widget" style="height:340px;width:100%"></div>
+          <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener nofollow noreferrer">Market data</a> by TradingView</div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+          {"title":"Daily market prices","width":"100%","height":340,"locale":"en","showSymbolLogo":false,"symbolsGroups":[{"name":"S&P proxies and commodity ETFs","symbols":[{"name":"FOREXCOM:SPXUSD","displayName":"SPXUSD · S&P cash CFD proxy"},{"name":"AMEX:SPY","displayName":"SPY · S&P 500 ETF"},{"name":"AMEX:GLD","displayName":"GLD · gold ETF"},{"name":"AMEX:SLV","displayName":"SLV · silver ETF"},{"name":"AMEX:USO","displayName":"USO · oil ETF"}]}],"colorTheme":"dark"}
+          </script>
+        </div>
+      </article>
       <div id="daily-report" class="grid" aria-live="polite" aria-busy="true">
         <article class="card report"><p>Loading Daily Markets editions…</p></article>
       </div>
@@ -108,7 +119,7 @@
     <div id="archive-control" class="toolbar"></div>
   </main>
   <script>
-    const manifest = [{"edition": "us", "date": "2026-11-25", "publication_timestamp": "2026-11-25T10:53:52.174494+00:00", "retrieval_timestamp": "2026-11-25T10:53:52.174494+00:00", "json": "us-2026-11-25.json", "markdown": "us-2026-11-25.md"}, {"edition": "india", "date": "2026-11-25", "publication_timestamp": "2026-11-25T10:53:48.259924+00:00", "retrieval_timestamp": "2026-11-25T10:53:48.259924+00:00", "json": "india-2026-11-25.json", "markdown": "india-2026-11-25.md"}, {"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T22:59:09.526045+00:00", "retrieval_timestamp": "2026-11-24T22:59:09.526045+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
+    const manifest = [{"edition": "us", "date": "2026-11-25", "publication_timestamp": "2026-11-25T11:11:40.272887+00:00", "retrieval_timestamp": "2026-11-25T11:11:40.272887+00:00", "json": "us-2026-11-25.json", "markdown": "us-2026-11-25.md"}, {"edition": "india", "date": "2026-11-25", "publication_timestamp": "2026-11-25T11:11:37.118003+00:00", "retrieval_timestamp": "2026-11-25T11:11:37.118003+00:00", "json": "india-2026-11-25.json", "markdown": "india-2026-11-25.md"}, {"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T22:59:09.526045+00:00", "retrieval_timestamp": "2026-11-24T22:59:09.526045+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
     let edition = "all";
     let section = "all";
     let visibleCount = 12;

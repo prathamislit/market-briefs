@@ -2,8 +2,8 @@
   "edition": "india",
   "market": "India",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-25T10:53:48.259924+00:00",
-  "retrieval_timestamp": "2026-11-25T10:53:48.259924+00:00",
+  "publication_timestamp": "2026-11-25T11:11:37.118003+00:00",
+  "retrieval_timestamp": "2026-11-25T11:11:37.118003+00:00",
   "timezone": "Asia/Kolkata",
   "calendar": {
     "status": "trading_day",
@@ -25,7 +25,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
         ],
@@ -43,7 +43,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss"
         ],
@@ -241,7 +241,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-shares-crash-17-stock-suffers-its-worst-ever-single-day-fall-heres-why/slideshow/136148964.cms"
         ],
@@ -259,9 +259,63 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-updates-25-nov-2026/liveblog/136148282.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Bajaj Finance Share Price Live Updates: Bajaj Finance Bonus Updates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-share-price-live-updates-25-nov-2026/liveblog/136148251.cms",
+        "published": "Wed, 25 Nov 2026 10:02:29 +0530",
+        "publication_timestamp": "2026-11-25T04:32:29+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:02:29 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-share-price-live-updates-25-nov-2026/liveblog/136148251.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "Infosys Share Price Live Updates: Infosys Bonus Updates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-stock-price-livestock-price-today-live-updates-25-nov-2026/liveblog/136148216.cms",
+        "published": "Wed, 25 Nov 2026 10:01:51 +0530",
+        "publication_timestamp": "2026-11-25T04:31:51+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:01:51 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-stock-price-livestock-price-today-live-updates-25-nov-2026/liveblog/136148216.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
+        "title": "L&T Share Price Live Updates: L&T Bonus Updates",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/lt-share-price-today-live-updates-25-nov-2026/liveblog/136148168.cms",
+        "published": "Wed, 25 Nov 2026 10:00:55 +0530",
+        "publication_timestamp": "2026-11-25T04:30:55+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:00:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/lt-share-price-today-live-updates-25-nov-2026/liveblog/136148168.cms"
         ],
         "supporting_sources": [
           "The Economic Times"
@@ -277,7 +331,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms"
         ],
@@ -295,7 +349,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-3-nifty500-stocks-flashing-rsi-uptrend-signal/slideshow/136147231.cms"
         ],
@@ -313,7 +367,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-4-stocks-dropped-below-their-200-dmas/slideshow/136147014.cms"
         ],
@@ -331,7 +385,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms"
         ],
@@ -349,7 +403,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/market-timers-get-schooled-with-swings/articleshow/136145370.cms"
         ],
@@ -367,7 +421,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-socgen-buy-rs-920-crore-stake-in-lenskart/articleshow/136145273.cms"
         ],
@@ -385,7 +439,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
         ],
@@ -592,42 +646,6 @@
         ]
       },
       {
-        "title": "Adani Airport raises $300 mn from 360 ONE Asset, taking total equity infusion to $1.35 bn",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms",
-        "published": "Mon, 23 Nov 2026 18:41:12 +0530",
-        "publication_timestamp": "2026-11-23T13:11:12+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:41:12 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "Nasdaq futures surge 3% as battered AI stocks gain ground",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-surge-3-as-battered-ai-stocks-gain-ground/articleshow/136104059.cms",
-        "published": "Mon, 23 Nov 2026 18:39:42 +0530",
-        "publication_timestamp": "2026-11-23T13:09:42+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:39:42 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-surge-3-as-battered-ai-stocks-gain-ground/articleshow/136104059.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
         "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
         "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
         "published": "Tue, 24 Nov 2026 12:00:00 +0100",
@@ -711,7 +729,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss"
         ],
@@ -729,7 +747,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms"
         ],
@@ -747,7 +765,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms"
         ],
@@ -765,7 +783,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/india-pension-funds-pivot-to-bonds-as-equity-exposure-nears-cap/articleshow/136146220.cms"
         ],
@@ -844,24 +862,6 @@
         "supporting_sources": [
           "The Economic Times"
         ]
-      },
-      {
-        "title": "Rupee reversal, debt supply drag India bonds in holiday-shortened week",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
-        "published": "Mon, 23 Nov 2026 18:37:06 +0530",
-        "publication_timestamp": "2026-11-23T13:07:06+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:37:06 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
       }
     ],
     "us": [
@@ -875,7 +875,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         ],
@@ -893,7 +893,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
         ],
@@ -911,7 +911,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         ],
@@ -947,7 +947,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms"
         ],
@@ -965,7 +965,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
         ],
@@ -1093,7 +1093,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-are-investors-betting-on-abercrombies-growth-story/slideshow/136151161.cms"
         ],
@@ -1111,7 +1111,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
         ],
@@ -1241,7 +1241,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms"
         ],
@@ -1259,7 +1259,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms"
         ],
@@ -1304,24 +1304,6 @@
         ]
       },
       {
-        "title": "Rupee reversal, debt supply drag India bonds in holiday-shortened week",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
-        "published": "Mon, 23 Nov 2026 18:37:06 +0530",
-        "publication_timestamp": "2026-11-23T13:07:06+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:37:06 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
         "title": "Card payments edge past cash in shops; euro area consumers want both",
         "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
         "published": "Wed, 25 Nov 2026 11:00:00 +0100",
@@ -1331,7 +1313,7 @@
         "access": "headline_only",
         "source": "ecb",
         "source_name": "European Central Bank",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
         ],
@@ -1351,7 +1333,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1369,7 +1351,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1387,7 +1369,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss"
         ],
@@ -1405,7 +1387,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1441,7 +1423,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms"
         ],
@@ -1479,7 +1461,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms"
         ],
@@ -1497,7 +1479,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms"
         ],
@@ -1517,7 +1499,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         ],
@@ -1535,7 +1517,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
         ],
@@ -1571,7 +1553,7 @@
       "home": "https://www.rbi.org.in/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1583,7 +1565,7 @@
       "home": "https://www.sebi.gov.in/",
       "status": "unconfigured",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
       "error": "No permitted public feed configured",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1595,7 +1577,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1606,8 +1588,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
       "error": null,
       "item_count": 25,
       "fetched_item_count": 40,
@@ -1618,8 +1600,8 @@
       "name": "The Economic Times",
       "home": "https://economictimes.indiatimes.com/markets",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -1630,8 +1612,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T10:53:48.259924+00:00",
-      "attempt_timestamp": "2026-11-25T10:53:48.259924+00:00",
+      "last_success_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 15,
