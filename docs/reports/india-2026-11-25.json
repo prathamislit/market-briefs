@@ -2,8 +2,8 @@
   "edition": "india",
   "market": "India",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-25T11:11:37.118003+00:00",
-  "retrieval_timestamp": "2026-11-25T11:11:37.118003+00:00",
+  "publication_timestamp": "2026-11-25T11:42:29.512405+00:00",
+  "retrieval_timestamp": "2026-11-25T11:42:29.512405+00:00",
   "timezone": "Asia/Kolkata",
   "calendar": {
     "status": "trading_day",
@@ -628,24 +628,6 @@
         ]
       },
       {
-        "title": "Nasdaq surges 6%, Dow soars 1,400 pts as markets rebound on Huang’s return: Stock Market Highlights",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-meta-anthropic-amd-micron-tesla-ai-chip-earnings-fed-rate-treasury-yield-news-23rd-november-2026/liveblog/136104474.cms",
-        "published": "Mon, 23 Nov 2026 18:42:48 +0530",
-        "publication_timestamp": "2026-11-23T13:12:48+00:00",
-        "publication_timestamp_raw": "Mon, 23 Nov 2026 18:42:48 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-meta-anthropic-amd-micron-tesla-ai-chip-earnings-fed-rate-treasury-yield-news-23rd-november-2026/liveblog/136104474.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
         "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
         "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
         "published": "Tue, 24 Nov 2026 12:00:00 +0100",
@@ -735,6 +717,24 @@
         ],
         "supporting_sources": [
           "BBC Business"
+        ]
+      },
+      {
+        "title": "Rupee scales 8-month high after holiday as foreign flows to Indian equities persist",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persist/articleshow/136158513.cms",
+        "published": "Wed, 25 Nov 2026 16:23:26 +0530",
+        "publication_timestamp": "2026-11-25T10:53:26+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 16:23:26 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persist/articleshow/136158513.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
         ]
       },
       {
@@ -1232,6 +1232,24 @@
     ],
     "fx": [
       {
+        "title": "Rupee scales 8-month high after holiday as foreign flows to Indian equities persist",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persist/articleshow/136158513.cms",
+        "published": "Wed, 25 Nov 2026 16:23:26 +0530",
+        "publication_timestamp": "2026-11-25T10:53:26+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 16:23:26 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persist/articleshow/136158513.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
         "title": "Rupee pares FY27 losses, climbs 56 paise to 92.29/USD",
         "link": "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms",
         "published": "Wed, 25 Nov 2026 10:00:22 +0530",
@@ -1326,14 +1344,14 @@
       {
         "title": "Energy bills to rise by 26% from January after gas prices surge",
         "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
-        "published": "Wed, 25 Nov 2026 09:54:39 GMT",
-        "publication_timestamp": "2026-11-25T09:54:39+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 09:54:39 GMT",
+        "published": "Wed, 25 Nov 2026 11:36:29 GMT",
+        "publication_timestamp": "2026-11-25T11:36:29+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:36:29 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1378,16 +1396,16 @@
         ]
       },
       {
-        "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+        "title": "Electric blankets and closed curtains - how we're coping with the energy bill rise",
         "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
-        "published": "Wed, 25 Nov 2026 10:04:55 GMT",
-        "publication_timestamp": "2026-11-25T10:04:55+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:04:55 GMT",
+        "published": "Wed, 25 Nov 2026 11:23:13 GMT",
+        "publication_timestamp": "2026-11-25T11:23:13+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 11:23:13 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "recent_window",
+        "publication_freshness": "since_previous_edition",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1553,7 +1571,7 @@
       "home": "https://www.rbi.org.in/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "attempt_timestamp": "2026-11-25T11:42:29.512405+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1565,7 +1583,7 @@
       "home": "https://www.sebi.gov.in/",
       "status": "unconfigured",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "attempt_timestamp": "2026-11-25T11:42:29.512405+00:00",
       "error": "No permitted public feed configured",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1577,7 +1595,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "attempt_timestamp": "2026-11-25T11:42:29.512405+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1588,8 +1606,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T11:11:37.118003+00:00",
-      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "last_success_timestamp": "2026-11-25T11:42:29.512405+00:00",
+      "attempt_timestamp": "2026-11-25T11:42:29.512405+00:00",
       "error": null,
       "item_count": 25,
       "fetched_item_count": 40,
@@ -1600,8 +1618,8 @@
       "name": "The Economic Times",
       "home": "https://economictimes.indiatimes.com/markets",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T11:11:37.118003+00:00",
-      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "last_success_timestamp": "2026-11-25T11:42:29.512405+00:00",
+      "attempt_timestamp": "2026-11-25T11:42:29.512405+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -1612,8 +1630,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T11:11:37.118003+00:00",
-      "attempt_timestamp": "2026-11-25T11:11:37.118003+00:00",
+      "last_success_timestamp": "2026-11-25T11:42:29.512405+00:00",
+      "attempt_timestamp": "2026-11-25T11:42:29.512405+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 15,
