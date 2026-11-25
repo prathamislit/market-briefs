@@ -156,6 +156,14 @@ Retrieval time never substitutes for the underlying data date.
 Original agencies remain identified alongside FRED distribution links.
 These are dated observations, not real-time market quotes.
 
+The dashboard also embeds a TradingView-hosted market-data table.
+It shows the SPXUSD cash CFD proxy, SPY, GLD, SLV, and USO.
+SPXUSD is not the official S&P 500 index value.
+SPY and the commodity ETFs show fund share prices, not spot commodities.
+The widget refreshes from TradingView when visitors open the page.
+Exchange quotes may be delayed; TradingView attribution remains visible.
+Its values cannot enter the reproducible report JSON or historical archives.
+
 | Observation group | Configured series |
 | --- | --- |
 | US Treasury yields | 2-year, 10-year, and 30-year |
