@@ -157,11 +157,14 @@ Original agencies remain identified alongside FRED distribution links.
 These are dated observations, not real-time market quotes.
 
 The dashboard also embeds a TradingView-hosted market-data table.
-It shows the SPXUSD cash CFD proxy, SPY, GLD, SLV, and USO.
-SPXUSD is not the official S&P 500 index value.
-SPY and the commodity ETFs show fund share prices, not spot commodities.
-The widget refreshes from TradingView when visitors open the page.
-Exchange quotes may be delayed; TradingView attribution remains visible.
+It displays six US/global index references and five BSE indices.
+Four indicative currency pairs and six commodity CFD proxies follow.
+SPY, GLD, SLV, and USO show ETF share prices separately.
+CFD quotes differ from official indices and agency spot observations.
+BSE indices are end of day; ETF quotes may be delayed.
+Nifty and VIX link to their official source pages.
+The widget updates through TradingView; no 30-second guarantee exists.
+TradingView attribution remains visible.
 Its values cannot enter the reproducible report JSON or historical archives.
 
 | Observation group | Configured series |
