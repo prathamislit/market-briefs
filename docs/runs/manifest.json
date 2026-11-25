@@ -2,6 +2,24 @@
   {
     "edition": "us",
     "date": "2026-11-25",
+    "published": "2026-11-25T13:51:15.892658+00:00",
+    "freshness": "retrieved",
+    "run_id": "45627737068",
+    "attempt": "1",
+    "json": "us-20261125T135115.892658Z-45627737068-1.json"
+  },
+  {
+    "edition": "india",
+    "date": "2026-11-25",
+    "published": "2026-11-25T13:51:13.025427+00:00",
+    "freshness": "retrieved",
+    "run_id": "45627737068",
+    "attempt": "1",
+    "json": "india-20261125T135113.025427Z-45627737068-1.json"
+  },
+  {
+    "edition": "us",
+    "date": "2026-11-25",
     "published": "2026-11-25T13:44:03.732584+00:00",
     "freshness": "retrieved",
     "run_id": "45626535520",

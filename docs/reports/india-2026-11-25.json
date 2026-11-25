@@ -2,8 +2,8 @@
   "edition": "india",
   "market": "India",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-25T13:44:01.086187+00:00",
-  "retrieval_timestamp": "2026-11-25T13:44:01.086187+00:00",
+  "publication_timestamp": "2026-11-25T13:51:13.025427+00:00",
+  "retrieval_timestamp": "2026-11-25T13:51:13.025427+00:00",
   "timezone": "Asia/Kolkata",
   "calendar": {
     "status": "trading_day",
@@ -259,12 +259,30 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c6jren0308xzo?at_medium=RSS&at_campaign=rss"
         ],
         "supporting_sources": [
           "BBC Business"
+        ]
+      },
+      {
+        "title": "US Stock Market Live Updates: Nasdaq futures fall over 2% as AI selloff deepens; inflation data looms",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms",
+        "published": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "publication_timestamp": "2026-11-25T13:12:55+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
         ]
       },
       {
@@ -277,7 +295,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/sebi-mulls-early-payout-of-up-to-80-of-sale-proceeds-to-fpos-in-commodity-derivatives-market/articleshow/136162861.cms"
         ],
@@ -790,42 +808,6 @@
         ]
       },
       {
-        "title": "Infosys Share Price Highlights: Infosys Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-stock-price-livestock-price-today-live-updates-25-nov-2026/liveblog/136148216.cms",
-        "published": "Wed, 25 Nov 2026 10:01:51 +0530",
-        "publication_timestamp": "2026-11-25T04:31:51+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:01:51 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-stock-price-livestock-price-today-live-updates-25-nov-2026/liveblog/136148216.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
-        "title": "ICICI Bank Share Price Highlights: ICICI Bank Stock Price History",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-stock-price-live-updates-25-nov-2026/liveblog/136148214.cms",
-        "published": "Wed, 25 Nov 2026 10:01:46 +0530",
-        "publication_timestamp": "2026-11-25T04:31:46+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 10:01:46 +0530",
-        "summary": "",
-        "access": "headline_only",
-        "source": "economic_times",
-        "source_name": "The Economic Times",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-stock-price-live-updates-25-nov-2026/liveblog/136148214.cms"
-        ],
-        "supporting_sources": [
-          "The Economic Times"
-        ]
-      },
-      {
         "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
         "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
         "published": "Tue, 24 Nov 2026 12:00:00 +0100",
@@ -900,6 +882,24 @@
     ],
     "india": [
       {
+        "title": "RBI net buyer of dollars for fourth straight month in September, data shows",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-net-buyer-of-dollars-for-fourth-straight-month-in-september-data-shows/articleshow/136163192.cms",
+        "published": "Wed, 25 Nov 2026 18:49:28 +0530",
+        "publication_timestamp": "2026-11-25T13:19:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 18:49:28 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-net-buyer-of-dollars-for-fourth-straight-month-in-september-data-shows/articleshow/136163192.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
         "title": "SEBI eases KYC norms, centralises supplementary client data to simplify onboarding",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-centralises-supplementary-client-data-to-simplify-onboarding/articleshow/136162936.cms",
         "published": "Wed, 25 Nov 2026 18:41:00 +0530",
@@ -909,7 +909,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-centralises-supplementary-client-data-to-simplify-onboarding/articleshow/136162936.cms"
         ],
@@ -927,7 +927,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/sebi-mulls-early-payout-of-up-to-80-of-sale-proceeds-to-fpos-in-commodity-derivatives-market/articleshow/136162861.cms"
         ],
@@ -945,7 +945,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms"
         ],
@@ -963,7 +963,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/us-treasury-gains-lift-india-bonds-ahead-of-rbi-meet/articleshow/136161527.cms"
         ],
@@ -1048,9 +1048,9 @@
       {
         "title": "US announces new tariffs on host of countries including China",
         "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-        "published": "Wed, 25 Nov 2026 13:40:19 GMT",
-        "publication_timestamp": "2026-11-25T13:40:19+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:40:19 GMT",
+        "published": "Wed, 25 Nov 2026 13:49:47 GMT",
+        "publication_timestamp": "2026-11-25T13:49:47+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:49:47 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
@@ -1118,6 +1118,24 @@
         ]
       },
       {
+        "title": "US Stock Market Live Updates: Nasdaq futures fall over 2% as AI selloff deepens; inflation data looms",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms",
+        "published": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "publication_timestamp": "2026-11-25T13:12:55+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
         "title": "US Treasury gains lift India bonds ahead of RBI meet",
         "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-gains-lift-india-bonds-ahead-of-rbi-meet/articleshow/136161527.cms",
         "published": "Wed, 25 Nov 2026 17:55:47 +0530",
@@ -1127,7 +1145,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/us-treasury-gains-lift-india-bonds-ahead-of-rbi-meet/articleshow/136161527.cms"
         ],
@@ -1145,7 +1163,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-policymakers-at-odds-over-causes-of-high-inflation/articleshow/136160394.cms"
         ],
@@ -1156,6 +1174,24 @@
     ],
     "macro": [
       {
+        "title": "US Stock Market Live Updates: Nasdaq futures fall over 2% as AI selloff deepens; inflation data looms",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms",
+        "published": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "publication_timestamp": "2026-11-25T13:12:55+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "summary": "",
+        "access": "headline_only",
+        "source": "economic_times",
+        "source_name": "The Economic Times",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms"
+        ],
+        "supporting_sources": [
+          "The Economic Times"
+        ]
+      },
+      {
         "title": "RBI may opt for 25 bps rate hike as oil eases, inflation risks persist: Baroda BNP Paribas MF CIO",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms",
         "published": "Wed, 25 Nov 2026 18:36:00 +0530",
@@ -1165,7 +1201,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms"
         ],
@@ -1183,7 +1219,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-policymakers-at-odds-over-causes-of-high-inflation/articleshow/136160394.cms"
         ],
@@ -1221,7 +1257,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms"
         ],
@@ -1239,7 +1275,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/bonds/us-treasury-gains-lift-india-bonds-ahead-of-rbi-meet/articleshow/136161527.cms"
         ],
@@ -1297,7 +1333,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1351,7 +1387,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1387,7 +1423,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss"
         ],
@@ -1405,7 +1441,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/videos/c539gz4nmjm9o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1423,7 +1459,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms"
         ],
@@ -1461,7 +1497,7 @@
         "access": "headline_only",
         "source": "economic_times",
         "source_name": "The Economic Times",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://economictimes.indiatimes.com/markets/stocks/news/sebi-mulls-early-payout-of-up-to-80-of-sale-proceeds-to-fpos-in-commodity-derivatives-market/articleshow/136162861.cms"
         ],
@@ -1499,7 +1535,7 @@
       "home": "https://www.rbi.org.in/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:44:01.086187+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:13.025427+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1511,7 +1547,7 @@
       "home": "https://www.sebi.gov.in/",
       "status": "unconfigured",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:44:01.086187+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:13.025427+00:00",
       "error": "No permitted public feed configured",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1523,7 +1559,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:44:01.086187+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:13.025427+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1534,8 +1570,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:01.086187+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:01.086187+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:13.025427+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:13.025427+00:00",
       "error": null,
       "item_count": 25,
       "fetched_item_count": 40,
@@ -1546,8 +1582,8 @@
       "name": "The Economic Times",
       "home": "https://economictimes.indiatimes.com/markets",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:01.086187+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:01.086187+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:13.025427+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:13.025427+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -1558,8 +1594,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:01.086187+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:01.086187+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:13.025427+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:13.025427+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 15,

@@ -2,8 +2,8 @@
   "edition": "us",
   "market": "United States",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-25T13:44:03.732584+00:00",
-  "retrieval_timestamp": "2026-11-25T13:44:03.732584+00:00",
+  "publication_timestamp": "2026-11-25T13:51:15.892658+00:00",
+  "retrieval_timestamp": "2026-11-25T13:51:15.892658+00:00",
   "timezone": "America/New_York",
   "calendar": {
     "status": "trading_day",
@@ -11,7 +11,7 @@
     "diagnostic": "Verified against XNYS session calendar"
   },
   "synthetic_fixture": false,
-  "unique_item_count": 79,
+  "unique_item_count": 84,
   "freshness": "retrieved",
   "sections": {
     "overview": [
@@ -52,17 +52,128 @@
         ]
       },
       {
-        "title": "485BXT - Themes ETF Trust (0001976322) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012859/0001829126-26-012859-index.htm",
-        "published": "2026-11-25T08:43:22-05:00",
-        "publication_timestamp": "2026-11-25T13:43:22+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:43:22-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001829126-26-012859 Size: 25 KB",
+        "title": "CERT - STERIS Ltd (0001624899) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1624899/000087666126000960/0000876661-26-000960-index.htm",
+        "published": "2026-11-25T08:50:22-05:00",
+        "publication_timestamp": "2026-11-25T13:50:22+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:50:22-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0000876661-26-000960 Size: 410 KB",
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
         "publication_freshness": "since_previous_edition",
         "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1624899/000087666126000960/0000876661-26-000960-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "D/A - Fivespan Partners Onshore, LP (0002038825) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2038825/000090266426004694/0000902664-26-004694-index.htm",
+        "published": "2026-11-25T08:47:50-05:00",
+        "publication_timestamp": "2026-11-25T13:47:50+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:47:50-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0000902664-26-004694 Size: 7 KB Item 3C: Investment Company Act Section 3(c) Item 3C.7: Section 3(c)(7)",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2038825/000090266426004694/0000902664-26-004694-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - Federal Home Loan Bank of Indianapolis (0001331754) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1331754/000133175426000234/0001331754-26-000234-index.htm",
+        "published": "2026-11-25T08:47:37-05:00",
+        "publication_timestamp": "2026-11-25T13:47:37+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:47:37-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001331754-26-000234 Size: 180 KB Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1331754/000133175426000234/0001331754-26-000234-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "D/A - Fivespan Partners Offshore, LP (0002039111) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2039111/000090266426004693/0000902664-26-004693-index.htm",
+        "published": "2026-11-25T08:46:54-05:00",
+        "publication_timestamp": "2026-11-25T13:46:54+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:46:54-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0000902664-26-004693 Size: 7 KB Item 3C: Investment Company Act Section 3(c) Item 3C.7: Section 3(c)(7)",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2039111/000090266426004693/0000902664-26-004693-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "497J - Tidal Trust II (0001924868) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026258/0001999371-26-026258-index.htm",
+        "published": "2026-11-25T08:46:25-05:00",
+        "publication_timestamp": "2026-11-25T13:46:25+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:46:25-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001999371-26-026258 Size: 13 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026258/0001999371-26-026258-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026254/0001999371-26-026254-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "8-K - BITMINE IMMERSION TECHNOLOGIES, INC. (0001829311) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226054131/0001493152-26-054131-index.htm",
+        "published": "2026-11-25T08:45:14-05:00",
+        "publication_timestamp": "2026-11-25T13:45:14+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:45:14-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001493152-26-054131 Size: 257 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1829311/000149315226054131/0001493152-26-054131-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "485BXT - Themes ETF Trust (0001976322) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012861/0001829126-26-012861-index.htm",
+        "published": "2026-11-25T08:44:55-05:00",
+        "publication_timestamp": "2026-11-25T13:44:55+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:44:55-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0001829126-26-012861 Size: 25 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012861/0001829126-26-012861-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012860/0001829126-26-012860-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012859/0001829126-26-012859-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012858/0001829126-26-012858-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012857/0001829126-26-012857-index.htm",
@@ -71,24 +182,6 @@
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012854/0001829126-26-012854-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012853/0001829126-26-012853-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012852/0001829126-26-012852-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "497J - Tidal Trust II (0001924868) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026254/0001999371-26-026254-index.htm",
-        "published": "2026-11-25T08:40:24-05:00",
-        "publication_timestamp": "2026-11-25T13:40:24+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:40:24-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001999371-26-026254 Size: 16 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026254/0001999371-26-026254-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -104,7 +197,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/2039072/000168316826009111/0001683168-26-009111-index.htm"
         ],
@@ -122,7 +215,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1031296/000119312526476901/0001193125-26-476901-index.htm"
         ],
@@ -140,7 +233,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/720005/000072000526000088/0000720005-26-000088-index.htm"
         ],
@@ -158,7 +251,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/2020407/000141036826122792/0001410368-26-122792-index.htm"
         ],
@@ -176,7 +269,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/352825/000119312526476899/0001193125-26-476899-index.htm"
         ],
@@ -194,24 +287,14 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/756913/000075691326000880/0000756913-26-000880-index.htm",
           "https://www.sec.gov/Archives/edgar/data/756913/000075691326000879/0000756913-26-000879-index.htm",
           "https://www.sec.gov/Archives/edgar/data/756913/000075691326000876/0000756913-26-000876-index.htm",
           "https://www.sec.gov/Archives/edgar/data/756913/000075691326000875/0000756913-26-000875-index.htm",
           "https://www.sec.gov/Archives/edgar/data/756913/000075691326000874/0000756913-26-000874-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000873/0000756913-26-000873-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000871/0000756913-26-000871-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000869/0000756913-26-000869-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000861/0000756913-26-000861-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000872/0000756913-26-000872-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000858/0000756913-26-000858-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000868/0000756913-26-000868-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000856/0000756913-26-000856-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000857/0000756913-26-000857-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000867/0000756913-26-000867-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000866/0000756913-26-000866-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000873/0000756913-26-000873-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -461,7 +544,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c6jren0308xzo?at_medium=RSS&at_campaign=rss"
         ],
@@ -479,7 +562,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html"
         ],
@@ -497,7 +580,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
         ],
@@ -524,42 +607,6 @@
         ]
       },
       {
-        "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
-        "link": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
-        "published": "Wed, 25 Nov 2026 06:29:46 GMT",
-        "publication_timestamp": "2026-11-25T06:29:46+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:29:46 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "cnbc",
-        "source_name": "CNBC",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
-        ],
-        "supporting_sources": [
-          "CNBC"
-        ]
-      },
-      {
-        "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
-        "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
-        "published": "Wed, 25 Nov 2026 12:00:01 GMT",
-        "publication_timestamp": "2026-11-25T12:00:01+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 12:00:01 GMT",
-        "summary": "",
-        "access": "headline_only",
-        "source": "cnbc",
-        "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
-        "supporting_links": [
-          "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html"
-        ],
-        "supporting_sources": [
-          "CNBC"
-        ]
-      },
-      {
         "title": "Crypto talent will return ‘when AI implodes,’ Arthur Hayes says",
         "link": "https://www.cnbc.com/2026/11/25/talents-crypto-ai-investment.html",
         "published": "Wed, 25 Nov 2026 06:09:44 GMT",
@@ -578,6 +625,24 @@
         ]
       },
       {
+        "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+        "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+        "published": "Wed, 25 Nov 2026 12:00:01 GMT",
+        "publication_timestamp": "2026-11-25T12:00:01+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 12:00:01 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
         "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
         "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
         "published": "Tue, 24 Nov 2026 21:13:39 GMT",
@@ -590,6 +655,24 @@
         "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html"
+        ],
+        "supporting_sources": [
+          "CNBC"
+        ]
+      },
+      {
+        "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+        "link": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+        "published": "Wed, 25 Nov 2026 06:29:46 GMT",
+        "publication_timestamp": "2026-11-25T06:29:46+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 06:29:46 GMT",
+        "summary": "",
+        "access": "headline_only",
+        "source": "cnbc",
+        "source_name": "CNBC",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
         ],
         "supporting_sources": [
           "CNBC"
@@ -785,7 +868,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
         ],
@@ -803,7 +886,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
         ],
@@ -1016,9 +1099,9 @@
       {
         "title": "US announces new tariffs on host of countries including China",
         "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-        "published": "Wed, 25 Nov 2026 13:40:19 GMT",
-        "publication_timestamp": "2026-11-25T13:40:19+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:40:19 GMT",
+        "published": "Wed, 25 Nov 2026 13:49:47 GMT",
+        "publication_timestamp": "2026-11-25T13:49:47+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:49:47 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "bbc",
@@ -1088,9 +1171,9 @@
       {
         "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
         "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
-        "published": "Wed, 25 Nov 2026 13:42:27 GMT",
-        "publication_timestamp": "2026-11-25T13:42:27+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:42:27 GMT",
+        "published": "Wed, 25 Nov 2026 13:47:28 GMT",
+        "publication_timestamp": "2026-11-25T13:47:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:47:28 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "cnbc",
@@ -1113,7 +1196,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
         ],
@@ -1131,7 +1214,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/fed-december-rate-hike-consumer-impact.html"
         ],
@@ -1221,7 +1304,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
         ],
@@ -1239,7 +1322,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
         ],
@@ -1306,9 +1389,9 @@
       {
         "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
         "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
-        "published": "Wed, 25 Nov 2026 13:42:27 GMT",
-        "publication_timestamp": "2026-11-25T13:42:27+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:42:27 GMT",
+        "published": "Wed, 25 Nov 2026 13:47:28 GMT",
+        "publication_timestamp": "2026-11-25T13:47:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:47:28 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "cnbc",
@@ -1367,7 +1450,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
         ],
@@ -1452,9 +1535,9 @@
       {
         "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
         "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
-        "published": "Wed, 25 Nov 2026 13:42:27 GMT",
-        "publication_timestamp": "2026-11-25T13:42:27+00:00",
-        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:42:27 GMT",
+        "published": "Wed, 25 Nov 2026 13:47:28 GMT",
+        "publication_timestamp": "2026-11-25T13:47:28+00:00",
+        "publication_timestamp_raw": "Wed, 25 Nov 2026 13:47:28 GMT",
         "summary": "",
         "access": "headline_only",
         "source": "cnbc",
@@ -1513,7 +1596,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
         ],
@@ -1531,7 +1614,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
         ],
@@ -1589,7 +1672,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1643,7 +1726,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1679,7 +1762,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss"
         ],
@@ -1697,7 +1780,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/videos/c539gz4nmjm9o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1755,7 +1838,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1466085/000143774926038246/0001437749-26-038246-index.htm"
         ],
@@ -1773,7 +1856,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1740797/000174079726000028/0001740797-26-000028-index.htm"
         ],
@@ -1865,7 +1948,7 @@
         "access": "extractive_excerpt",
         "source": "bea",
         "source_name": "U.S. Bureau of Economic Analysis",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
         ],
@@ -1881,8 +1964,8 @@
       "name": "Federal Reserve",
       "home": "https://www.federalreserve.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 20,
@@ -1894,7 +1977,7 @@
       "home": "https://home.treasury.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1905,8 +1988,8 @@
       "name": "Bureau of Labor Statistics",
       "home": "https://www.bls.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 1,
       "fetched_item_count": 1,
@@ -1918,7 +2001,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1929,8 +2012,8 @@
       "name": "U.S. Securities and Exchange Commission",
       "home": "https://www.sec.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -1941,8 +2024,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 25,
       "fetched_item_count": 40,
@@ -1953,8 +2036,8 @@
       "name": "CNBC",
       "home": "https://www.cnbc.com/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 30,
       "fetched_item_count": 30,
@@ -1965,8 +2048,8 @@
       "name": "U.S. Bureau of Economic Analysis",
       "home": "https://www.bea.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 4,
       "fetched_item_count": 39,
@@ -1977,8 +2060,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:44:03.732584+00:00",
-      "attempt_timestamp": "2026-11-25T13:44:03.732584+00:00",
+      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 15,
