@@ -108,6 +108,16 @@ def business_days_since(observed, cutoff):
                for offset in range(1, (cutoff - observed).days + 1))
 
 
+def expected_treasury_date(local_now):
+    """H.15's 4:15 p.m. ET release defines the expected observation."""
+    candidate = local_now.date()
+    if (local_now.hour, local_now.minute) < (16, 15):
+        candidate -= timedelta(days=1)
+    while candidate.weekday() >= 5 or candidate in federal_holidays(candidate.year):
+        candidate -= timedelta(days=1)
+    return candidate
+
+
 def collect_market_data(now, fetcher=None, config_path=CONFIG):
     """Return JSON-ready assets; failed requests never supply invented levels."""
     if now.tzinfo is None:
@@ -117,7 +127,8 @@ def collect_market_data(now, fetcher=None, config_path=CONFIG):
     if cfg.get('schema_version') != 1:
         raise ValueError('Unsupported markets schema')
     fetcher = fetcher or read_public_csv
-    cutoff = now.astimezone(ZoneInfo('America/New_York')).date()
+    local_now = now.astimezone(ZoneInfo('America/New_York'))
+    cutoff = local_now.date()
 
     treasury = {field: [] for field in ('BC_2YEAR', 'BC_10YEAR', 'BC_30YEAR')}
     treasury_urls = []
@@ -169,9 +180,11 @@ def collect_market_data(now, fetcher=None, config_path=CONFIG):
             weekdays = business_days_since(observed, cutoff)
             cadence = spec.get('cadence', 'daily')
             threshold = spec.get('max_age_business_days', spec.get('max_age_days', 1))
-            status = ('stale' if weekdays > threshold else
+            source_late = (field and observed < expected_treasury_date(local_now))
+            status = ('stale' if weekdays > threshold or source_late else
                       'reference' if cadence == 'weekly_reference' or spec.get('reference_only') else 'ok')
-            note = (f'{age} calendar days old ({weekdays} US federal business days); '
+            note = (f'{age} calendar day{"" if age == 1 else "s"} old '
+                    f'({weekdays} US federal business day{"" if weekdays == 1 else "s"}); '
                     + ('weekly H.10 release; historical reference, not a current quote.'
                        if cadence == 'weekly_reference' else
                        'agency spot reference, not a current quote.' if spec.get('reference_only') else

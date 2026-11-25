@@ -178,7 +178,8 @@ Its values cannot enter the reproducible report JSON or historical archives.
 | Exchange rates | USD/INR, USD/CNY, USD/JPY, and EUR/USD |
 | Energy spot prices | WTI, Brent, and Henry Hub natural gas |
 
-Yields become stale after one elapsed weekday.
+Yields become stale when behind Treasury's expected session.
+The expected session switches after 4:15 p.m. Eastern.
 The weekly H.10 noon FX series remains a historical reference.
 It becomes stale after six elapsed weekdays.
 EIA spot series through FRED are historical references.

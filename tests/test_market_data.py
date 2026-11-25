@@ -53,6 +53,18 @@ class MarketDataTests(unittest.TestCase):
         self.assertEqual(business_days_since(datetime(2026,11,25).date(),
                                              datetime(2026,11,27).date()), 1)
 
+    def test_after_release_requires_same_day_treasury_observation(self):
+        config = {'schema_version': 1, 'provider': 'FRED', 'series': [
+            {'id': 'DGS2', 'name': 'US Treasury 2-year yield', 'region': 'us',
+             'unit': 'percent', 'source': 'Federal Reserve Board, H.15',
+             'treasury_field': 'BC_2YEAR', 'max_age_business_days': 1}], 'unavailable': []}
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d)/'markets.json'; p.write_text(json.dumps(config))
+            result = collect_market_data(datetime(2026,11,25,23,0,tzinfo=timezone.utc),
+                                         lambda url: '<invalid' if 'treasury.gov' in url else
+                                         'DATE,DGS2\n2026-11-24,4.63\n', p)
+        self.assertEqual(result['assets'][0]['status'], 'stale')
+
     def test_weekly_fx_reference_and_lagging_oil(self):
         config = {'schema_version': 1, 'provider': 'FRED', 'series': [
             {'id': 'DEXINUS', 'name': 'USD/INR', 'region': 'india', 'unit': 'INR per USD',
