@@ -2,8 +2,8 @@
   "edition": "us",
   "market": "United States",
   "date": "2026-11-25",
-  "publication_timestamp": "2026-11-25T13:51:15.892658+00:00",
-  "retrieval_timestamp": "2026-11-25T13:51:15.892658+00:00",
+  "publication_timestamp": "2026-11-25T13:54:48.834026+00:00",
+  "retrieval_timestamp": "2026-11-25T13:54:48.834026+00:00",
   "timezone": "America/New_York",
   "calendar": {
     "status": "trading_day",
@@ -11,7 +11,7 @@
     "diagnostic": "Verified against XNYS session calendar"
   },
   "synthetic_fixture": false,
-  "unique_item_count": 84,
+  "unique_item_count": 80,
   "freshness": "retrieved",
   "sections": {
     "overview": [
@@ -52,6 +52,78 @@
         ]
       },
       {
+        "title": "CERT - STERIS plc (0001757898) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1757898/000087666126000961/0000876661-26-000961-index.htm",
+        "published": "2026-11-25T08:53:09-05:00",
+        "publication_timestamp": "2026-11-25T13:53:09+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:53:09-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0000876661-26-000961 Size: 410 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1757898/000087666126000961/0000876661-26-000961-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "NPORT-P - Morgan Stanley ETF Trust (0001676326) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027972/0002071691-26-027972-index.htm",
+        "published": "2026-11-25T08:51:34-05:00",
+        "publication_timestamp": "2026-11-25T13:51:34+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:51:34-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0002071691-26-027972 Size: 167 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "since_previous_edition",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027972/0002071691-26-027972-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027971/0002071691-26-027971-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027970/0002071691-26-027970-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027969/0002071691-26-027969-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027967/0002071691-26-027967-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027968/0002071691-26-027968-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027966/0002071691-26-027966-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027965/0002071691-26-027965-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027964/0002071691-26-027964-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027963/0002071691-26-027963-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027962/0002071691-26-027962-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027961/0002071691-26-027961-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027960/0002071691-26-027960-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027959/0002071691-26-027959-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027958/0002071691-26-027958-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027957/0002071691-26-027957-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027956/0002071691-26-027956-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027955/0002071691-26-027955-index.htm",
+          "https://www.sec.gov/Archives/edgar/data/1676326/000207169126027954/0002071691-26-027954-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
+        "title": "D - Thornberry Group Americas, LLC-S Series #2 (0002166973) (Filer)",
+        "link": "https://www.sec.gov/Archives/edgar/data/2166973/000216697326000001/0002166973-26-000001-index.htm",
+        "published": "2026-11-25T08:51:06-05:00",
+        "publication_timestamp": "2026-11-25T13:51:06+00:00",
+        "publication_timestamp_raw": "2026-11-25T08:51:06-05:00",
+        "summary": "Filed: 2026-11-25 AccNo: 0002166973-26-000001 Size: 6 KB",
+        "access": "extractive_excerpt",
+        "source": "sec",
+        "source_name": "U.S. Securities and Exchange Commission",
+        "publication_freshness": "recent_window",
+        "supporting_links": [
+          "https://www.sec.gov/Archives/edgar/data/2166973/000216697326000001/0002166973-26-000001-index.htm"
+        ],
+        "supporting_sources": [
+          "U.S. Securities and Exchange Commission"
+        ]
+      },
+      {
         "title": "CERT - STERIS Ltd (0001624899) (Filer)",
         "link": "https://www.sec.gov/Archives/edgar/data/1624899/000087666126000960/0000876661-26-000960-index.htm",
         "published": "2026-11-25T08:50:22-05:00",
@@ -61,7 +133,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1624899/000087666126000960/0000876661-26-000960-index.htm"
         ],
@@ -79,7 +151,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/2038825/000090266426004694/0000902664-26-004694-index.htm"
         ],
@@ -97,7 +169,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1331754/000133175426000234/0001331754-26-000234-index.htm"
         ],
@@ -115,7 +187,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/2039111/000090266426004693/0000902664-26-004693-index.htm"
         ],
@@ -133,10 +205,9 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026258/0001999371-26-026258-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026254/0001999371-26-026254-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1924868/000199937126026258/0001999371-26-026258-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -152,7 +223,7 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1829311/000149315226054131/0001493152-26-054131-index.htm"
         ],
@@ -170,131 +241,14 @@
         "access": "extractive_excerpt",
         "source": "sec",
         "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012861/0001829126-26-012861-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012860/0001829126-26-012860-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012859/0001829126-26-012859-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012858/0001829126-26-012858-index.htm",
           "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012857/0001829126-26-012857-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012856/0001829126-26-012856-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012855/0001829126-26-012855-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012854/0001829126-26-012854-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012853/0001829126-26-012853-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012852/0001829126-26-012852-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "6-K - DAVION HEALTHCARE PLC (0002039072) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826009111/0001683168-26-009111-index.htm",
-        "published": "2026-11-25T08:39:20-05:00",
-        "publication_timestamp": "2026-11-25T13:39:20+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:39:20-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001683168-26-009111 Size: 29 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2039072/000168316826009111/0001683168-26-009111-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "S-3 - FIRSTENERGY CORP (0001031296) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1031296/000119312526476901/0001193125-26-476901-index.htm",
-        "published": "2026-11-25T08:37:54-05:00",
-        "publication_timestamp": "2026-11-25T13:37:54+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:37:54-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476901 Size: 323 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1031296/000119312526476901/0001193125-26-476901-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "8-K - RAYMOND JAMES FINANCIAL INC (0000720005) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000088/0000720005-26-000088-index.htm",
-        "published": "2026-11-25T08:35:59-05:00",
-        "publication_timestamp": "2026-11-25T13:35:59+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:35:59-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0000720005-26-000088 Size: 504 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/720005/000072000526000088/0000720005-26-000088-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "NPORT-P - HarbourVest Private Investments Fund (0002020407) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/2020407/000141036826122792/0001410368-26-122792-index.htm",
-        "published": "2026-11-25T08:34:33-05:00",
-        "publication_timestamp": "2026-11-25T13:34:33+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:34:33-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001410368-26-122792 Size: 72 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/2020407/000141036826122792/0001410368-26-122792-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "424B3 - FOSTER L B CO (0000352825) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/352825/000119312526476899/0001193125-26-476899-index.htm",
-        "published": "2026-11-25T08:33:45-05:00",
-        "publication_timestamp": "2026-11-25T13:33:45+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:33:45-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-476899 Size: 239 KB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/352825/000119312526476899/0001193125-26-476899-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
-        "title": "NPORT-P - JOHN HANCOCK VARIABLE INSURANCE TRUST (0000756913) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/756913/000075691326000880/0000756913-26-000880-index.htm",
-        "published": "2026-11-25T08:33:35-05:00",
-        "publication_timestamp": "2026-11-25T13:33:35+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:33:35-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0000756913-26-000880 Size: 45 MB",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000880/0000756913-26-000880-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000879/0000756913-26-000879-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000876/0000756913-26-000876-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000875/0000756913-26-000875-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000874/0000756913-26-000874-index.htm",
-          "https://www.sec.gov/Archives/edgar/data/756913/000075691326000873/0000756913-26-000873-index.htm"
+          "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012856/0001829126-26-012856-index.htm"
         ],
         "supporting_sources": [
           "U.S. Securities and Exchange Commission"
@@ -1106,7 +1060,7 @@
         "access": "headline_only",
         "source": "bbc",
         "source_name": "BBC Business",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         ],
@@ -1178,7 +1132,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         ],
@@ -1396,7 +1350,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         ],
@@ -1542,7 +1496,7 @@
         "access": "headline_only",
         "source": "cnbc",
         "source_name": "CNBC",
-        "publication_freshness": "since_previous_edition",
+        "publication_freshness": "recent_window",
         "supporting_links": [
           "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         ],
@@ -1847,24 +1801,6 @@
         ]
       },
       {
-        "title": "8-K - AVAI BIO, INC. (0001740797) (Filer)",
-        "link": "https://www.sec.gov/Archives/edgar/data/1740797/000174079726000028/0001740797-26-000028-index.htm",
-        "published": "2026-11-25T08:35:23-05:00",
-        "publication_timestamp": "2026-11-25T13:35:23+00:00",
-        "publication_timestamp_raw": "2026-11-25T08:35:23-05:00",
-        "summary": "Filed: 2026-11-25 AccNo: 0001740797-26-000028 Size: 249 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-        "access": "extractive_excerpt",
-        "source": "sec",
-        "source_name": "U.S. Securities and Exchange Commission",
-        "publication_freshness": "recent_window",
-        "supporting_links": [
-          "https://www.sec.gov/Archives/edgar/data/1740797/000174079726000028/0001740797-26-000028-index.htm"
-        ],
-        "supporting_sources": [
-          "U.S. Securities and Exchange Commission"
-        ]
-      },
-      {
         "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
         "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
         "published": "Wed, 25 Nov 2026 10:52:09 GMT",
@@ -1964,8 +1900,8 @@
       "name": "Federal Reserve",
       "home": "https://www.federalreserve.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 20,
@@ -1977,7 +1913,7 @@
       "home": "https://home.treasury.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -1988,8 +1924,8 @@
       "name": "Bureau of Labor Statistics",
       "home": "https://www.bls.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 1,
       "fetched_item_count": 1,
@@ -2001,7 +1937,7 @@
       "home": "https://www.eia.gov/",
       "status": "failed",
       "last_success_timestamp": null,
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": "HTTP 404: feed request rejected",
       "item_count": 0,
       "fetched_item_count": 0,
@@ -2012,8 +1948,8 @@
       "name": "U.S. Securities and Exchange Commission",
       "home": "https://www.sec.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 40,
       "fetched_item_count": 40,
@@ -2024,8 +1960,8 @@
       "name": "BBC Business",
       "home": "https://www.bbc.com/news/business",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 25,
       "fetched_item_count": 40,
@@ -2036,8 +1972,8 @@
       "name": "CNBC",
       "home": "https://www.cnbc.com/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 30,
       "fetched_item_count": 30,
@@ -2048,8 +1984,8 @@
       "name": "U.S. Bureau of Economic Analysis",
       "home": "https://www.bea.gov/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 4,
       "fetched_item_count": 39,
@@ -2060,8 +1996,8 @@
       "name": "European Central Bank",
       "home": "https://www.ecb.europa.eu/",
       "status": "ok",
-      "last_success_timestamp": "2026-11-25T13:51:15.892658+00:00",
-      "attempt_timestamp": "2026-11-25T13:51:15.892658+00:00",
+      "last_success_timestamp": "2026-11-25T13:54:48.834026+00:00",
+      "attempt_timestamp": "2026-11-25T13:54:48.834026+00:00",
       "error": null,
       "item_count": 5,
       "fetched_item_count": 15,
