@@ -28,16 +28,16 @@ The collector does not download full articles or bypass paywalls.
 
 | Output | Target | Calendar behavior |
 | --- | --- | --- |
-| Daily Markets | Daily, 08:00 America/New_York | Uses latest available observations and editions |
-| India edition | Weekdays, 08:15 Asia/Kolkata | Official NSE equity holiday API |
-| United States edition | Weekdays, 08:15 America/New_York | NYSE calendar through pandas-market-calendars |
+| Daily Markets | Daily, 08:15 Asia/Kolkata and 08:15 America/New_York | Uses latest available observations and editions |
+| India edition | Trading days, 08:15 Asia/Kolkata | Official NSE equity holiday API |
+| United States edition | Trading days, 08:15 America/New_York | NYSE calendar through pandas-market-calendars |
 
 New York schedules follow daylight-saving transitions.
 These are execution targets, not guaranteed publication times.
 GitHub can delay scheduled workflow execution.
 Daily Markets runs on weekends and exchange holidays too.
 It preserves underlying edition dates and observation dates.
-The 08:00 report can precede the new US edition.
+Each 08:15 run composes a timestamped Daily Markets report.
 
 Edition collectors accept starts between 08:15 and 09:45 locally.
 They never publish scheduled editions before the target time.
@@ -327,8 +327,8 @@ GitHub's account limits and policies still apply.
 7. Open the dashboard after successful deployment.
 
 The publishing workflow installs dependencies and runs regression checks.
-Its daily target is 08:00 Eastern, including weekends.
-The two local-market edition targets remain scheduled separately.
+It targets 08:15 India and Eastern daily, including weekends.
+Edition collectors still require a verified local trading session.
 It verifies fixture reproducibility before collecting live reports.
 Action references use verified, immutable upstream commit SHAs.
 A shared concurrency group serializes publishing runs.

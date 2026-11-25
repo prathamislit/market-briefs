@@ -17,11 +17,9 @@ on:
         default: both
         options: [both, india, us]
   schedule:
-    - cron: "0 8 * * *"
-      timezone: America/New_York
-    - cron: "15 8 * * 1-5"
+    - cron: "15 8 * * *"
       timezone: Asia/Kolkata
-    - cron: "15 8 * * 1-5"
+    - cron: "15 8 * * *"
       timezone: America/New_York
 
 permissions:
@@ -86,13 +84,8 @@ jobs:
       - name: Compose Daily Markets report
         id: daily
         env:
-          EVENT_NAME: ${{ github.event_name }}
-          EVENT_SCHEDULE: ${{ github.event.schedule }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: |
-          if [[ "$EVENT_NAME" == "push" || "$EVENT_NAME" == "workflow_dispatch" || "$EVENT_SCHEDULE" == "0 8 * * *" ]]; then
-            python src/orchestrate_daily.py
-          fi
+        run: python src/orchestrate_daily.py
       - name: Archive workflow attempt
         if: always()
         env:
