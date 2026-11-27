@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Briefs</title>
+  <style>
+    :root { --bg:#181b1f; --panel:#23272d; --ink:#f4f1ea; --muted:#aaa69d; --amber:#ffa028; --line:#3a3d41; --good:#77c893; --bad:#ff7b72; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    header { border-bottom:1px solid var(--line); padding:20px max(20px,calc((100% - 1100px)/2)); }
+    h1 { margin:0; font-size:28px; letter-spacing:.02em; }
+    h1 span { color:var(--amber); }
+    main { max-width:1100px; margin:auto; padding:24px 20px 64px; }
+    .toolbar { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+    button { border:1px solid var(--line); background:var(--panel); color:var(--ink); padding:9px 12px; cursor:pointer; }
+    button.active { border-color:var(--amber); color:var(--amber); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { min-width:0; overflow-wrap:anywhere; background:var(--panel); border:1px solid var(--line); padding:16px; }
+    .card h2 { margin:0 0 6px; font-size:18px; }
+    .meta { color:var(--muted); font-size:13px; }
+    .links { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; }
+    .report { grid-column:1/-1; }
+    .source-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:14px 0; }
+    .source { border:1px solid var(--line); padding:10px; font-size:13px; }
+    .ok { color:var(--good); } .bad { color:var(--bad); }
+    details { border-top:1px solid var(--line); padding:10px 0; }
+    summary { cursor:pointer; color:var(--amber); }
+    .story-meta { color:var(--muted); font-size:12px; margin:6px 0; }
+    .story-links { display:flex; gap:10px; flex-wrap:wrap; }
+    .empty { color:var(--muted); }
+    a { color:var(--amber); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .latest { border-left:3px solid var(--amber); }
+    .intro { margin:8px 0 0; color:var(--muted); line-height:1.5; }
+    .notice { border-left:3px solid var(--amber); padding:10px 12px; margin:12px 0; background:var(--bg); line-height:1.5; }
+    .notice.warning { border-color:var(--bad); }
+    .disclaimer { margin:0 0 24px; background:var(--panel); }
+    .disclaimer strong { color:var(--amber); }
+    .disclaimer p { margin:6px 0 0; }
+    .badge { display:inline-block; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--amber); margin-bottom:8px; }
+    .source p { margin:6px 0 0; }
+    .source strong { color:var(--ink); }
+    .report h3 { font-size:16px; margin:16px 0 6px; }
+    .report p { line-height:1.55; }
+    button { min-height:42px; }
+    button:focus-visible, a:focus-visible, summary:focus-visible { outline:2px solid var(--amber); outline-offset:3px; }
+    .source-list, .meta, .story-meta { overflow-wrap:anywhere; line-height:1.5; }
+    .daily-section { margin-bottom:32px; }
+    .daily-section > h2 { margin:0 0 8px; }
+    .daily-controls { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin:16px 0; }
+    select { max-width:100%; min-height:42px; border:1px solid var(--line); background:var(--panel); color:var(--ink); padding:8px; }
+    .daily-desk { padding:14px 0; }
+    .evidence-card { margin:16px 0; padding:14px; border:1px solid var(--line); }
+    .evidence-card h3 { margin-top:0; }
+    blockquote { margin:12px 0; padding:8px 14px; border-left:2px solid var(--line); color:var(--muted); line-height:1.5; }
+    .daily-desk > summary { font-weight:600; }
+    .daily-gap { color:var(--muted); line-height:1.5; }
+    .site-nav { display:flex; gap:8px; flex-wrap:wrap; padding:0 0 18px; margin:0 0 24px; border-bottom:1px solid var(--line); }
+    .site-nav a { padding:9px 11px; border:1px solid var(--line); background:var(--panel); }
+    .site-nav a[aria-current="page"] { color:var(--ink); border-color:var(--amber); }
+    .page-section > h2 { margin:0 0 8px; }
+    .home-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:20px; }
+    .home-links a { display:block; border:1px solid var(--line); background:var(--panel); padding:16px; }
+    .table-scroll { overflow-x:auto; margin:14px 0; }
+    table { width:100%; border-collapse:collapse; font-size:13px; }
+    th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { color:var(--muted); font-weight:500; }
+    td.numeric { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    caption { text-align:left; color:var(--muted); margin-bottom:10px; }
+    noscript { display:block; padding:16px; border:1px solid var(--line); }
+    @media (max-width:700px) { .grid, .source-list, .home-links { grid-template-columns:1fr; } header { padding-top:16px; padding-bottom:16px; } h1 { font-size:24px; } }
+  </style>
+</head>
+<body data-page="watchlist">
+  <header><h1><span>MARKET</span> BRIEFS</h1>
+    <p class="intro">Public-source editions for India and the United States.<br>
+      Daily report at 08:15 IST and 08:15 Eastern. Editions follow trading days.</p>
+  </header>
+  <main>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" data-route="home">Home</a>
+      <a href="markets.html" data-route="markets">Markets</a>
+      <a href="macro.html" data-route="macro">Macro &amp; FX</a>
+      <a href="india.html" data-route="india">India</a>
+      <a href="etfs.html" data-route="etfs">ETFs</a>
+      <a href="geopolitics.html" data-route="geopolitics">Geopolitics</a>
+      <a href="earnings.html" data-route="earnings">Earnings</a>
+      <a href="watchlist.html" data-route="watchlist">Watchlist</a>
+      <a href="archives.html" data-route="archives">Archives</a>
+      <a href="sources.html" data-route="sources">Sources &amp; methodology</a>
+    </nav>
+    <aside class="notice disclaimer" aria-label="Research disclaimer">
+      <strong>Not financial advice.</strong>
+      <p>Personal academic research portfolio. Not investment advice. Not a solicitation. No services offered. Frameworks are informational research outputs.</p>
+    </aside>
+    <section aria-labelledby="watchlist-title">
+  <h2 id="watchlist-title">Watchlist</h2>
+  <p>Upcoming dated events across the next 24–72 hours, with timing and source notes.</p>
+  <div id="daily-controls" class="daily-controls"></div>
+  <div id="daily-report" class="grid" aria-live="polite" aria-busy="true"></div>
+</section>
+
+  </main>
+  <script>
+    const manifest = [{"edition": "india", "date": "2026-11-27", "publication_timestamp": "2026-11-27T02:00:21.370562+00:00", "retrieval_timestamp": "2026-11-27T02:00:21.370562+00:00", "json": "india-2026-11-27.json", "markdown": "india-2026-11-27.md"}, {"edition": "us", "date": "2026-11-26", "publication_timestamp": "2026-11-27T02:00:24.650215+00:00", "retrieval_timestamp": "2026-11-27T02:00:24.650215+00:00", "json": "us-2026-11-26.json", "markdown": "us-2026-11-26.md"}, {"edition": "us", "date": "2026-11-25", "publication_timestamp": "2026-11-25T13:54:48.834026+00:00", "retrieval_timestamp": "2026-11-25T13:54:48.834026+00:00", "json": "us-2026-11-25.json", "markdown": "us-2026-11-25.md"}, {"edition": "india", "date": "2026-11-25", "publication_timestamp": "2026-11-25T13:54:45.565516+00:00", "retrieval_timestamp": "2026-11-25T13:54:45.565516+00:00", "json": "india-2026-11-25.json", "markdown": "india-2026-11-25.md"}, {"edition": "us", "date": "2026-11-24", "publication_timestamp": "2026-11-24T22:59:09.526045+00:00", "retrieval_timestamp": "2026-11-24T22:59:09.526045+00:00", "json": "us-2026-11-24.json", "markdown": "us-2026-11-24.md"}, {"edition": "india", "date": "2026-11-24", "publication_timestamp": "2026-11-24T11:17:04.021078+00:00", "retrieval_timestamp": "2026-11-24T11:17:04.021078+00:00", "json": "india-2026-11-24.json", "markdown": "india-2026-11-24.md"}, {"edition": "us", "date": "2026-11-23", "publication_timestamp": "2026-11-24T04:25:36.999140+00:00", "retrieval_timestamp": "2026-11-24T04:25:36.999140+00:00", "json": "us-2026-11-23.json", "markdown": "us-2026-11-23.md"}];
+    const page = document.body.dataset.page;
+    const pageDesks = {
+      markets: ["cross_asset"], macro: ["macro_policy", "us_policy_currency"],
+      india: ["india_markets"], etfs: ["etf_flows"],
+      geopolitics: ["geopolitics"], earnings: ["earnings"],
+      watchlist: ["watchlist"]
+    };
+    document.querySelectorAll('.site-nav a[data-route]').forEach(link => {
+      if (link.dataset.route === page) link.setAttribute('aria-current', 'page');
+    });
+    let edition = "all";
+    let section = "all";
+    let visibleCount = 2;
+    let renderVersion = 0;
+    let renderedView = "";
+    let renderedCount = 0;
+    let renderedHadErrors = false;
+    const reportCache = new Map();
+    const dailyCache = new Map();
+    const latestDates = new Map();
+    for (const entry of manifest) {
+      if (!latestDates.has(entry.edition) || entry.date > latestDates.get(entry.edition)) latestDates.set(entry.edition, entry.date);
+    }
+    const root = document.getElementById("briefs");
+    const archiveControl = document.getElementById("archive-control");
+    const dailyRoot = document.getElementById("daily-report");
+    const dailyControls = document.getElementById("daily-controls");
+    let dailyRenderVersion = 0;
+    const dailyDesks = [
+      ["cross_asset", "Cross-asset dashboard"],
+      ["etf_flows", "ETF flows and positioning"],
+      ["macro_policy", "Macro and policy"],
+      ["geopolitics", "Geopolitics and market transmission"],
+      ["earnings", "Companies and earnings"],
+      ["us_policy_currency", "US policy and currency"],
+      ["india_markets", "India market intelligence"],
+      ["watchlist", "Next 24–72 hours"]
+    ];
+    function selectedDesks(report) {
+      const wanted = pageDesks[page] || [];
+      const seen = new Set();
+      return dailyDesks.filter(([key]) => wanted.includes(key)).map(([key, label]) => {
+        const desk = report.sections?.[key] || {};
+        const prior = new Set(seen);
+        const entries = (desk.entries || []).filter(entry => {
+          const fingerprint = [entry.kind, entry.name || entry.title || entry.company || '',
+                               entry.source_url || '', entry.as_of || ''].join('|');
+          return !prior.has(fingerprint);
+        });
+        entries.forEach(entry => seen.add([entry.kind, entry.name || entry.title || entry.company || '',
+          entry.source_url || '', entry.as_of || ''].join('|')));
+        return dailyDesk({...report, sections: {...report.sections, [key]: {...desk, entries}}}, key, label);
+      }).join('');
+    }
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, character => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      })[character]);
+    }
+    function safeUrl(value) {
+      if (typeof value !== "string" || /["'\u0000-\u0020]/.test(value)) return "";
+      try {
+        const url = new URL(value);
+        return (url.protocol === "http:" || url.protocol === "https:")
+          && !url.username && !url.password ? url.href : "";
+      } catch (_) {
+        return "";
+      }
+    }
+    function reportPath(filename, extension) {
+      if (typeof filename !== "string" || !new RegExp(`^(india|us)-[0-9]{4}-[0-9]{2}-[0-9]{2}\\.${extension}$`).test(filename)) {
+        throw new Error("Invalid report filename");
+      }
+      return `reports/${filename}`;
+    }
+    function dailyPath(filename, extension) {
+      if (typeof filename !== "string" || !new RegExp(`^[0-9]{8}T[0-9]{12}Z-(?:[0-9]+|local)-[0-9]+\\.${extension}$`).test(filename)) {
+        throw new Error("Invalid Daily Markets filename");
+      }
+      return `daily/${filename}`;
+    }
+    function evidenceLink(url, label) {
+      const safe = safeUrl(url);
+      return safe ? `<a href="${escapeHtml(safe)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>` : escapeHtml(label);
+    }
+    function displayNumber(value) {
+      return typeof value === "number" && Number.isFinite(value) ? escapeHtml(value) : "Unavailable";
+    }
+    function observationTable(entries) {
+      const observations = entries.filter(entry =>
+        (entry.status === "ok" || entry.status === "reference" || entry.status === "stale") &&
+        typeof entry.level === "number" && Number.isFinite(entry.level));
+      if (!observations.length) return "";
+      const rows = observations.map(entry => {
+        const note = entry.note ? `<div class="meta">${escapeHtml(entry.note)}</div>` : "";
+        return `<tr>
+          <td>${evidenceLink(entry.source_url, entry.name || "Unnamed asset")}<div class="meta">${escapeHtml(entry.region || "Unknown region")}${entry.original_source ? `<br>${escapeHtml(entry.original_source)}` : ""}</div></td>
+          <td class="numeric">${displayNumber(entry.level)}<div class="meta">${escapeHtml(entry.unit || "")}</div></td>
+          <td class="numeric">${displayNumber(entry.change)}</td>
+          <td class="numeric">${typeof entry.change_percent === "number" && Number.isFinite(entry.change_percent) ? `${displayNumber(entry.change_percent)}%` : "Unavailable"}</td>
+          <td>${escapeHtml(entry.as_of || "Unavailable")}</td>
+          <td>${escapeHtml({ok:"Dated source observation", reference:"Historical reference", stale:"Stale source feed"}[entry.status] || entry.status || "unavailable")}${note}</td>
+        </tr>`;
+      }).join("");
+      return `<div class="table-scroll" role="region" aria-label="Market observations" tabindex="0"><table>
+        <caption>Latest source observations. Changes compare available observations, not necessarily consecutive sessions.</caption>
+        <thead><tr><th scope="col">Asset</th><th scope="col">Level</th><th scope="col">Change, series units</th><th scope="col">Change %</th><th scope="col">Observation date</th><th scope="col">Coverage</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+    }
+    function dailyLead(entry) {
+      return `<article>
+        <h3>${evidenceLink(entry.source_url, entry.title || "Source lead")}</h3>
+        <div class="story-meta">Source headline lead · ${escapeHtml(entry.source || "Unknown source")} · Published ${escapeHtml(entry.as_of || "Unknown")} · ${escapeHtml(entry.freshness || "unknown")}${entry.retained ? " · Retained earlier content" : ""}</div>
+        <p>${escapeHtml(entry.detail || "Inspect the original source.")}</p>
+      </article>`;
+    }
+    function scheduledEvent(entry) {
+      return `<article>
+        <h3>${evidenceLink(entry.source_url, entry.title || "Scheduled event")}</h3>
+        <div class="story-meta">Primary-source schedule · ${escapeHtml(entry.source || "Unknown source")}<br>
+          ${entry.all_day ? "Scheduled date; time unspecified" : "Scheduled"}: ${escapeHtml(entry.as_of || "Unavailable")}</div>
+        <p>${escapeHtml(entry.detail || "Scheduled release; outcome unknown.")}</p>
+      </article>`;
+    }
+    function sourceDiagnostics(report) {
+      const register = report.sections?.source_register;
+      const sources = Array.isArray(register?.entries) ? register.entries.filter(entry => entry && typeof entry === "object") : [];
+      if (!sources.length) return '<details><summary>Source diagnostics</summary><p class="empty">No source-register entries are available.</p></details>';
+      return `<details open><summary>Source diagnostics · ${sources.length} feed checks</summary>
+        <div class="source-list">${sources.map(entry => `<div class="source ${entry.status === "ok" ? "ok" : "bad"}">
+          <strong>${evidenceLink(entry.source_url, entry.source || "Unknown source")}</strong><br>
+          Edition: ${escapeHtml(entry.edition || "Unknown")} · Status: ${escapeHtml(entry.status || "unknown")}<br>
+          Checked: ${escapeHtml(entry.as_of || "Unknown")}<br>
+          Last success: ${escapeHtml(entry.last_success || "None")}
+          ${entry.error ? `<p>${escapeHtml(entry.error)}</p>` : ""}
+        </div>`).join("")}</div>
+      </details>`;
+    }
+    function etfFiling(entry) {
+      const flows = Array.isArray(entry.net_flows) ? entry.net_flows.filter(row => row && typeof row === "object") : [];
+      const holdings = Array.isArray(entry.top_holdings) ? entry.top_holdings.filter(row => row && typeof row === "object") : [];
+      const labels = {latest_available_lagged: "Latest available filing; delayed", older_filing_lagged: "Older verified filing; newer filing unavailable", archived: "Archived filing; current retrieval failed"};
+      const status = labels[entry.status] || entry.status || "unavailable";
+      return `<article class="evidence-card">
+        <h3>${evidenceLink(entry.source_url, `${entry.ticker || "ETF"} · ${entry.name || "SEC fund filing"}`)}</h3>
+        <div class="notice ${entry.status === "archived" ? "warning" : ""}">${escapeHtml(status)}. Historical monthly fund data; current daily ETF flows remain unavailable.</div>
+        <p class="story-meta">Report date: ${escapeHtml(entry.report_date || "Unknown")} · Filing date: ${escapeHtml(entry.filing_date || "Unknown")}<br>
+          Retrieved: ${escapeHtml(entry.retrieved_at || "Unknown")} · Report lag: ${displayNumber(entry.report_lag_days)} calendar days<br>
+          Source: ${escapeHtml(entry.source || "SEC EDGAR")} · Series: ${escapeHtml(entry.series_id || "Unknown")}</p>
+        <p>${escapeHtml(entry.flow_basis || "Reported fund share sales plus reinvestments minus redemptions.")}</p>
+        <p class="meta">Reinvestments are included. These figures do not measure fresh external cash.</p>
+        ${flows.length ? `<div class="table-scroll" role="region" aria-label="Reported monthly fund flows" tabindex="0"><table><caption>Reported month positions, not inferred calendar months. Amounts in USD.</caption><thead><tr><th scope="col">Reported month</th><th scope="col">Share sales</th><th scope="col">Reinvestments</th><th scope="col">Redemptions</th><th scope="col">Net share flow</th></tr></thead><tbody>${flows.map(row => `<tr><td>${escapeHtml(row.reported_month ?? "Unknown")}</td><td class="numeric">${displayNumber(row.sales_usd)}</td><td class="numeric">${displayNumber(row.reinvestment_usd)}</td><td class="numeric">${displayNumber(row.redemption_usd)}</td><td class="numeric">${displayNumber(row.reported_net_share_flow_usd)}</td></tr>`).join("")}</tbody></table></div>` : '<p class="empty">Monthly flow fields are unavailable.</p>'}
+        ${holdings.length ? `<div class="table-scroll" role="region" aria-label="Reported equity holdings" tabindex="0"><table><caption>Largest reported equity holdings, as of the report date.</caption><thead><tr><th scope="col">Holding</th><th scope="col">Reported value, USD</th><th scope="col">Percent of net assets</th></tr></thead><tbody>${holdings.map(row => `<tr><td>${escapeHtml(row.name || "Unknown")}</td><td class="numeric">${displayNumber(row.value_usd)}</td><td class="numeric">${typeof row.percent_of_net_assets === "number" && Number.isFinite(row.percent_of_net_assets) ? `${displayNumber(row.percent_of_net_assets)}%` : "Unavailable"}</td></tr>`).join("")}</tbody></table></div>` : '<p class="empty">Verified holdings are unavailable.</p>'}
+        ${entry.note ? `<p class="meta">${escapeHtml(entry.note)}</p>` : ""}
+      </article>`;
+    }
+    function earningsEvidence(entry) {
+      const actualVerified = ["actual_only", "matched_issuer_consensus"].includes(entry.status)
+        && entry.basis === "GAAP" && typeof entry.actual === "number" && Number.isFinite(entry.actual)
+        && Boolean(safeUrl(entry.source_url)) && /^\d{4}-\d{2}-\d{2}$/.test(entry.period_start || "") && /^\d{4}-\d{2}-\d{2}$/.test(entry.period_end || "");
+      const matched = actualVerified && entry.kind === "earnings_comparison" && entry.status === "matched_issuer_consensus"
+        && typeof entry.expectation === "number" && Number.isFinite(entry.expectation)
+        && Boolean(safeUrl(entry.expectation_source_url)) && Boolean(safeUrl(entry.results_source_url))
+        && /^\d{4}-\d{2}-\d{2}$/.test(entry.expectation_published || "");
+      return `<article class="evidence-card">
+        <h3>${evidenceLink(entry.source_url, `${entry.company || "Issuer"} · ${entry.metric || "Quarterly actual"}`)}</h3>
+        <p class="story-meta">Period: ${escapeHtml(entry.period_start || "Unknown")} to ${escapeHtml(entry.period_end || "Unknown")} · Filed: ${escapeHtml(entry.filed || "Unknown")}<br>
+          Basis: ${escapeHtml(entry.basis || "Unknown")} · Units: ${escapeHtml(entry.unit || "Unknown")}</p>
+        ${entry.historical ? `<div class="notice warning">Historical latest 10-Q context; filed ${displayNumber(entry.filing_age_days)} days ago. Newer 10-K or 8-K results may exist.</div>` : ""}
+        <div class="table-scroll" role="region" aria-label="Issuer earnings evidence" tabindex="0"><table><thead><tr><th scope="col">Reported actual</th><th scope="col">Matched issuer consensus</th><th scope="col">Actual minus expectation</th></tr></thead><tbody><tr><td class="numeric">${actualVerified ? displayNumber(entry.actual) : "Unavailable"}</td><td class="numeric">${matched ? displayNumber(entry.expectation) : "Unavailable"}</td><td class="numeric">${matched ? displayNumber(entry.difference) : "Unavailable"}</td></tr></tbody></table></div>
+        ${matched ? `<p class="meta">Issuer-published consensus snapshot: ${escapeHtml(entry.expectation_published)}. Matched reporting period and accounting basis. Evidence: ${escapeHtml(entry.expectation_evidence_basis || "issuer source")}${entry.results_published ? ` · Results dated ${escapeHtml(entry.results_published)}` : ""}.</p><div class="story-links">${evidenceLink(entry.expectation_source_url, "Issuer consensus source")}${evidenceLink(entry.results_source_url, "Issuer results source")}</div>` : '<p class="meta">Matched, pre-results issuer consensus is unavailable. No comparison is inferred.</p>'}
+        <p class="meta">Verified guidance and post-results price reaction remain unavailable.</p>
+      </article>`;
+    }
+    function transmissionEvidence(entry) {
+      const event = entry.event && typeof entry.event === "object" ? entry.event : {};
+      const assets = Array.isArray(entry.affected_assets) ? entry.affected_assets.filter(row => row && typeof row === "object") : [];
+      const rivals = Array.isArray(entry.rival_factors) ? entry.rival_factors : [];
+      const relations = {brackets_event_at_daily_resolution: "Daily observations bracket event; causality remains unverified", not_comparable: "Event chronology cannot be established", unavailable: "Comparable observations unavailable"};
+      return `<article class="evidence-card">
+        <h3>${escapeHtml(entry.channel || "Potential transmission channel")}</h3>
+        <div class="notice warning">Potential channel; event-specific market causality remains unverified.</div>
+        <p><strong>Event:</strong> ${evidenceLink(event.source_url, event.title || "Primary-source event")}</p>
+        <p class="story-meta">Source: ${escapeHtml(event.source || "Unknown")} · Published: ${escapeHtml(event.published_at || "Unknown")}<br>Evidence type: ${escapeHtml(event.evidence_type || "Unknown")}</p>
+        ${event.evidence_excerpt ? `<blockquote>${escapeHtml(event.evidence_excerpt)}</blockquote>` : '<p class="empty">Primary event excerpt unavailable.</p>'}
+        <p><strong>Potential mechanism:</strong> ${escapeHtml(entry.mechanism || "Unavailable")}</p>
+        <p>${evidenceLink(entry.mechanism_url, "Documented mechanism source")}</p>
+        ${assets.length ? `<div class="table-scroll" role="region" aria-label="Potential asset exposure and chronology" tabindex="0"><table><caption>Potential exposure only. Daily chronology cannot isolate an event’s effect.</caption><thead><tr><th scope="col">Potentially affected asset</th><th scope="col">Previous observation</th><th scope="col">Latest observation</th><th scope="col">Observed change</th><th scope="col">Chronology and coverage</th></tr></thead><tbody>${assets.map(asset => {
+          const comparable = asset.status === "ok" && asset.temporal_relation === "brackets_event_at_daily_resolution";
+          return `<tr><td>${evidenceLink(asset.source_url, asset.name || "Unknown asset")}</td><td>${escapeHtml(asset.previous_as_of || "Unavailable")}</td><td>${escapeHtml(asset.as_of || "Unavailable")}</td><td class="numeric">${comparable ? displayNumber(asset.observed_change) : "Unavailable"}${comparable && asset.change_unit ? `<div class="meta">${escapeHtml(asset.change_unit)}</div>` : ""}</td><td>${escapeHtml(relations[asset.temporal_relation] || asset.temporal_relation || "Unavailable")}<br><span class="meta">Observation status: ${escapeHtml(asset.status || "unavailable")}</span></td></tr>`;
+        }).join("")}</tbody></table></div>` : '<p class="empty">Comparable asset observations are unavailable.</p>'}
+        <p><strong>Rival factors and unresolved attribution</strong></p>
+        ${rivals.length ? `<ul>${rivals.map(factor => `<li>${escapeHtml(factor)}</li>`).join("")}</ul>` : '<p class="empty">Rival explanations were not isolated.</p>'}
+        <p class="meta">Attribution: unverified. ${escapeHtml(entry.conclusion || "This event’s market effect has not been established.")}</p>
+      </article>`;
+    }
+    function dailyDesk(report, key, label) {
+      const desk = report.sections?.[key] || {};
+      const entries = Array.isArray(desk.entries) ? desk.entries.filter(entry => entry && typeof entry === "object") : [];
+      const observations = entries.filter(entry => entry.kind === "market_observation");
+      const leads = entries.filter(entry => entry.kind === "headline_lead");
+      const events = entries.filter(entry => entry.kind === "scheduled_event");
+      const filings = entries.filter(entry => entry.kind === "sec_etf");
+      const earnings = entries.filter(entry => ["earnings_actual", "earnings_comparison"].includes(entry.kind));
+      const hypotheses = entries.filter(entry => entry.kind === "transmission_hypothesis");
+      const gaps = Array.isArray(desk.missing) ? desk.missing : [];
+      const notices = Array.isArray(desk.notices) ? desk.notices : [];
+      return `<details class="daily-desk" open>
+        <summary>${escapeHtml(label)} · ${escapeHtml(desk.status || "unavailable")}</summary>
+        ${observationTable(observations.filter(entry => entry.status === "ok"))}
+        ${observations.some(entry => entry.status === "reference" || entry.status === "stale") ? `<details class="daily-desk"><summary>Historical agency observations · ${observations.filter(entry => entry.status === "stale").length} stale</summary><p class="meta">These dated rates and spot prices are not current quotes. H.10 publishes weekly. FRED can lag EIA.</p>${observationTable(observations.filter(entry => entry.status === "reference" || entry.status === "stale"))}</details>` : ""}
+        ${leads.map(dailyLead).join("")}
+        ${events.map(scheduledEvent).join("")}
+        ${filings.map(etfFiling).join("")}
+        ${earnings.map(earningsEvidence).join("")}
+        ${hypotheses.map(transmissionEvidence).join("")}
+        ${!observations.length && !leads.length && !events.length && !filings.length && !earnings.length && !hypotheses.length ? '<p class="empty">No verified entries are available.</p>' : ""}
+        ${gaps.length ? `<ul class="daily-gap">${gaps.map(gap => `<li><strong>Coverage gap:</strong> ${escapeHtml(gap)}</li>`).join("")}</ul>` : ""}
+        ${notices.length ? `<ul class="daily-gap">${notices.map(notice =>
+          `<li><strong>Source availability:</strong> ${evidenceLink(notice.source_url, notice.title)} — ${escapeHtml(notice.detail)}</li>`
+        ).join("")}</ul>` : ""}
+      </details>`;
+    }
+    async function showDailyReport(entry) {
+      const version = ++dailyRenderVersion;
+      dailyRoot.setAttribute("aria-busy", "true");
+      try {
+        const path = dailyPath(entry.json, "json");
+        if (!dailyCache.has(path)) {
+          dailyCache.set(path, fetch(path).then(response => {
+            if (!response.ok) throw new Error("Daily Markets report unavailable");
+            return response.json();
+          }).catch(error => {
+            dailyCache.delete(path);
+            throw error;
+          }));
+        }
+        const report = await dailyCache.get(path);
+        const markdown = dailyPath(entry.markdown, "md");
+        const json = dailyPath(entry.json, "json");
+        const gaps = Array.isArray(report.limitations) ? report.limitations : [];
+        const routeByDesk = {
+          cross_asset:"markets", etf_flows:"etfs", macro_policy:"macro",
+          geopolitics:"geopolitics", earnings:"earnings", us_policy_currency:"macro",
+          india_markets:"india", watchlist:"watchlist", source_register:"sources"
+        };
+        const archiveIndex = `<div class="home-links">${dailyDesks.map(([key, label]) =>
+          `<a href="${routeByDesk[key]}.html?run=${encodeURIComponent(entry.json)}">${escapeHtml(label)}</a>`).join("")}
+          <a href="sources.html?run=${encodeURIComponent(entry.json)}">Sources &amp; methodology</a></div>`;
+        const content = page === "archives" ? `<p>Open this report by section:</p>${archiveIndex}` :
+          page === "sources" ? sourceDiagnostics(report) : selectedDesks(report);
+        const markup = `<article class="card report latest">
+          <h2>${escapeHtml(report.title || "Daily Markets")} · ${escapeHtml(entry.date || "")}</h2>
+          <p class="meta">Published ${escapeHtml(report.generated_at || entry.generated_at || "Unknown")}<br>
+            India source edition: ${escapeHtml(report.edition_dates?.india || "Unavailable")} · US source edition: ${escapeHtml(report.edition_dates?.us || "Unavailable")}</p>
+          <div class="notice">Headlines are investigation leads. Observation dates determine data freshness. Missing values remain unavailable.</div>
+          ${content}
+          ${page === "sources" && gaps.length ? `<details><summary>Coverage and limitations</summary><ul>${gaps.map(gap => `<li>${escapeHtml(gap)}</li>`).join("")}</ul></details>` : ""}
+          ${page === "archives" ? `<div class="links"><a href="${escapeHtml(markdown)}" download>Download Daily Markets Markdown</a><a href="${escapeHtml(json)}" download>Download Daily Markets JSON</a></div>` : `<div class="links"><a href="archives.html?run=${encodeURIComponent(entry.json)}">Archive and exports</a></div>`}
+        </article>`;
+        if (version === dailyRenderVersion) dailyRoot.innerHTML = markup;
+      } catch (error) {
+        if (version === dailyRenderVersion) dailyRoot.innerHTML = `<article class="card report"><h2>Daily Markets unavailable</h2><p class="meta">${escapeHtml(error.message)}</p></article>`;
+      } finally {
+        if (version === dailyRenderVersion) dailyRoot.setAttribute("aria-busy", "false");
+      }
+    }
+    async function loadDailyManifest() {
+      try {
+        const response = await fetch("daily/manifest.json", {cache: "no-store"});
+        if (response.status === 404) {
+          dailyRoot.innerHTML = '<article class="card report"><p>No Daily Markets reports yet.</p><p class="meta">A successful scheduled run will publish the first report.</p></article>';
+          dailyRoot.setAttribute("aria-busy", "false");
+          return;
+        }
+        if (!response.ok) throw new Error("Daily Markets index unavailable");
+        const data = await response.json();
+        if (!Array.isArray(data)) throw new Error("Daily Markets index is invalid");
+        const entries = data.filter(entry => {
+          try { dailyPath(entry.json, "json"); dailyPath(entry.markdown, "md"); return true; }
+          catch (_) { return false; }
+        }).sort((a, b) => String(b.generated_at || b.date).localeCompare(String(a.generated_at || a.date)));
+        if (!entries.length) {
+          dailyRoot.innerHTML = '<article class="card report"><p>No Daily Markets reports yet.</p></article>';
+          dailyRoot.setAttribute("aria-busy", "false");
+          return;
+        }
+        const requested = new URLSearchParams(location.search).get("run");
+        const selectedIndex = Math.max(0, entries.findIndex(entry => entry.json === requested));
+        dailyControls.innerHTML = `<label for="daily-edition">Report date</label><select id="daily-edition">${entries.map((entry, index) => `<option value="${index}"${index === selectedIndex ? " selected" : ""}>${escapeHtml(entry.generated_at || entry.date || "Unknown date")}${index === 0 ? " · Latest" : ""}</option>`).join("")}</select>`;
+        function updateSectionLinks(entry) {
+          document.querySelectorAll('.site-nav a[data-route]').forEach(link => {
+            const file = link.getAttribute('href').split('?')[0];
+            link.setAttribute('href', entry ? `${file}?run=${encodeURIComponent(entry.json)}` : file);
+          });
+        }
+        updateSectionLinks(entries[selectedIndex]);
+        document.getElementById("daily-edition").addEventListener("change", event => {
+          const entry = entries[Number(event.target.value)];
+          if (entry) {
+            history.replaceState(null, "", `${location.pathname}?run=${encodeURIComponent(entry.json)}`);
+            updateSectionLinks(entry);
+            showDailyReport(entry);
+          }
+        });
+        await showDailyReport(entries[selectedIndex]);
+      } catch (error) {
+        dailyRoot.innerHTML = `<article class="card report"><h2>Daily Markets unavailable</h2><p class="meta">${escapeHtml(error.message)}. Market editions remain accessible below.</p></article>`;
+        dailyRoot.setAttribute("aria-busy", "false");
+      }
+    }
+    async function loadHomeLatest() {
+      const home = document.getElementById("home-latest");
+      try {
+        const response = await fetch("daily/manifest.json", {cache:"no-store"});
+        if (!response.ok) throw new Error("No report index");
+        const entries = await response.json();
+        const latest = Array.isArray(entries) ? entries.find(entry => {
+          try { dailyPath(entry.json, "json"); return true; } catch (_) { return false; }
+        }) : null;
+        if (!latest) throw new Error("No reports yet");
+        home.innerHTML = `<h2>Latest report · ${escapeHtml(latest.date || "")}</h2>
+          <p class="meta">Published ${escapeHtml(latest.generated_at || "Unknown")}</p>
+          <div class="links"><a href="markets.html?run=${encodeURIComponent(latest.json)}">Explore report</a>
+          <a href="archives.html?run=${encodeURIComponent(latest.json)}">Archive and exports</a></div>`;
+      } catch (_) { home.innerHTML = '<h2>Latest report</h2><p class="meta">No report is available yet.</p>'; }
+    }
+    function sourceCard(source) {
+      const state = source.status === "ok" ? "ok" : source.status === "no_items" ? "" : "bad";
+      const home = safeUrl(source.home);
+      const name = home ? `<a href="${escapeHtml(home)}" rel="noopener noreferrer" target="_blank">${escapeHtml(source.name)}</a>` : escapeHtml(source.name);
+      return `<div class="source ${state}">
+        <strong>${name}</strong><br>
+        Status: ${escapeHtml(source.status)} · ${Number(source.item_count) || 0} collected<br>
+        Attempt: ${escapeHtml(source.attempt_timestamp || "Unknown")}<br>
+        Last success: ${escapeHtml(source.last_success_timestamp || "None")}
+        ${source.error ? `<p>${escapeHtml(source.error)}</p>` : ""}
+        ${source.retained_last_good ? `<p>Retained earlier source content. Check publication dates.</p>` : ""}
+      </div>`;
+    }
+    async function loadReport(entry) {
+      const path = reportPath(entry.json, "json");
+      if (!reportCache.has(path)) {
+        reportCache.set(path, fetch(path).then(response => {
+          if (!response.ok) throw new Error("Report unavailable");
+          return response.json();
+        }).catch(error => {
+          reportCache.delete(path);
+          throw error;
+        }));
+      }
+      return reportCache.get(path);
+    }
+    async function renderReport(entry, selectedSection) {
+      const report = await loadReport(entry);
+      const names = selectedSection === "all" ? Object.keys(report.sections) : [selectedSection];
+      const stories = names.map(name => {
+        const cards = report.sections[name] || [];
+        if (!cards.length) return `<details><summary>${escapeHtml(name)}</summary><p class="empty">No matching public-feed items in this edition.</p></details>`;
+        return `<details open><summary>${escapeHtml(name)} · ${cards.length}</summary>` +
+          cards.map(card => {
+            const links = (card.supporting_links?.length ? card.supporting_links : [card.link]).map((link,index) => {
+              const safe = safeUrl(link);
+              return safe ? `<a href="${escapeHtml(safe)}" rel="noopener noreferrer" target="_blank">Original source ${index+1}</a>` : "";
+            }).join("");
+            return `<article>
+              <h3>${escapeHtml(card.title)}</h3>
+              <div class="story-meta">
+                Published: ${escapeHtml(card.publication_timestamp || "Unknown")} ·
+                Source: ${escapeHtml(card.source_name || card.source || "Unknown")} ·
+                Access: ${escapeHtml(card.access || "unknown")} ·
+                ${card.retained_from_last_good ? "Retained prior good content" : "Current collection"} ·
+                Freshness: ${escapeHtml(card.publication_freshness || "unknown")}
+              </div>
+              <p>${escapeHtml(card.summary || "Headline only; extracted detail unavailable.")}</p>
+              <div class="story-links">${links}</div>
+            </article>`;
+          }).join("") + `</details>`;
+      }).join("");
+      const latest = latestDates.get(entry.edition) === entry.date;
+      const noSources = report.freshness === "no_successful_sources";
+      const synthetic = report.synthetic_fixture === true;
+      const coverage = (report.limitations || []).map(value => `<li>${escapeHtml(value)}</li>`).join("");
+      return `<article class="card report ${latest ? "latest" : ""}">
+        <span class="badge">${latest ? "Latest available edition" : "Archived edition"}</span>
+        <h2>${escapeHtml(report.market)} · ${escapeHtml(report.date)}</h2>
+        <details><summary>Read source edition</summary>
+        <div class="meta">Published ${escapeHtml(report.publication_timestamp)} · Retrieved ${escapeHtml(report.retrieval_timestamp)} · Freshness ${escapeHtml(report.freshness)}</div>
+        <div class="meta">Calendar: ${escapeHtml(report.calendar?.source || "Unknown")} · ${escapeHtml(report.calendar?.status || "unknown")} · ${escapeHtml(report.calendar?.diagnostic || "")}</div>
+        ${synthetic ? `<div class="notice warning"><strong>Synthetic test edition.</strong> These examples are not actual market news.</div>` : ""}
+        ${noSources ? `<div class="notice warning">No sources were successfully collected. This edition contains no verified current coverage.</div>` : ""}
+        <div class="source-list">${(report.sources || []).map(sourceCard).join("")}</div>
+        <details><summary>Coverage and limitations</summary>
+          <p>Public headlines and permitted source extracts. Follow original links for full context.</p>
+          ${coverage ? `<ul>${coverage}</ul>` : ""}
+        </details>
+        ${stories}
+        </details>
+        <div class="links"><a href="${escapeHtml(reportPath(entry.markdown, "md"))}" download>Download Markdown</a><a href="${escapeHtml(reportPath(entry.json, "json"))}" download>Download JSON</a></div>
+      </article>`;
+    }
+    async function render() {
+      const version = ++renderVersion;
+      const selectedSection = section;
+      const view = `${edition}:${selectedSection}`;
+      const append = renderedView === view && !renderedHadErrors;
+      archiveControl.innerHTML = "";
+      root.setAttribute("aria-busy", "true");
+      const rows = manifest.filter(x => edition === "all" || x.edition === edition);
+      if (!rows.length) {
+        root.innerHTML = '<article class="card"><h2>No reports yet</h2><div class="meta">The next scheduled or manual run will add an edition.</div></article>';
+        renderedView = view;
+        renderedCount = 0;
+        renderedHadErrors = false;
+        root.setAttribute("aria-busy", "false");
+        return;
+      }
+      if (!root.hasChildNodes()) root.innerHTML = '<article class="card"><h2>Loading reports...</h2></article>';
+      const visibleRows = rows.slice(append ? renderedCount : 0, visibleCount);
+      const rendered = await Promise.all(visibleRows.map(async row => {
+        try { return {markup: await renderReport(row, selectedSection), error: false}; }
+        catch (error) { return {markup: '<article class="card report"><h2>Report unavailable</h2><div class="meta">' + escapeHtml(error.message) + '</div></article>', error: true}; }
+      }));
+      if (version !== renderVersion) return;
+      const markup = rendered.map(result => result.markup).join("");
+      if (append) root.insertAdjacentHTML("beforeend", markup);
+      else root.innerHTML = markup;
+      renderedView = view;
+      renderedCount = Math.min(rows.length, visibleCount);
+      renderedHadErrors = rendered.some(result => result.error);
+      root.setAttribute("aria-busy", "false");
+      if (rows.length > renderedCount) {
+        archiveControl.innerHTML = '<button id="load-older">Load older editions</button>';
+        document.getElementById("load-older").addEventListener("click", () => {
+          visibleCount += 2;
+          render();
+        });
+      } else {
+        archiveControl.innerHTML = "";
+      }
+    }
+    document.querySelectorAll("button[data-edition]").forEach(button => button.addEventListener("click", () => {
+      document.querySelectorAll("button[data-edition]").forEach(b => { b.classList.remove("active"); b.setAttribute("aria-pressed", "false"); });
+      button.classList.add("active");
+      button.setAttribute("aria-pressed", "true");
+      edition = button.dataset.edition;
+      visibleCount = 2;
+      render();
+    }));
+    document.querySelectorAll("button[data-section]").forEach(button => button.addEventListener("click", () => {
+      document.querySelectorAll("button[data-section]").forEach(b => { b.classList.remove("active"); b.setAttribute("aria-pressed", "false"); });
+      button.classList.add("active");
+      button.setAttribute("aria-pressed", "true");
+      section = button.dataset.section;
+      render();
+    }));
+    document.querySelectorAll("button[data-edition], button[data-section]").forEach(button => button.setAttribute("aria-pressed", String(button.classList.contains("active"))));
+    if (page === "archives") render();
+    if (dailyRoot) loadDailyManifest();
+    if (page === "home") loadHomeLatest();
+  </script>
+</body>
+</html>
