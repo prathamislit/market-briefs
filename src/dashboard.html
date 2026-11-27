@@ -56,6 +56,12 @@
     blockquote { margin:12px 0; padding:8px 14px; border-left:2px solid var(--line); color:var(--muted); line-height:1.5; }
     .daily-desk > summary { font-weight:600; }
     .daily-gap { color:var(--muted); line-height:1.5; }
+    .site-nav { display:flex; gap:8px; flex-wrap:wrap; padding:0 0 18px; margin:0 0 24px; border-bottom:1px solid var(--line); }
+    .site-nav a { padding:9px 11px; border:1px solid var(--line); background:var(--panel); }
+    .site-nav a[aria-current="page"] { color:var(--ink); border-color:var(--amber); }
+    .page-section > h2 { margin:0 0 8px; }
+    .home-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:20px; }
+    .home-links a { display:block; border:1px solid var(--line); background:var(--panel); padding:16px; }
     .table-scroll { overflow-x:auto; margin:14px 0; }
     table { width:100%; border-collapse:collapse; font-size:13px; }
     th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
@@ -63,67 +69,48 @@
     td.numeric { white-space:nowrap; font-variant-numeric:tabular-nums; }
     caption { text-align:left; color:var(--muted); margin-bottom:10px; }
     noscript { display:block; padding:16px; border:1px solid var(--line); }
-    @media (max-width:700px) { .grid, .source-list { grid-template-columns:1fr; } header { padding-top:16px; padding-bottom:16px; } h1 { font-size:24px; } }
+    @media (max-width:700px) { .grid, .source-list, .home-links { grid-template-columns:1fr; } header { padding-top:16px; padding-bottom:16px; } h1 { font-size:24px; } }
   </style>
 </head>
-<body>
+<body data-page="__PAGE__">
   <header><h1><span>MARKET</span> BRIEFS</h1>
     <p class="intro">Public-source editions for India and the United States.<br>
       Daily report at 08:15 IST and 08:15 Eastern. Editions follow trading days.</p>
   </header>
   <main>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" data-route="home">Home</a>
+      <a href="markets.html" data-route="markets">Markets</a>
+      <a href="macro.html" data-route="macro">Macro &amp; FX</a>
+      <a href="india.html" data-route="india">India</a>
+      <a href="etfs.html" data-route="etfs">ETFs</a>
+      <a href="geopolitics.html" data-route="geopolitics">Geopolitics</a>
+      <a href="earnings.html" data-route="earnings">Earnings</a>
+      <a href="watchlist.html" data-route="watchlist">Watchlist</a>
+      <a href="archives.html" data-route="archives">Archives</a>
+      <a href="sources.html" data-route="sources">Sources &amp; methodology</a>
+    </nav>
     <aside class="notice disclaimer" aria-label="Research disclaimer">
       <strong>Not financial advice.</strong>
       <p>Personal academic research portfolio. Not investment advice. Not a solicitation. No services offered. Frameworks are informational research outputs.</p>
     </aside>
-    <section class="daily-section" aria-labelledby="daily-title">
-      <h2 id="daily-title">Daily Markets</h2>
-      <p class="meta">Evidence, observations, and explicit gaps across eight research sections.</p>
-      <div id="daily-controls" class="daily-controls"></div>
-      <article class="card report" aria-label="Daily market prices">
-        <h3>Market prices</h3>
-        <p class="meta"><strong>The US 500 CFD can move overnight. Its value is not the official S&amp;P 500 close.</strong> FOREXCOM equity indices and broker commodities are CFD proxies, not official index or agency spot observations. Currency quotes are indicative and differ from the Federal Reserve's weekly H.10 noon rates. BSE indices are end of day; ETFs may be delayed. These quotes are not archived.</p>
-        <div class="tradingview-widget-container" style="height:980px;width:100%">
-          <div class="tradingview-widget-container__widget" style="height:950px;width:100%"></div>
-          <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener nofollow noreferrer">Market data</a> by TradingView</div>
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
-          {"title":"Daily market prices","width":"100%","height":950,"locale":"en","showSymbolLogo":false,"symbolsGroups":[{"name":"US and global indices","symbols":[{"name":"FOREXCOM:SPXUSD","displayName":"US 500 CFD · overnight proxy"},{"name":"FOREXCOM:NSXUSD","displayName":"Nasdaq 100 · cash CFD proxy"},{"name":"FOREXCOM:DJI","displayName":"Dow · cash CFD proxy"},{"name":"INDEX:NKY","displayName":"Nikkei 225 · end of day"},{"name":"INDEX:DEU40","displayName":"DAX 40 · end of day"},{"name":"FOREXCOM:UKXGBP","displayName":"FTSE 100 · cash CFD proxy"}]},{"name":"India indices · BSE end of day","symbols":[{"name":"BSE:SENSEX","displayName":"SENSEX · BSE 30"},{"name":"BSE:BSE500","displayName":"BSE 500"},{"name":"BSE:BANK","displayName":"BSE BANKEX"},{"name":"BSE:MIDSEL","displayName":"BSE Midcap Select"},{"name":"BSE:SML250","displayName":"BSE Smallcap 250"}]},{"name":"Currencies · indicative","symbols":[{"name":"FX_IDC:USDINR","displayName":"USD/INR"},{"name":"FX_IDC:USDCNY","displayName":"USD/CNY"},{"name":"FX:USDJPY","displayName":"USD/JPY"},{"name":"FX:EURUSD","displayName":"EUR/USD"}]},{"name":"Commodity broker CFDs","symbols":[{"name":"OANDA:XAUUSD","displayName":"Gold · broker CFD"},{"name":"OANDA:XAGUSD","displayName":"Silver · broker CFD"},{"name":"CAPITALCOM:COPPER","displayName":"Copper · broker CFD"},{"name":"TVC:USOIL","displayName":"WTI oil · CFD proxy"},{"name":"TVC:UKOIL","displayName":"Brent oil · CFD proxy"},{"name":"OANDA:NATGASUSD","displayName":"Natural gas · broker CFD"}]},{"name":"Exchange-traded funds · delayed","symbols":[{"name":"AMEX:SPY","displayName":"SPY · S&P 500 ETF"},{"name":"AMEX:GLD","displayName":"GLD · gold ETF"},{"name":"AMEX:SLV","displayName":"SLV · silver ETF"},{"name":"AMEX:USO","displayName":"USO · oil ETF"}]}],"colorTheme":"dark"}
-          </script>
-        </div>
-        <p class="meta">Official S&amp;P 500 dated close: <a href="https://fred.stlouisfed.org/series/SP500" target="_blank" rel="noopener noreferrer">S&amp;P Dow Jones Indices via FRED</a>. Latest agency oil prices: <a href="https://www.eia.gov/todayinenergy/prices.php" target="_blank" rel="noopener noreferrer">EIA Daily Prices</a>. Nifty 50, Nifty Bank, and India VIX: <a href="https://www.nseindia.com/market-data/live-market-indices" target="_blank" rel="noopener noreferrer">official NSE index quotes</a>. <a href="https://www.cboe.com/tradable_products/vix/" target="_blank" rel="noopener noreferrer">Cboe VIX</a>. These index values cannot display in this widget.</p>
-      </article>
-      <div id="daily-report" class="grid" aria-live="polite" aria-busy="true">
-        <article class="card report"><p>Loading Daily Markets editions…</p></article>
-      </div>
-    </section>
-    <h2>Market editions</h2>
-    <div class="toolbar" role="group" aria-label="Edition filter">
-      <button class="active" data-edition="all">All editions</button>
-      <button data-edition="india">India</button>
-      <button data-edition="us">United States</button>
-    </div>
-    <div class="toolbar" role="group" aria-label="Section filter">
-      <button class="active" data-section="all">All sections</button>
-      <button data-section="overview">Overview</button>
-      <button data-section="india">India</button>
-      <button data-section="us">United States</button>
-      <button data-section="macro">Macro</button>
-      <button data-section="rates">Rates</button>
-      <button data-section="fx">FX</button>
-      <button data-section="energy">Energy</button>
-      <button data-section="commodities">Commodities</button>
-      <button data-section="geopolitics">Geopolitics</button>
-      <button data-section="earnings">Earnings</button>
-    </div>
-    <noscript>Enable JavaScript to browse editions. <a href="reports/manifest.json">Download the report index</a>.</noscript>
-    <section id="briefs" class="grid" aria-live="polite"></section>
-    <div id="archive-control" class="toolbar"></div>
+    __PAGE_CONTENT__
   </main>
   <script>
     const manifest = __MANIFEST__;
+    const page = document.body.dataset.page;
+    const pageDesks = {
+      markets: ["cross_asset"], macro: ["macro_policy", "us_policy_currency"],
+      india: ["india_markets"], etfs: ["etf_flows"],
+      geopolitics: ["geopolitics"], earnings: ["earnings"],
+      watchlist: ["watchlist"]
+    };
+    document.querySelectorAll('.site-nav a[data-route]').forEach(link => {
+      if (link.dataset.route === page) link.setAttribute('aria-current', 'page');
+    });
     let edition = "all";
     let section = "all";
-    let visibleCount = 12;
+    let visibleCount = 2;
     let renderVersion = 0;
     let renderedView = "";
     let renderedCount = 0;
@@ -149,6 +136,22 @@
       ["india_markets", "India market intelligence"],
       ["watchlist", "Next 24–72 hours"]
     ];
+    function selectedDesks(report) {
+      const wanted = pageDesks[page] || [];
+      const seen = new Set();
+      return dailyDesks.filter(([key]) => wanted.includes(key)).map(([key, label]) => {
+        const desk = report.sections?.[key] || {};
+        const prior = new Set(seen);
+        const entries = (desk.entries || []).filter(entry => {
+          const fingerprint = [entry.kind, entry.name || entry.title || entry.company || '',
+                               entry.source_url || '', entry.as_of || ''].join('|');
+          return !prior.has(fingerprint);
+        });
+        entries.forEach(entry => seen.add([entry.kind, entry.name || entry.title || entry.company || '',
+          entry.source_url || '', entry.as_of || ''].join('|')));
+        return dailyDesk({...report, sections: {...report.sections, [key]: {...desk, entries}}}, key, label);
+      }).join('');
+    }
     function escapeHtml(value) {
       return String(value ?? "").replace(/[&<>"']/g, character => ({
         "&": "&amp;",
@@ -227,7 +230,7 @@
       const register = report.sections?.source_register;
       const sources = Array.isArray(register?.entries) ? register.entries.filter(entry => entry && typeof entry === "object") : [];
       if (!sources.length) return '<details><summary>Source diagnostics</summary><p class="empty">No source-register entries are available.</p></details>';
-      return `<details><summary>Source diagnostics · ${sources.length} feed checks</summary>
+      return `<details open><summary>Source diagnostics · ${sources.length} feed checks</summary>
         <div class="source-list">${sources.map(entry => `<div class="source ${entry.status === "ok" ? "ok" : "bad"}">
           <strong>${evidenceLink(entry.source_url, entry.source || "Unknown source")}</strong><br>
           Edition: ${escapeHtml(entry.edition || "Unknown")} · Status: ${escapeHtml(entry.status || "unknown")}<br>
@@ -340,15 +343,24 @@
         const markdown = dailyPath(entry.markdown, "md");
         const json = dailyPath(entry.json, "json");
         const gaps = Array.isArray(report.limitations) ? report.limitations : [];
+        const routeByDesk = {
+          cross_asset:"markets", etf_flows:"etfs", macro_policy:"macro",
+          geopolitics:"geopolitics", earnings:"earnings", us_policy_currency:"macro",
+          india_markets:"india", watchlist:"watchlist", source_register:"sources"
+        };
+        const archiveIndex = `<div class="home-links">${dailyDesks.map(([key, label]) =>
+          `<a href="${routeByDesk[key]}.html?run=${encodeURIComponent(entry.json)}">${escapeHtml(label)}</a>`).join("")}
+          <a href="sources.html?run=${encodeURIComponent(entry.json)}">Sources &amp; methodology</a></div>`;
+        const content = page === "archives" ? `<p>Open this report by section:</p>${archiveIndex}` :
+          page === "sources" ? sourceDiagnostics(report) : selectedDesks(report);
         const markup = `<article class="card report latest">
           <h2>${escapeHtml(report.title || "Daily Markets")} · ${escapeHtml(entry.date || "")}</h2>
           <p class="meta">Published ${escapeHtml(report.generated_at || entry.generated_at || "Unknown")}<br>
             India source edition: ${escapeHtml(report.edition_dates?.india || "Unavailable")} · US source edition: ${escapeHtml(report.edition_dates?.us || "Unavailable")}</p>
           <div class="notice">Headlines are investigation leads. Observation dates determine data freshness. Missing values remain unavailable.</div>
-          ${dailyDesks.map(([key, label]) => dailyDesk(report, key, label)).join("")}
-          ${sourceDiagnostics(report)}
-          ${gaps.length ? `<details><summary>Coverage and limitations</summary><ul>${gaps.map(gap => `<li>${escapeHtml(gap)}</li>`).join("")}</ul></details>` : ""}
-          <div class="links"><a href="${escapeHtml(markdown)}" download>Download Daily Markets Markdown</a><a href="${escapeHtml(json)}" download>Download Daily Markets JSON</a></div>
+          ${content}
+          ${page === "sources" && gaps.length ? `<details><summary>Coverage and limitations</summary><ul>${gaps.map(gap => `<li>${escapeHtml(gap)}</li>`).join("")}</ul></details>` : ""}
+          ${page === "archives" ? `<div class="links"><a href="${escapeHtml(markdown)}" download>Download Daily Markets Markdown</a><a href="${escapeHtml(json)}" download>Download Daily Markets JSON</a></div>` : `<div class="links"><a href="archives.html?run=${encodeURIComponent(entry.json)}">Archive and exports</a></div>`}
         </article>`;
         if (version === dailyRenderVersion) dailyRoot.innerHTML = markup;
       } catch (error) {
@@ -377,16 +389,45 @@
           dailyRoot.setAttribute("aria-busy", "false");
           return;
         }
-        dailyControls.innerHTML = `<label for="daily-edition">Daily Markets archive</label><select id="daily-edition">${entries.map((entry, index) => `<option value="${index}">${escapeHtml(entry.generated_at || entry.date || "Unknown date")}${index === 0 ? " · Latest" : ""}</option>`).join("")}</select>`;
+        const requested = new URLSearchParams(location.search).get("run");
+        const selectedIndex = Math.max(0, entries.findIndex(entry => entry.json === requested));
+        dailyControls.innerHTML = `<label for="daily-edition">Report date</label><select id="daily-edition">${entries.map((entry, index) => `<option value="${index}"${index === selectedIndex ? " selected" : ""}>${escapeHtml(entry.generated_at || entry.date || "Unknown date")}${index === 0 ? " · Latest" : ""}</option>`).join("")}</select>`;
+        function updateSectionLinks(entry) {
+          document.querySelectorAll('.site-nav a[data-route]').forEach(link => {
+            const file = link.getAttribute('href').split('?')[0];
+            link.setAttribute('href', entry ? `${file}?run=${encodeURIComponent(entry.json)}` : file);
+          });
+        }
+        updateSectionLinks(entries[selectedIndex]);
         document.getElementById("daily-edition").addEventListener("change", event => {
           const entry = entries[Number(event.target.value)];
-          if (entry) showDailyReport(entry);
+          if (entry) {
+            history.replaceState(null, "", `${location.pathname}?run=${encodeURIComponent(entry.json)}`);
+            updateSectionLinks(entry);
+            showDailyReport(entry);
+          }
         });
-        await showDailyReport(entries[0]);
+        await showDailyReport(entries[selectedIndex]);
       } catch (error) {
         dailyRoot.innerHTML = `<article class="card report"><h2>Daily Markets unavailable</h2><p class="meta">${escapeHtml(error.message)}. Market editions remain accessible below.</p></article>`;
         dailyRoot.setAttribute("aria-busy", "false");
       }
+    }
+    async function loadHomeLatest() {
+      const home = document.getElementById("home-latest");
+      try {
+        const response = await fetch("daily/manifest.json", {cache:"no-store"});
+        if (!response.ok) throw new Error("No report index");
+        const entries = await response.json();
+        const latest = Array.isArray(entries) ? entries.find(entry => {
+          try { dailyPath(entry.json, "json"); return true; } catch (_) { return false; }
+        }) : null;
+        if (!latest) throw new Error("No reports yet");
+        home.innerHTML = `<h2>Latest report · ${escapeHtml(latest.date || "")}</h2>
+          <p class="meta">Published ${escapeHtml(latest.generated_at || "Unknown")}</p>
+          <div class="links"><a href="markets.html?run=${encodeURIComponent(latest.json)}">Explore report</a>
+          <a href="archives.html?run=${encodeURIComponent(latest.json)}">Archive and exports</a></div>`;
+      } catch (_) { home.innerHTML = '<h2>Latest report</h2><p class="meta">No report is available yet.</p>'; }
     }
     function sourceCard(source) {
       const state = source.status === "ok" ? "ok" : source.status === "no_items" ? "" : "bad";
@@ -447,6 +488,7 @@
       return `<article class="card report ${latest ? "latest" : ""}">
         <span class="badge">${latest ? "Latest available edition" : "Archived edition"}</span>
         <h2>${escapeHtml(report.market)} · ${escapeHtml(report.date)}</h2>
+        <details><summary>Read source edition</summary>
         <div class="meta">Published ${escapeHtml(report.publication_timestamp)} · Retrieved ${escapeHtml(report.retrieval_timestamp)} · Freshness ${escapeHtml(report.freshness)}</div>
         <div class="meta">Calendar: ${escapeHtml(report.calendar?.source || "Unknown")} · ${escapeHtml(report.calendar?.status || "unknown")} · ${escapeHtml(report.calendar?.diagnostic || "")}</div>
         ${synthetic ? `<div class="notice warning"><strong>Synthetic test edition.</strong> These examples are not actual market news.</div>` : ""}
@@ -457,6 +499,7 @@
           ${coverage ? `<ul>${coverage}</ul>` : ""}
         </details>
         ${stories}
+        </details>
         <div class="links"><a href="${escapeHtml(reportPath(entry.markdown, "md"))}" download>Download Markdown</a><a href="${escapeHtml(reportPath(entry.json, "json"))}" download>Download JSON</a></div>
       </article>`;
     }
@@ -493,7 +536,7 @@
       if (rows.length > renderedCount) {
         archiveControl.innerHTML = '<button id="load-older">Load older editions</button>';
         document.getElementById("load-older").addEventListener("click", () => {
-          visibleCount += 12;
+          visibleCount += 2;
           render();
         });
       } else {
@@ -505,7 +548,7 @@
       button.classList.add("active");
       button.setAttribute("aria-pressed", "true");
       edition = button.dataset.edition;
-      visibleCount = 12;
+      visibleCount = 2;
       render();
     }));
     document.querySelectorAll("button[data-section]").forEach(button => button.addEventListener("click", () => {
@@ -516,8 +559,9 @@
       render();
     }));
     document.querySelectorAll("button[data-edition], button[data-section]").forEach(button => button.setAttribute("aria-pressed", String(button.classList.contains("active"))));
-    render();
-    loadDailyManifest();
+    if (page === "archives") render();
+    if (dailyRoot) loadDailyManifest();
+    if (page === "home") loadHomeLatest();
   </script>
 </body>
 </html>

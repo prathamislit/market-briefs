@@ -19,6 +19,19 @@ India, US, overview, and geopolitics filters are also available.
 Keyword rules classify items; no model generates investment analysis.
 Identical normalized headlines retain their supporting source links.
 
+| Dashboard route | Content |
+| --- | --- |
+| `index.html` | Latest report and links to each section |
+| `markets.html` | Cross-asset observations and market leads |
+| `macro.html` | Macro, policy, rates, and FX |
+| `india.html` | India market observations and leads |
+| `etfs.html` | ETF flows and positioning disclosures |
+| `geopolitics.html` | Geopolitical events and transmission |
+| `earnings.html` | Company results and expectations |
+| `watchlist.html` | Upcoming official economic releases |
+| `archives.html` | Historical reports and exports |
+| `sources.html` | Source status and methodology |
+
 Every report identifies coverage gaps and source retrieval failures.
 Commercial feeds supply headlines and original-source links only.
 Configured primary sources may include bounded feed excerpts.
@@ -113,7 +126,7 @@ python3 scripts/reproduce.py
 ```
 
 This command builds both editions twice in fresh temporary directories.
-It compares SHA-256 hashes for six generated files.
+It compares SHA-256 hashes for fifteen generated files.
 A successful comparison demonstrates deterministic fixture output.
 It does not establish live feed availability or publication success.
 Changing live feeds cannot reproduce historical live reports exactly.

@@ -30,8 +30,12 @@ def validate_output(output):
         cards = [card for section in report['sections'].values() for card in section]
         if not cards or any(not card['title'].startswith('SYNTHETIC:') for card in cards):
             raise SystemExit('FAIL: fixture content missing or incorrectly labeled')
-        if '__MANIFEST__' in (output / 'index.html').read_text():
-            raise SystemExit('FAIL: dashboard contains an unresolved template')
+        pages = ('index', 'markets', 'macro', 'india', 'etfs', 'geopolitics',
+                 'earnings', 'watchlist', 'archives', 'sources')
+        for page in pages:
+            html = (output / f'{page}.html').read_text()
+            if any(token in html for token in ('__MANIFEST__', '__PAGE__', '__PAGE_CONTENT__')):
+                raise SystemExit(f'FAIL: {page} contains an unresolved template')
 
 
 def main():
@@ -46,9 +50,9 @@ def main():
                     env=environment, check=True, timeout=30)
             validate_output(output)
         first, second = map(snapshot, outputs)
-        if first != second or len(first) != 6:
+        if first != second or len(first) != 15:
             raise SystemExit('FAIL: offline builds differ or outputs are missing')
-        print('PASS: six output files reproduced byte-for-byte')
+        print('PASS: fifteen output files reproduced byte-for-byte')
         for path, digest in sorted(first.items()):
             print(f'{digest}  {path}')
 

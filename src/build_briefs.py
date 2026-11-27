@@ -738,9 +738,19 @@ def build_dashboard():
     manifest_path = REPORTS / "manifest.json"
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else []
     data = json.dumps(manifest)
-    index = DOCS / "index.html"
     template = (ROOT / "src/dashboard.html").read_text()
-    atomic_write(index, template.replace("__MANIFEST__", data))
+    pages = ("home", "markets", "macro", "india", "etfs", "geopolitics",
+             "earnings", "watchlist", "archives", "sources")
+    for page in pages:
+        content = (ROOT / "src/pages" / f"{page}.html").read_text()
+        if page not in ("home", "archives"):
+            content = content.replace('<div id="daily-report"',
+                '<div id="daily-controls" class="daily-controls"></div>\n  <div id="daily-report"', 1)
+        filename = "index.html" if page == "home" else f"{page}.html"
+        rendered = (template.replace("__MANIFEST__", data)
+                    .replace("__PAGE_CONTENT__", content)
+                    .replace("__PAGE__", page))
+        atomic_write(DOCS / filename, rendered)
 
 def main():
     global CONFIG, SOURCES, DOCS, REPORTS
